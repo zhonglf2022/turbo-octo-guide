@@ -1,0 +1,60 @@
+(function(){
+	var host = location.host;
+	console.log(host)
+	var str = location.host.substring(0, location.host.indexOf('.'));
+
+	switch (str){
+		case 'www':
+			$('#place').html('北京')
+			$('.beijingadd').css({
+				display: 'none'
+			})
+		break;
+
+		case 'sz':
+			$('#place').html('深圳')
+			$('.shenzadd').css({
+				display: 'none'
+			})
+		break;
+
+		case 'dl':
+			$('#place').html('大连')
+			$('.dalianadd').css({
+				display: 'none'
+			})
+		break;
+
+		case 'wh':
+			$('#place').html('武汉')
+			$('.wuhanadd').css({
+				display: 'none'
+			})
+		break;
+
+	}	
+	$('.nav-box a').each(function(item){
+		console.log(item, 1)
+		switch(item){
+			case 0:
+				this.href ='http:///'+host;
+			break;
+
+			case 1:
+				this.href ='http:///'+host+'/html5';
+			break;
+
+			case 2:
+				console.log(str)
+				if(str === 'sz'){
+					console.log('err')
+					this.href ='http:///'+host+'/java/';
+				}else{
+					console.log('ok')
+					this.href = 'http://www.seehope.net/java/'
+				}
+			break;
+		}
+	})
+
+})();

@@ -1,0 +1,129 @@
+/* 学员感恩 */
+.studthank{
+	padding-top:42px;
+}
+.studthank .base{
+	width: 1000px;
+	margin: 0 auto;
+}
+.studthank_tit{
+	width: 825px;
+	height: 71px;
+	background: url("../android/images/studthank_tit.png")/*tpa=http://www.seehope.net/android/images/studthank_tit.png*/ no-repeat;
+	margin: 0 auto;
+	margin-bottom: 28px;
+}
+.studthank h3{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 42px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.photowall{
+	width: 993px;
+	height: 677px;
+	overflow: hidden;	
+	margin-bottom: 80px;
+}
+.photowall ul{
+	width: 1008px;
+}
+.photowall ul li{
+	width: 238px;
+	height: 333px;
+	margin-right: 14px;
+	margin-bottom: 11px;
+}
+.mstudthank_meet{
+	font-size: 42px;
+	color: #df342c;
+	line-height: 42px;
+	width: 100%;
+	text-align: center;
+}
+.mstudthank_meet_cont{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+	line-height: 30px;
+	margin-top: 18px;
+	margin-bottom: 32px;
+}
+.studthank_btn{
+	width:100%;
+	text-align: center;
+}
+.studthank_btn a{
+	display: inline-block;
+	width: 162px;
+	height: 52px;
+	border: 3px solid #3274bd;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 52px;
+	background: #fff;
+	color: #3274bd;
+	margin-right: 30px;
+	font-size: 26px;
+	margin-bottom: 32px;
+}
+.studthank_btn a.active{
+	color: #fff;
+	background: #3274bd;
+}
+.studthank_youth{
+	margin-bottom: 68px;
+	width: 1002px;
+	height: 462px;
+	position: relative;
+}
+.studthank_youth>li{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	display: none;
+}
+.studthank_youth>li.active{
+	display: block;
+}
+.studthank_youth_cont{
+	width: 982px;
+	height: 442px;
+	border: 10px solid #e4e4e4;
+	position: relative;
+}
+.studthank_youth_cont li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	display: none;
+}
+.studthank_youth_cont li.active{
+	display: block;
+}
+.studthank_youth_btnl, .studthank_youth_btnr{
+	position: absolute;
+	top:50%;
+	margin-top: -32px;
+	width: 46px;
+	height: 64px;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+	font-size: 40px;
+	text-align:center;
+	line-height: 64px;
+}
+.studthank_youth_btnl{
+	left: 10px;
+}
+.studthank_youth_btnr{
+	right: 10px;
+}

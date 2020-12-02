@@ -1,0 +1,567 @@
+.banner > a{
+    display:block;
+    height:100%;}
+.special-kjbox-inner ul li:hover a{
+    color:#e43566;}
+.special-part-tit p span{
+    color:#e43566;}
+.part1 .part1-con-inner{
+    overflow: hidden;}
+.part1 .market{
+    width:50%;
+    overflow: hidden;}
+.part1 h3{
+    font-size:20px;
+    text-align:center;
+    height:60px;
+    line-height:60px;
+    color:#e43566;
+    margin-top:10px;
+    margin-bottom:20px;}
+.part1 .market a{
+    display:block;
+    height:320px;
+    margin-top:30px;
+    margin-bottom:40px;}
+.part1 .market a img{
+    margin-left:40px;}
+.part1 .bonus{
+    width:50%;
+    overflow: hidden;    }
+.part1 .bonus h3{
+    text-align:right;
+    box-sizing: border-box;
+    padding-right:15px;}
+.part2{
+    background:#F5F5F0;}
+.part2 .part2-con-inner{
+    overflow: hidden;}
+.part2 .course-period{
+    width:20%;
+    margin-left:40px;}
+.part2  .course-period a{
+    font-size:18px;
+    font-weight:bold;
+    display:block;
+    width:220px;
+    height:65px;
+    line-height:65px;
+    text-align:center;
+    background:#2CB9CB;
+    color:#fff;
+    border:1px solid #2CB9CB;
+    border-radius: 5px;
+    margin-bottom:20px;}
+.part2  .course-period li.active a{
+    background:#107683;}
+.part2 .course-info{
+    width:70%;
+    height:500px;
+    border:1px solid #2CB9CB;
+    margin:50px 0;
+    margin-left:40px;
+    position:relative;}
+.part2 .triangle{
+    position:absolute;
+    width:60px;
+    height:60px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: -60px;}
+.part2 .triangle-left{
+    border-right-color:#2CB9CB;}
+.part2 .triangle-left:nth-of-type(2){
+    border-right-color:#F5F5F0;
+    left:54%;}
+.part2 .course-info-top{
+    height: 110px;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom:1px solid #2CB9CB;}
+.part2 .course-info-inner h3{
+    width: 160px;
+    height: 100%;
+    float: left;
+    color: #2CB9CB;
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;}
+.part2 .course-info-inner .course-info-top p{
+    width: 620px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    color: #2CB9CB;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;}
+.part2 .course-info-inner .course-info-bottom h3{
+    width:100%;
+    text-align:left;
+    box-sizing: border-box;
+    padding-left:20px;}
+.part2 .course-info-inner .course-info-bottom a{
+    border: 1px solid #2CB9CB;
+    display: inline-block;
+    color: #2CB9CB;
+    line-height: 38px;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin:10px 20px;}
+.part2 .course-info-inner .course-info-bottom a:hover{
+    background:#2CB9CB;
+    color:#fff;}
+.part2 .course-info-inner ul li{
+    display:none;}
+.part2 .course-info-inner ul li:nth-of-type(1){
+    display:block;}
+.part2 .common-btns a{
+    border-color:#107683;
+    background:#2CB9CB;}
+.part3 .pro-item{
+    height:323px;
+    width:1180px;
+    margin:0 auto;
+    box-shadow: 5px 5px 8px 0 rgba(46,61,73,.2),0px 5px 8px 0 rgba(46,61,73,.2),5px 0px 8px 0 rgba(46,61,73,.2);
+    border-radius: 10px;
+    margin-bottom:50px;}
+.part3 .pro-item:hover{
+    box-shadow: 0px 0px 8px 0 rgba(46,61,73,.2);}
+.part3 .pro-item:nth-child(odd) .pro-img img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;}
+.part3 .pro-item:nth-child(even) .pro-img img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;}
+.part3 .pro-item .pro-info{
+    margin-left:40px;
+    width:640px;}
+.part3 .pro-item .pro-info h4{
+    font-size:24px;
+    margin-top:20px;
+    margin-bottom:10px;}
+.part3 .pro-item .pro-info h4 span{
+    color:#e43566;}
+.part3 .pro-item .pro-info a{
+    font-size:16px;
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    color:#fff;
+    padding:0 20px;
+    margin-bottom:5px;
+    color:#e43566;}
+.part4{
+    height:760px;
+    background:rgba(0,12,31,.9);}
+.part4 .special-part-tit p{
+    color:#fff;}
+.part4 .part4-con{
+    width:1160px;
+    margin:30px auto;
+    overflow: hidden;}
+.part4 .part4-con > div{
+    width:517px;
+    height:521px;
+    background:#f2f2f2;
+    margin-left:28px;
+    position:relative;}
+.part4 .part4-con > div ul{
+    margin-top:100px;}
+.part4 .part4-con > div li{
+    box-sizing: border-box;
+    padding:9px;}
+.part4 .part4-con > div ul li a{
+    display: inline-block;
+    width:153px;
+    height:71px;
+    margin:5px;}
+.part4 .part4-con > div.company ul li a.more{
+    height:71px;
+    line-height:71px;
+    text-align:center;
+    color:#2CB9CB;
+    background:#fff;
+    font-size:16px;
+    vertical-align: middle;}
+.part4 .part4-con > div.company ul li a img{
+    vertical-align: middle;}
+.part4 .part4-con > div.company ul li a.more:hover{
+    background:#2CB9CB;
+    color:#fff;}
+.part4 .part4-con > div.job {
+    margin-right:28px;}
+.part4 .part4-con .tit{
+    position:absolute;
+    top:20px;
+    left:-19px;
+    width:585px;
+    height:75px;
+    line-height:60px;
+    font-size:24px;
+    text-align:center;
+    color:#fff;
+    background:url("part4-tit-bg.png")/*tpa=http://www.seehope.net/index/special/python/part4-tit-bg.png*/ no-repeat;}
+.part4 .part4-con > div.job ul li a{
+    width:151px;
+    height:60px;
+    color:#2CB9CB;
+    border:1px solid #2CB9CB;
+    line-height:60px;
+    text-align:center;
+    font-size:16px;}
+.part4 .part4-con > div.job ul li a:hover{
+    background:#2CB9CB;
+    color:#fff;}
+.part5{
+    height:720px;
+    background:url("part5-bg.png")/*tpa=http://www.seehope.net/index/special/python/part5-bg.png*/ no-repeat;}
+.part5 .special-part-tit p{
+    color:#fff;}
+.part5 .part5-con-inner{
+    overflow: hidden;}
+.part5 .part5-con-inner .line a{
+    display:block;
+    height:467px;
+    width:700px;
+    margin-top:20px;}
+.part5 .part5-con-inner div > p{
+    font-size:20px;
+    color:#e43566;
+    text-align:center;
+    height:50px;
+    line-height:50px;}
+.part5 .part5-con-inner .salary{
+    width:450px;
+    margin-top:20px;
+    margin-left:40px;}
+.part5 .part5-con-inner .salary a{
+    display:block;
+    height:467px;}
+.part6 .part6-con{
+    margin:0 0 50px 45px;}
+.part6 .part6-con ul{
+    overflow: hidden;}
+.part6 .part6-con ul li{
+    float:left;
+    width:340px;
+    margin-right:45px;
+    margin-top:20px;}
+.part6 .part6-con ul li a{
+    display:block;
+    height:184px;
+    position:relative;
+    border:1px solid #2CB9CB;
+    box-sizing: border-box;
+    padding:50px 20px 20px 20px;
+    margin-top:70px;}
+.part6 .part6-con ul li:hover a{
+    color:#fff;
+    background:#2CB9CB;}
+.part6 .part6-con ul li a img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:3px solid #2CB9CB;
+    position:absolute;
+    top:-60px;
+    left:50%;
+    transform: translateX(-50%);}
+.part6 .part6-con ul li:hover a img{
+    border-color:#fff;}
+.part6 .part6-con ul li a p{
+    text-align: center;
+    line-height:40px;
+    font-size:20px;
+    font-weight:bold;}
+.part6 .part6-con ul li a div{
+    font-size:16px;
+    line-height:24px;
+    color:#888;}
+.part6 .part6-con ul li:hover a div{
+    color:#fff;}
+.part7-con{
+    height:650px;
+    background:url("part7-bg.png")/*tpa=http://www.seehope.net/index/special/python/part7-bg.png*/ top -55px center no-repeat;}
+.part7-con-inner{
+    position:relative;
+    height:100%;}
+.part7-con-tit{
+    position:absolute;
+    top:20px;
+    left:50%;
+    transform: translatex(-50%);
+    color:#fff;
+    font-size:20px;
+    padding:10px 20px;
+    background:#e43566;
+    border-radius: 5px;}
+.part7 .part7-con-inner ul{
+    position:relative;
+    height:100%;}
+.part7 .part7-con-inner ul li{
+    position:absolute;
+    width:200px;
+    height:60px;}
+.part7 .part7-con-inner ul li a{
+    display:block;
+    height:100%;
+    position:relative;
+    overflow: hidden;
+    background:#a4d4a4;}
+.part7 .part7-con-inner ul li a p{
+    font-size:20px;
+    color:#333;
+    text-align:center;}
+.part7 .part7-con-inner ul li a > p{
+    width:100%;
+    position:absolute;
+    line-height:60px;
+    top:0px;
+    left:-200px;
+    background:#E2534B;
+    color:#fff;
+    transition: left 0.5s ease-out;
+    -webkit-transition: left 0.5s ease-out;}
+.part7 .part7-con-inner ul li a:hover > p{
+    left:0;}
+.part7 .part7-con-inner ul li a div p{
+    line-height:30px;}
+.part7 .part7-con-inner ul li.web2{
+    top:118px;}
+.part7 .part7-con-inner ul li.web3{
+    top:218px;}
+.part7 .part7-con-inner ul li.web4{
+    top:316px;}
+.part7 .part7-con-inner ul li.web5{
+    top:426px;}
+.part7 .part7-con-inner ul li.crawler1{
+    top:142px;}
+.part7 .part7-con-inner ul li.crawler2{
+    top:242px;}
+.part7 .part7-con-inner ul li.crawler{
+    left:343px;}
+.part7 .part7-con-inner ul li.crawler a{
+    background:#8cafe7;}
+.part7 .part7-con-inner ul li.data-analysis{
+    left:672px;}
+.part7 .part7-con-inner ul li.data-analysis a{
+    background:#FFE793;}
+.part7 .part7-con-inner ul li.data1{
+    top:215px;}
+.part7 .part7-con-inner ul li.data2{
+    top:315px;}
+.part7 .part7-con-inner ul li.data3{
+    top:425px;}
+.part7 .part7-con-inner ul li.AI{
+    right:0;}
+.part7 .part7-con-inner ul li.AI a{
+    background:#F4AEC2;}
+.part7 .part7-con-inner ul li.AI1{
+    top:215px;}
+.part7 .part7-con-inner ul li.AI2{
+    top:312px;}
+.part7 .part7-con-inner ul li.AI3{
+    top:425px;}
+.part7 .part7-con-inner ul li.AI4{
+    top:571px;}
+.part7 .part7-tips{
+    position:absolute;
+    bottom:40px;
+    font-size:18px;
+    line-height:24px;
+    border:1px dashed #E43566;
+    padding:10px 20px;
+    border-radius: 5px;}
+.part8{
+    background:#5BA5A8;}
+.part8 .special-part-tit p{
+    color:#fff;}
+.part8 .part8-con{
+    padding-bottom:50px;}
+.part8 .part8-con-inner ul{
+    height:393px;
+    overflow: hidden;}
+.part8 .part8-con-inner ul li{
+    width:200px;
+    height:340px;
+    float:left;
+    margin-top:50px;
+    margin-left:38px;
+    border:1px solid #fff;}
+.part8 .part8-con-inner ul li:last-child{
+    margin-right:0;}
+.part8 .part8-con-inner ul li:hover{
+    background:#488485;}
+.part8 .part8-con-inner ul li a{
+    display:block;
+    height:100%;
+    position:relative;
+    color:#fff;
+    box-sizing: border-box;
+    padding:60px 10px 0 10px;}
+.part8 .part8-con-inner ul li a img{
+    position:absolute;
+    top:-50px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);}
+.part8 .part8-con-inner ul li a h4{
+    height:30px;
+    line-height: 30px;
+    text-align:center;
+    font-size:20px;}
+.part8 .part8-con-inner ul li a p{
+    font-size:16px;
+    line-height:24px;
+    margin-top:10px;}
+.part9 .part9-con{
+    margin-bottom:40px;}
+.part9 .part9-con-inner{
+    height:400px;
+    background:url("xueyuan.png")/*tpa=http://www.seehope.net/index/special/python/xueyuan.png*/ center center no-repeat;}
+.part9 .part9-con-inner ul{
+    overflow: hidden;
+    position:relative;
+    height:100%;}
+.part9 .part9-con-inner ul li{
+    width:420px;
+    height:100px;
+    position:absolute;
+    top:25px;
+    left:55px;}
+.part9 .part9-con-inner ul li:nth-of-type(even){
+    left:730px;}
+.part9 .part9-con-inner ul li:nth-of-type(3),.part9 .part9-con-inner ul li:nth-of-type(4){
+    top:290px;}
+.part9 .part9-con-inner ul li a{
+    display:block;
+    height:100%;
+    position:relative;}
+.part9 .part9-con-inner ul li a >div.circle{
+    font-size:20px;
+    color:#fff;
+    box-sizing: border-box;
+    padding:26px;
+    text-align:center;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background:#3C9AF2;
+    position:absolute;
+    top:0;}
+.part9 .part9-con-inner ul li:nth-of-type(even) a >div.circle{
+    right:0;}
+.part9 .part9-con-inner ul li a >div.triangle{
+    height:100%;
+    width:50px;
+    position:relative;}
+.part9 .part9-con-inner ul li:nth-of-type(odd) a >div.triangle{
+    margin-left:370px;}
+.part9 .part9-con-inner ul li a >div.triangle span{
+    display:inline-block;
+    width:0;
+    height:0;
+    border:50px solid transparent;
+    position:absolute;
+    top:0;}
+.part9 .part9-con-inner ul li:nth-of-type(odd) a >div.triangle span{
+    border-left:50px solid #3C9AF2;}
+.part9 .part9-con-inner ul li:nth-of-type(even) a >div.triangle span{
+    left:-50px;
+    border-right:50px solid #3C9AF2;}
+.part9 .part9-con-inner ul li:nth-of-type(odd) a >div.triangle span:nth-of-type(2){
+    left:-3px;
+    border-left:50px solid #fff;}
+.part9 .part9-con-inner ul li:nth-of-type(even) a >div.triangle span:nth-of-type(2){
+    left:-47px;
+    border-right:50px solid #fff;}
+.part9 .part9-con-inner ul li a > p{
+    position:absolute;
+    height:100px;
+    width:320px;
+    border:2px solid #3C9AF2;
+    margin-left:50px;
+    font-size:16px;
+    box-sizing: border-box;
+    line-height:24px;
+    z-index:99;
+    top:0;}
+.part9 .part9-con-inner ul li:nth-of-type(odd) a > p{
+    border-right:0;
+    padding:23px 10px 0 60px;}
+.part9 .part9-con-inner ul li:nth-of-type(even) a > p{
+    border-left:0;
+    padding:23px 60px 0 10px;}
+.part10{
+    background:#191919;}
+.part10 .special-part-tit p{
+    color:#fff;}
+.part10 .part10-con{
+    margin:30px 0;
+    height:600px;
+    position:relative;}
+.part10 .part10-con-inner{
+    width:100%;
+    height:100%;
+    overflow: hidden;}
+.part10 .part10-con-inner ul li a{
+    position:relative;
+    display:block;
+    float:left;
+    height:100%;
+    width:400px;
+    height:556px;
+    color:#fff;
+    background:url("part10-teacher-bg.png")/*tpa=http://www.seehope.net/index/special/python/part10-teacher-bg.png*/  center center no-repeat;}
+.part10 .part10-con-inner ul li a img{
+    width: 117px;
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 106px;
+    left: 141px;}
+.part10 .part10-con-inner ul li a > p{
+    position:absolute;
+    top: 267px;
+    left: 140px;
+    width:117px;
+    line-height:30px;
+    font-size:20px;
+    text-align:center;}
+.part10 .part10-con-inner ul li a div{
+    width: 277px;
+    position: absolute;
+    right: 60px;
+    top: 275px;
+    box-sizing: border-box;
+    padding:30px 16px;}
+.part10 .part10-con-inner ul li a div h4{
+    text-align:center;
+    font-size:20px;
+    line-height:30px;}
+.part10 .part10-con-inner ul li a div > p{
+    margin-top:20px;
+    text-indent: 20px;
+    line-height:24px;
+    font-size:16px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;    }
+
+
+
+
+
+
+
+
+

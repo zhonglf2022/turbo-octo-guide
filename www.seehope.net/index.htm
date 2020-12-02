@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="baidu-site-verification" content="juCSCI43tN" />
+		<meta name="baidu-site-verification" content="fDpAUkh2eZ" />
+		<meta name="keywords" content="砺锋科技,码云社,大数据培训,JAVA培训,HTML培训" />
+		<meta name="description" content="广州砺锋信息科技有限公司位于广州市最大的软件园区科韵路，这里汇集了广州70%的IT企业，公司核心团队具备十五年以上的信息服务行业的从业经验，对信息服务行业的业务、过程管理、开发、服务、标准等方面，具备深入的研究。 " />
+		<meta name="baidu-site-verification" content="RmYvCfBuXO" />
+		<title>砺锋科技-广州JAVA培训 十年专注培训。</title>
+		<base target="_blank" />
+		
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="theme/swiper/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" href="index/base.css" />
+		<link rel="stylesheet" href="theme/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="index/css/index.css" />
+
+		<style type="text/css">
+			.news-list>.fl {
+				border-radius: 15px;
+				box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+				border: none;
+			}
+			
+			.news-list .lazy {
+				border-radius: 5px;
+				box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+				border: none;
+			}
+			
+			.xmsz-item .fl {
+				border-radius: 10px;
+			}
+			
+			.xmsz-item .fl img {
+				width: 410px;
+			}
+			
+			.jyxx-item li a img {
+				width: 130px;
+				height: 50px;
+				border-radius: 8px;
+				box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+			}
+			
+			.jybz-item img,
+			.j-xysh-scroll img,
+			.clearfix img {
+				border-radius: 15px;
+				box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+			}
+			
+			.jybz-item p,
+			.j-xysh-scroll p {
+				border-radius: 0px 0px 15px 15px;
+				box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+			}
+			
+			.top-nav .clearfix {
+				margin-left: 15%;
+				;
+			}
+			
+			.djs {
+				box-shadow: 4px 8px 6px 0 rgba(46, 61, 73, .4);
+				background: #373b45;
+				border-radius: 7px;
+				border-bottom-right-radius: 7px;
+				z-index: 99999;
+				position: absolute;
+				top: 140px;
+				left: 2%;
+				height: 6.2%;
+				max-width: 20%;
+				opacity: 1;
+			}
+			
+			.time-item {
+				margin: 12px auto;
+			}
+			
+			.time-item strong {
+				background: #3688FF;
+				color: #fff;
+				height: 49px;
+				line-height: 49px;
+				font-size: 20px;
+				font-family: Arial;
+				padding: 0 10px;
+				margin-right: 10px;
+				border-radius: 5px;
+				box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+			}
+			
+			#day_show {
+				float: left;
+				line-height: 49px;
+				color: white;
+				font-weight: bold;
+				font-size: 32px;
+				margin: 0 10px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			.item-title .unit {
+				background: none;
+				line-height: 49px;
+				font-size: 24px;
+				padding: 0 10px;
+				float: left;
+			}
+			
+			.djs_title {
+				background: #3688ff;
+				width: 100%;
+				color: #fff;
+				text-align: center;
+				border-top-right-radius: 7px;
+				border-top-left-radius: 7px;
+				height: 43px;
+				line-height: 43px;
+				font-size: 20px;
+			}
+			
+			.content {
+				margin: 0 auto;
+				color: white;
+				width: 95%;
+			}
+			
+			.content .content_time {
+				font-family: "微软雅黑";
+				font-size: 17px;
+				color: white;
+				margin: 15px 0px;
+				padding-bottom: 8px;
+				text-align: center;
+				border-bottom: 1px white dotted;
+			}
+			
+			.content .content_details {
+				font-family: "微软雅黑";
+				font-size: 13px;
+				width: 95%;
+				margin: 0 auto;
+				line-height: 25px;
+			}
+			
+			.content_details li {
+				text-indent: 2em;
+			}
+			
+			.bgcFF545D {
+				background: linear-gradient(to top right, #FF545D, #cc0033);
+			}
+			
+			.bgcFF545D:hover {
+				border: 3px solid #FF545D;
+				background: linear-gradient(to top left, #cc0033, #FF545D);
+				box-shadow: -3px 0px 80px -26px #FF545D;
+			}
+			
+			.bgcE43566 {
+				background: linear-gradient(to top right, #ff6666, #E43566);
+				/* Standard syntax */
+			}
+			
+			.bgcE43566:hover {
+				border: 3px #ff6666 solid;
+				background: -webkit-linear-gradient(bottom left, #ff3366, #ff6666);
+				/* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(bottom left, #ff3366, #ff6666);
+				/* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(bottom left, #ff3366, #ff6666);
+				/* For Firefox 3.6 to 15 */
+				background: linear-gradient(bottom left, #ff3366, #ff6666);
+				/* Standard syntax */
+				box-shadow: -3px 0px 80px -26px #005982;
+			}
+			
+			.bgcf08300 {
+				background: -webkit-linear-gradient(to top right, #f08300, #EEB422);
+				/* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(to top right, #f08300, #EEB422);
+				/* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(to top right, #f08300, #EEB422);
+				/* For Firefox 3.6 to 15 */
+				background: linear-gradient(to top right, #f08300, #EEB422);
+				/* Standard syntax */
+			}
+			
+			.bgcf08300:hover {
+				border: 3px solid #EEB422;
+				background: -webkit-linear-gradient(bottom left, #ff9900, #EEB422);
+				/* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(bottom left, #ff9900, #EEB422);
+				/* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(bottom left, #ff9900, #EEB422);
+				/* For Firefox 3.6 to 15 */
+				background: linear-gradient(bottom left, #ff9900, #EEB422);
+				/* Standard syntax */
+				box-shadow: -3px 0px 80px -26px #005982;
+			}
+			
+			.bgc005982 {
+				background: -webkit-linear-gradient(to bottom right, #4F94CD, #005982);
+				/* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(to bottom right, #4F94CD, #005982);
+				/* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(to bottom right, #4F94CD, #005982);
+				/* For Firefox 3.6 to 15 */
+				background: linear-gradient(to bottom right, #4F94CD, #005982);
+				/* Standard syntax */
+			}
+			
+			.bgc005982:hover {
+				border: 3px solid #4F94CD;
+				background: -webkit-linear-gradient(bottom left, #005982, #4F94CD);
+				/* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(bottom left, #005982, #4F94CD);
+				/* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(bottom left, #005982, #4F94CD);
+				/* For Firefox 3.6 to 15 */
+				background: linear-gradient(bottom left, #005982, #4F94CD);
+				/* Standard syntax */
+				box-shadow: -3px 0px 80px -26px #005982;
+			}
+			
+			.common-course-list span:hover {
+				color: #FF545D;
+			}
+			
+			.introduction {
+				height: 520px;
+				width: 1200px;
+				border-radius: 12px;
+				box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .2);
+				margin: 0 auto;
+				margin-top: 2%;
+			}
+			
+			.video ._VideoBlock {
+				width: 640px;
+			}
+			
+			._VideoBlock {
+				text-align: center;
+				border-radius: 5px;
+				background-color: #2d2f3b;
+				margin-top: 20px;
+				position: relative;
+			}
+			
+			._VideoBlock .decorators {
+				position: absolute;
+				left: 20px;
+				top: 0;
+			}
+			
+			._VideoBlock .decorators div {
+				width: 9px;
+				height: 9px;
+				border-radius: 9px;
+				margin: 12px 4px 8px 4px;
+				display: inline-block;
+			}
+			
+			._VideoBlock .label {
+				font-size: 12px;
+				color: #ababab;
+				line-height: 30px;
+			}
+			
+			._VideoBlock .preview {
+				width: 640px;
+				margin: auto;
+				height: 400px;
+				position: relative;
+			}
+			
+			._VideoBlock .preview>* {
+				position: absolute;
+				width: inherit;
+				height: inherit;
+				cursor: pointer;
+			}
+			
+			._VideoBlock .preview .play {
+				justify-content: center;
+				background-color: rgba(45, 47, 59, 0.7);
+				transition: all 1s ease;
+			}
+			
+			._VideoBlock .preview .play:hover {
+				background-color: rgba(45, 47, 59, 0);
+			}
+			
+			._VideoBlock .caption {
+				font-size: 20px;
+				color: #fff;
+				line-height: 60px;
+			}
+			
+			.headline {
+				position: relative;
+				top: -115px;
+				height: 480px;
+				width: 500px;
+				display: inline-block;
+				margin-left: 30px;
+			}
+			
+			.sectitle-wrapper {
+				text-align: left;
+				padding-bottom: unset;
+				border-bottom-style: solid;
+				border-bottom-width: 1px;
+				border-bottom-color: #ebeaee;
+				height: 64px;
+				line-height: 80px;
+				font-family: "Microsoft Yahei";
+			}
+			
+			.sectitle {
+				font-size: 23px;
+				font-weight: bold;
+				padding-bottom: 8px;
+				border-bottom: 4px solid #3688FF;
+			}
+			
+			.headline li {
+				height: 40px;
+				line-height: 40px;
+				font-size: 18px;
+				list-style: none;
+				margin: 10px;
+			}
+			
+			.marker {
+				background: url(index/images/headlineType-hot.png) no-repeat;
+				width: 60px;
+				height: 25px;
+				vertical-align: middle;
+				display: inline-block;
+			}
+			
+			.headline a {
+				text-decoration: none;
+				color: #000000;
+			}
+			
+			.headline a:hover {
+				color: #3688ff;
+			}
+			
+			.course-list img {
+				border-radius: 0px;
+				box-shadow: 0px 0px 0px #eee;
+			}
+			
+			.xmsz .tab-conts>div>ul>a:hover,
+			.xmsz .tab-conts>div>.project-mode-shops>a:hover {
+				color: white;
+				background: #3688ff;
+			}
+			/*后期CSS不在使用内部样式*/
+		</style>
+	</head>
+
+	<body style="background: #F6F6F6;">
+		<div class="wrapper" style="background: transparent;">
+			<div class="mid">
+				<!--倒计时-->
+
+				<div class="djs">
+					<ul>
+						<li class="djs_title">周末实训营</li>
+					</ul>
+
+					<div class="time-item">
+						<span id="day_show">0天</span>
+						<strong id="hour_show">0时</strong>
+						<strong id="minute_show">0分</strong>
+						<strong id="second_show">0秒</strong>
+					</div>
+					<div class="content">
+						<div class="content_time">
+							每周六日上午9:30-12:00 14:00-16:30
+						</div>
+						<div class="content_details">
+							<ul>
+								<li>技术开放日：微信小程序、公众号开发、网页设计与网站建设、Python开发案例分享、手游游戏开发案例分享、大数据云计算案例分享与代码分享……<br/><br/></li>
+								<li>创新创业项目分享会：涉及云计算 、大数据、互联网+、电子与通信工程、物联网等创新创业项目路演、案例分享、资本风投对接会…… 满20人可以邀请讲师去校内开班，个人可以直接到公司 </li>
+							</ul>
+							<br/><br/>地址：广州市天河区建中路62号迪宝大厦2楼 更多社团与院校合作请联系18620422045 报名请加24小时微信：18922215502
+						</div>
+
+					</div>
+
+				</div>
+				<!-- banner轮播 -->
+				<div class="banner" style="height: 500px;">
+					<!-- banner轮播图 -->
+					<div class="swiper-container" id="banner_swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a style="background: url(index/images/java_b1.png) no-repeat ;" target="_blank"></a>
+							</div>
+							<div class="swiper-slide">
+								<a style="background: url(index/images/python_bn.png) no-repeat ;" target="_blank"></a>
+							</div>
+							<div class="swiper-slide">
+								<a style="background: url(index/images/html_bn.png) no-repeat ;" target="_blank"></a>
+							</div>
+							<div class="swiper-slide">
+								<a style="background: url(index/images/java_bn.png) no-repeat ;" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" class="swiper-lazy" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank"></a>
+							</div>
+							<div class="swiper-slide">
+								<a data-background="index/images/banner7.png" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" class="swiper-lazy" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank"></a>
+							</div>
+						</div>
+						<div class="swiper-pagination" id="banner_pagination"></div>
+					</div>
+				</div>
+				<div class="banner-botttom-ad">
+					<div class="wrap">
+						<div class="bba-items-list" style="margin-top: 3%;">
+							<div class="bba-item" style="border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+								<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes">
+									<div class="bba-item-img"></div>
+									<div class="bba-item-con">
+										<p>JAVA项目实战课程</p>
+										<p>赶快预约报名！</p>
+									</div>
+								</a>
+							</div>
+							<div class="bba-item" style="box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+								<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes">
+									<div class="bba-item-img"></div>
+									<div class="bba-item-con">
+										<p>大学生助学计划</p>
+										<p>住宿补贴高达2000元</p>
+									</div>
+								</a>
+							</div>
+							<div class="bba-item" style="box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+								<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes">
+									<div class="bba-item-img"></div>
+									<div class="bba-item-con">
+										<p>技能+创业系统化学习</p>
+										<p>结合项目实战欢迎申请</p>
+									</div>
+								</a>
+							</div>
+							<div class="bba-item" style="box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+								<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes">
+									<div class="bba-item-img"></div>
+									<div class="bba-item-con">
+										<p>砺锋</p>
+										<p>十年专注 从未改变</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--课程演示-->
+				<div class="introduction">
+					<div class="video gesso" style="display: inline-block;">
+						<div class="_VideoBlock">
+							<div class="decorators">
+								<div style="background-color: #ffb700;"></div>
+								<div style="background-color: #ff7200;"></div>
+								<div style="background-color: #ff4e00;"></div>
+							</div>
+							<p class="label"> </p>
+							<div class="preview" id="getVideo">
+								<div class="play flex-box">
+									<video width="100%" height="100%" controls="controls">
+										<source src="stmr.mp4" type="video/mp4"> Your browser does not support the video tag.
+									</video>
+								</div>
+							</div>
+							<p class="caption">在砺锋，满怀激情的代码 才是立足之本！</p>
+						</div>
+					</div>
+					<div class="headline">
+						<p class="sectitle-wrapper">
+							<span class="sectitle">砺锋作品</span>
+						</p>
+						<ul>
+							<li>
+								<div class="marker"></div>
+								<a>7月,砺锋总部抖音项目免费实训</a>
+							</li>
+							<li>
+								<div class="marker"></div>
+								<a>砺锋科技，江城工程师，海大集团溯源系统架构演示</a>
+							</li>
+							<li>
+								<div class="marker"></div>
+								<a>JAVA20170415期，赖贵阳同学毕业项目成果展示</a>
+								<li>
+									<a>砺锋科技，嗨唱APP项目架构实践</a>
+								</li>
+								<li>
+									<a>华商学院同学，京东商城项目成果展示</a>
+								</li>
+								<li>
+									<a>不一样的音乐，JAVA180415班，仿嗨唱项目展示</a>
+								</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- 课程中心 -->
+				<div class="kczx">
+					<div class="wrap">
+						<h3 class="wrap-title">砺锋
+              <span>4</span>大精端IT就业课程</h3>
+						<!-- Java大数据课程导航 -->
+						<div>
+							<div class="kczx-nav kczx-nav-1 nav-slide-tit part-nav">
+								<div class="fl part-nav-title">JAVA大数据开发</div>
+								<ul class="fr course1-navTab navTab">
+									<!--<li class="active" style="display: block;">
+										<a>世界上最广泛的开发语言</a>
+									</li>-->
+								</ul>
+							</div>
+							<div class="course-list course1-list">
+								<div class="clearfix course course-2">
+									<div class="fl course-nav bgcFF545D dynamic " style="border-radius: 25px;border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<h3>JAVA大数据</h3>
+										<p>
+											<strong>使用最广泛的语言</strong>
+											<span>JAVA开发工程师</span>
+											<span>JAVA高级工程师</span>
+											<span>JAVAEE开发工程师</span>
+											<span>架构师</span></p>
+										<div>
+											<img class="lazy" src="index/images/java.png" alt="" /></div>
+										<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">点击咨询课程</a>
+									</div>
+									<div class="fl clearfix course-desc" style="border: none;background: #FFFFFF;border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<div class="fl course-mid">
+											<div class="course-kb">
+												<ul>
+													<li class="fl clearfix">
+														<p class="course-kb-tit">
+															<span class="cFF545D bbcFF545D">全日制班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】JavaSE 基础班</span>
+																	<span class="course-time">06-15</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【广财】JavaEE 就业班</span>
+																	<span class="course-time">06-09</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【华商】JavaSE 基础班</span>
+																	<span class="course-time">06-05</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】JavaEE 就业班</span>
+																	<span class="course-time">03-19</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】JavaSE 基础班</span>
+																	<span class="course-time">06-05</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+														</div>
+													</li>
+													<li class="fl clearfix">
+														<p class="course-kb-tit">
+															<span class="cFF545D bbcFF545D">周末班</span></p>
+														<div class="common-course-list">
+															<div class="common-course-list">
+																<a href="javascript:;">
+																	<p class="fl">
+																		<span class="course-name">【华商】JavaSE 基础班</span>
+																		<span class="course-time">06-28</span></p>
+																	<span class="course-status bgcff0000">抢座</span></a>
+																<a href="javascript:;">
+																	<p class="fl">
+																		<span class="course-name">【广财】JavaEE 就业班</span>
+																		<span class="course-time">06-15</span></p>
+																	<span class="course-status bgc3688ff">开班</span></a>
+																<a href="javascript:;">
+																	<p class="fl">
+																		<span class="course-name">【本部】JavaEE 就业班</span>
+																		<span class="course-time">06-28</span></p>
+																	<span class="course-status bgcff0000">抢座</span></a>
+																<a href="javascript:;">
+																	<p class="fl">
+																		<span class="course-name">【本部】JavaSE 基础班</span>
+																		<span class="course-time">06-28</span></p>
+																	<span class="course-status bgcff0000">抢座</span></a>
+																<a href="javascript:;">
+																	<p class="fl">
+																		<span class="course-name">【本部】JavaEE 就业班</span>
+																		<span class="course-time">06-28</span></p>
+																	<span class="course-status bgcff0000">抢座</span></a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<table>
+												<tbody>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解JAVA大数据</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>JAVA大数据入学条件</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>JAVA大数据就业薪资</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>JAVA大数据职业前景</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解师资力量</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>JAVA大数据视频教程</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>JAVA大数据课程大纲</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" tppabs="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>JAVA大数据学习路线</a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="fl course-ad">
+											<img src="index/images/courseicons/java-right-top.png" style="border-radius: 15px;" alt="" />
+											<div class="group bbcaFF545D" style="border-radius: 15px;">
+												<div class="course-icon group-icon fl"></div>
+												<div class="fl">
+													<h3 class="cFF545D">技术交流群</h3>
+													<p>160730325
+														<a href="http://qm.qq.com/cgi-bin/qm/qr?k=J59UFwm0AKRkuZJIMAgQLLPxMdXYVRv8">+加入群聊</a>
+													</p>
+												</div>
+											</div>
+											<div class="group contact-teachers">
+												<img src="index/images/courseicons/java-right-bottom.png" style="border-radius: 15px;" alt="" /></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Python课程导航-->
+						<div>
+							<div class="kczx-nav kczx-nav-1 nav-slide-tit part-nav">
+								<div class="fl part-nav-title">Python</div>
+								<ul class="fr course1-navTab navTab">
+									<!--<li class="">
+										<a href="javascript:;">人工智能开发首选语言</a>
+									</li>-->
+								</ul>
+							</div>
+							<div class="course-list course1-list">
+								<div class="clearfix course course-1" style="display: block;">
+									<div class="fl course-nav bgcE43566 dynamic" style="border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<h3>Python</h3>
+										<p>
+											<strong>最热门的技术领域！</strong>
+											<span>Python开发工程师</span>
+											<span>Python爬虫开发工程师</span>
+											<span>运维工程师</span>
+											<span>Python程序设计师</span></p>
+										<div>
+											<img class="lazy" data-original="/index/images/courseicons/kczx-ico-python.png" alt="" src="index/images/python.png" style="display: inline;" /></div>
+										<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">点击咨询课程</a>
+									</div>
+									<div class="fl clearfix course-desc" style="border: none;background: #FFFFFF;border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<div class="fl course-mid">
+											<div class="course-kb">
+												<ul>
+													<li class="fl clearfix">
+														<p class="course-kb-tit">
+															<span class="cE43566 bbcE43566">全日制班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】人工智能+Python基础班</span>
+																	<span class="course-time">06-09</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【广财】人工智能+Python基础班</span>
+																	<span class="course-time">06-19</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【华商】人工智能+Python基础班</span>
+																	<span class="course-time">06-26</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】人工智能+Python基础班</span>
+																	<span class="course-time">06-19</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】人工智能+Python基础班</span>
+																	<span class="course-time">06-29</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+														</div>
+													</li>
+													<li class="fl clearfix">
+														<p class="course-kb-tit">
+															<span class="cE43566 bbcE43566">周末班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】Python基础班</span>
+																	<span class="course-time">06-10</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【广财】Python基础班</span>
+																	<span class="course-time">06-15</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】Python基础班</span>
+																	<span class="course-time">06-28</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】Python基础班</span>
+																	<span class="course-time">06-15</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】人工智能项目</span>
+																	<span class="course-time">06-28</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<table>
+												<tbody>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解Python</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Python入学条件</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Python就业薪资</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Python职业前景</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解师资力量</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Python视频教程</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Python课程大纲</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Python学习路线</a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="fl course-ad">
+											<img src="index/images/courseicons/python-right-top.png" style="border-radius: 15px;" alt="" />
+											<div class="group bbcaE43566" style="border-radius: 15px;">
+												<div class="course-icon group-icon fl"></div>
+												<div class="fl">
+													<h3 class="cE43566">技术交流群</h3>
+													<p>160730325
+														<a href="http://qm.qq.com/cgi-bin/qm/qr?k=J59UFwm0AKRkuZJIMAgQLLPxMdXYVRv8" target="_blank" class="cE43566 bbcaE43566">+加入群聊</a>
+													</p>
+												</div>
+											</div>
+											<div class="group contact-teachers">
+												<img src="index/images/courseicons/python-right-bottom.png" style="border-radius: 15px;" alt="" /></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--HTML5课程导航-->
+						<div>
+							<div class="kczx-nav kczx-nav-2 nav-slide-tit part-nav">
+								<div class="fl part-nav-title">HTML5全栈工程师</div>
+								<ul class="fr course2-navTab navTab">
+									<!--<li class="">
+										<a href="javascript:;">苹果官网推荐语言</a>
+									</li>-->
+								</ul>
+							</div>
+							<div class="course-list course2-list">
+								<div class="clearfix course course-2" style="display: block;">
+									<div class="fl course-nav bgcf08300 dynamic" style="border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<h3>Html5</h3>
+										<p>
+											<strong>高新就业课程！</strong>
+											<span>HTML5开发工程师</span>
+											<span>Web前端开发工程师</span>
+											<span>WebAPP开发工程师</span>
+											<span>HybirdAPP开发工程师</span></p>
+										<div>
+											<img class="lazy" data-original="index/images/courseicons/kczx-ico-html5.png" alt="" src="index/images/html5.png" style="display: inline;" /></div>
+										<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">点击咨询课程</a>
+									</div>
+									<div class="fl clearfix course-desc" style="border: none;background: #FFFFFF;border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<div class="fl course-mid">
+											<div class="course-kb">
+												<ul>
+													<li class="fl clearfix">
+														<p class="course-kb-tit">
+															<span class="cf08300 bbcf08300">全日制班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈工程师就业班</span>
+																	<span class="course-time">06-20</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈工程师基础班</span>
+																	<span class="course-time">06-15</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈工程师就业班</span>
+																	<span class="course-time">03-28</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈工程师就业班</span>
+																	<span class="course-time">06-06</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈工程师基础班</span>
+																	<span class="course-time">06-15</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+														</div>
+													</li>
+													<li class="fl clearfix">
+														<p class="course-kb-tit">
+															<span class="cf08300 bbcf08300">周末班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】微信小程序开发</span>
+																	<span class="course-time">06-28</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈工程师开发</span>
+																	<span class="course-time">03-25</span></p>
+																<span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】微信小程序</span>
+																	<span class="course-time">06-28</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】H5+全栈基础</span>
+																	<span class="course-time">06-28</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl">
+																	<span class="course-name">【本部】JAVA开发班</span>
+																	<span class="course-time">06-28</span></p>
+																<span class="course-status bgcff0000">抢座</span></a>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<table>
+												<tbody>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解Html5</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Html5入学条件</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Html5就业薪资</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Html5职业前景</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解师资力量</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Html5视频教程</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Html5课程大纲</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>Html5学习路线</a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="fl course-ad">
+											<img src="index/images/courseicons/html5-right-top.png" alt="" style="border-radius: 15px;" />
+											<div class="group bbcaf08300" style="border-radius: 15px;">
+												<div class="course-icon group-icon fl"></div>
+												<div class="fl">
+													<h3 class="cf08300">技术交流群</h3>
+													<p>160730325
+														<a href="http://qm.qq.com/cgi-bin/qm/qr?k=J59UFwm0AKRkuZJIMAgQLLPxMdXYVRv8" target="_blank" class="cf08300 bbcaf08300">+加入群聊</a>
+													</p>
+												</div>
+											</div>
+											<div class="group contact-teachers">
+												<img src="index/images/courseicons/html5-right-bottom.png" style="border-radius: 15px;" alt="" /></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--HTML5课程导航结束-->
+
+						<!--创新创业课程导航-->
+						<div>
+							<div class="kczx-nav kczx-nav-1 nav-slide-tit part-nav">
+								<div class="fl part-nav-title">
+									创新创业课程
+								</div>
+
+							</div>
+							<div class="course-list course1-list">
+								<div class="clearfix course course-1" style="display: block;">
+									<div class="fl course-nav bgc005982 dynamic" style="border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<h3>创新创业</h3>
+										<p>
+											<strong>最火爆的创业趋势！</strong><br> 强化创业理解，加深项目深度，独特的选修授课模式，个性化定制创新学习内容。
+										</p>
+										<div><img class="lazy" alt="" src="index/images/courseicons/kczx-ico-yingjian.png" style="display: inline;"></div>
+										<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">点击咨询课程</a>
+									</div>
+									<div class="fl clearfix course-desc" style="border: none;background: #FFFFFF;border-radius: 25px;box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);">
+										<div class="fl course-mid">
+											<div class="course-kb">
+												<ul>
+													<li class="fl clearfix">
+														<p class="course-kb-tit"><span class="c005982 bbc005982">全日制班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-12</span></p> <span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-12</span></p> <span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-15</span></p> <span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-12</span></p> <span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-15</span></p> <span class="course-status bgc3688ff">开班</span></a>
+														</div>
+													</li>
+													<li class="fl clearfix">
+														<p class="course-kb-tit"><span class="c005982 bbc005982">周末班</span></p>
+														<div class="common-course-list">
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-28</span></p> <span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-15</span></p> <span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-28</span></p> <span class="course-status bgcff0000">抢座</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-08</span></p> <span class="course-status bgc3688ff">开班</span></a>
+															<a href="javascript:;">
+																<p class="fl"><span class="course-name"></span><span class="course-time">06-28</span></p> <span class="course-status bgcff0000">抢座</span></a>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<table>
+												<tbody>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解创新创业</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>创新创业入学条件</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>创新创业就业薪资</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>创新创业规划</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>了解师资力量</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>创新创业路演视频</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>创新创业课程大纲</a>
+														</td>
+														<td>
+															<a class="float" href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" target="_blank">
+																<div class="course-icon"></div>创新创业学习路线</a>
+														</td>
+
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="fl course-ad">
+											<img src="index/images/courseicons/yingjian-right-top.png" alt="" style="border-radius: 15px;">
+											<div class="group bbca005982" style="border-radius: 15px;">
+												<div class="course-icon group-icon fl"></div>
+												<div class="fl">
+													<h3 class="c005982">技术交流群</h3>
+													<p>160730325
+														<a href="http://qm.qq.com/cgi-bin/qm/qr?k=J59UFwm0AKRkuZJIMAgQLLPxMdXYVRv8" target="_blank" class="c005982 bbca005982">+加入群聊</a>
+													</p>
+												</div>
+											</div>
+											<div class="group contact-teachers">
+												<img src="index/images/courseicons/yingjian-right-bottom.png" alt="" style="border-radius: 15px;">
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--课程报名大图-->
+				<div class="signup-form">
+					<div class="wrap" style="border-radius: 25px;box-shadow: 4px 6px 10px 0 rgba(46,61,73,.4);">
+						<div class="form-inner">
+							<div class="form-title">两周免费试听课程&middot; 全套学习资料限额领</div>
+							<div class="form-con">
+								<div class="fl form-con-left">
+									<div class="form-item">
+										<label>姓名</label>
+										<input type="text" name="username" autocomplete="off" placeholder="(必填)" /></div>
+									<div class="form-item">
+										<label>手机</label>
+										<input type="text" name="phone" autocomplete="off" placeholder="(必填)" /></div>
+									<div class="form-item">
+										<label>QQ&nbsp;</label>
+										<input type="text" name="qq" autocomplete="off" /></div>
+								</div>
+								<div class="fl form-con-right">
+									<ul class="signup-form-cname">
+										<li class="active" data-cname="JAVA">
+											<i class="check-icon"></i>
+											<span class="zip-icon"></span>
+											<span class="doc">JAVA大数据开发全套资料</span></li>
+										<li data-cname="python">
+											<i class="check-icon"></i>
+											<span class="zip-icon"></span>
+											<span class="doc">Python最新视频教程</span></li>
+										<li data-cname="创新创业">
+											<i class="check-icon"></i>
+											<span class="zip-icon"></span>
+											<span class="doc">创新创业项目资料</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="form-btn">
+								<div class="tips">* 姓名和手机为必填项！</div>
+								<button>5秒注册领取</button></div>
+						</div>
+					</div>
+				</div>
+				<!-- 推荐资讯 -->
+				<div class="tjzx">
+					<div class="wrap">
+						<h3 class="wrap-title">砺锋资讯中心</h3>
+						<div class="part-nav">
+							<div class="fl part-nav-title">推荐资讯</div>
+						</div>
+						<div class="clearfix news-list">
+							<div class="fl">
+								<a href="" target="_blank">
+									<img class="lazy" src="index/images/news-tit-ad1.png" width="348" height="137" alt="" /></a>
+								<div class="clearfix">
+									<h3 class="fl">最新资讯</h3>
+									<a href="" class="fr" target="_blank">MORE+</a>
+								</div>
+								<ul>
+									<li>
+										<a href="" target="_blank">我在腾讯实习经历经验谈【砺锋学员篇】</a>
+									</li>
+									<li>
+										<a href="" target="_blank">暑期实习如约而至，你找到实习了吗？这里有个清单，欢迎你的加入！</a>
+									</li>
+									<li>
+										<a href="" target="_blank">喜讯：砺锋成功入选教育部高等教育司2018年第一批产学合作协同育人项目支持企业</a>
+									</li>
+									<li>
+										<a href="" target="_blank">砺锋暑假：团购java大数据及Python人工智能课程</a>
+									</li>
+									<li>
+										<a href="" target="_blank">全国高校暑期 “ Hadoop大数据应用与开发+ Spark机器学习” 师资培训班邀请函</a>
+									</li>
+									<li>
+										<a href="" target="_blank">这些专业不再招生！2018专业红黑榜，了解一下？</a>
+									</li>
+									<li>
+										<a href="" target="_blank">2018年5月17日，热烈欢迎华商学院郭银华副院长携领导班子亲临教学基地考察、指导！</a>
+									</li>
+									<li>
+										<a href="" target="_blank">最新Java和Java工程师发展现状解析</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fl">
+								<a href="javascript:;" target="_blank">
+									<img class="lazy" src="index/images/news-tit-ad2.png" width="348" height="137" alt="" /></a>
+								<div class="clearfix">
+									<h3 class="fl">校企合作</h3>
+									<a href="" class="fr" target="_blank">MORE+</a>
+								</div>
+								<ul>
+									<li>
+										<a href="" target="_blank">砺锋&amp;广东技术师范学院第一届“砺锋杯”JAVA大数据竞赛颁奖仪式</a>
+									</li>
+									<li>
+										<a href="" target="_blank">南宁职业技术学院&amp;砺锋科技广州股权交易中心授牌仪式</a>
+									</li>
+									<li>
+										<a href="" target="_blank">华南师范大学与广州砺锋科技有限公司签订校企合作协议</a>
+									</li>
+									<li>
+										<a href="" target="_blank">华南理工大学与砺锋科技教育部产学合作协同育人项目举行授牌仪式</a>
+									</li>
+									<li>
+										<a href="" target="_blank">广州华商学院-2017教育部协同育人项目CDIO协同创新实践平台揭牌仪式圆满成功</a>
+									</li>
+									<li>
+										<a href="" target="_blank">砺锋可穿戴智能手环项目实训广州大学专场</a>
+									</li>
+									<li>
+										<a href="" target="_blank">校企交流简讯--广东仲恺农业学学院</a>
+									</li>
+									<li>
+										<a href="" target="_blank">喜讯：砺锋和广州大学签订校企合作协议</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fl last-item">
+								<a href="javascript:;" target="_blank">
+									<img class="lazy" src="index/images/news-tit-ad3.png" width="348" height="137" alt="" /></a>
+								<div class="clearfix">
+									<h3 class="fl">技术交流</h3>
+									<a href="" class="fr" target="_blank">MORE+</a>
+								</div>
+								<ul>
+									<li>
+										<a href="" target="_blank">学好JAVA开发需要那些基础知识</a>
+									</li>
+									<li>
+										<a href="" target="_blank">分布式系统的按照技术特点分层和分类介绍 &nbsp; &nbsp; &nbsp;</a>
+									</li>
+									<li>
+										<a href="" target="_blank">C语言和其他高级语言的最大的区别</a>
+									</li>
+									<li>
+										<a href="" target="_blank">Python将是人工智能时代的最佳编程语言</a>
+									</li>
+									<li>
+										<a href="" target="_blank">为什么我不用Hibernate</a>
+									</li>
+									<li>
+										<a href="" target="_blank">java 编程语言继续蝉联</a>
+									</li>
+									<li>
+										<a href="" target="_blank">哪些人适合学习JAVA？ 你需要掌握哪些的要点？</a>
+									</li>
+									<li>
+										<a href="" target="_blank">一个老开发工程师工程师给新手的十大建议</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 项目实战 -->
+				<div class="xmsz">
+					<div class="wrap">
+						<h3 class="wrap-title">砺锋经典项目实战案例</h3>
+						<div class="part-nav">
+							<div class="fl part-nav-title">项目实战
+								<span class="desc">拥有自主研发事业部，产教结合，成就高新技术人才!</span></div>
+						</div>
+						<div class="tab-conts">
+							<!-- 教学项目 -->
+							<div class="clearfix xmsz-item">
+								<ul class="fl">
+									<li class="fl" style="border-radius: 10px;">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/pj-img/pj01.png" width="400px" alt="" />
+											<p>穷游商城</p>
+											<div class="border-line2">
+												<h3>穷游商城</h3>
+												<p>GET到的技能：</p>
+												<p>HTML5/CSS/Oracle/Servelt3/highcharts4/</p>
+											</div>
+										</a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/pj-img/pj02.png" alt="" />
+											<p>仿爱回收</p>
+											<div class="border-line2">
+												<h3>仿爱回收</h3>
+												<p>GET到的技能：</p>
+												<p>Servlet4/Spring Boot/WebSocket/SpringMVC/Spring4</p>
+											</div>
+										</a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/pj-img/pj03.png" alt="" />
+											<p>品酒网</p>
+											<div class="border-line2">
+												<h3>品酒网</h3>
+												<p>GET到的技能：</p>
+												<p>Maven/Struts2/redis/easyUI</p>
+											</div>
+										</a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/pj-img/pj04.png" alt="" />
+											<p>王者荣耀全站</p>
+											<div class="border-line2">
+												<h3>王者荣耀全站</h3>
+												<p>GET到的技能：</p>
+												<p>Linux嵌入式系统构建/分布式存储/高并发开发/Hbase</p>
+											</div>
+										</a>
+									</li>
+
+									<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" class="clearfix" target="_blank">查看更多项目</a>
+								</ul>
+								<div class="fl project-mode-shops">
+									<div class="project-mode" style="border-radius: 15px;">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/modulelogo.png" style="width: 280px;border-radius: 10px;" alt="" /></a>
+										<div class="project-mode-desc">
+											<p>砺锋研发中心目前已自主研发100多个功能模块，项目工程师的心血之作，使超过2000多的学员从中受益。</p>
+										</div>
+										<div class="project-mode-list" style="height: 219px;">
+											<ul style="padding: 0px;">
+												<li>
+													<a href="">&middot;&nbsp;华南农业大学网上注册系统</a>
+												</li>
+												<li>
+													<a href="">&middot;&nbsp;汕头大学电信远程教学系统</a>
+												</li>
+												<li>
+													<a href="">&middot;&nbsp;广东海大集团鱼苗培育系统</a>
+												</li>
+												<li>
+													<a href="">&middot;&nbsp;中行信用卡管理系统</a>
+												</li>
+												<li>
+													<a href="">&middot;&nbsp;南方航空后勤保障系统</a>
+												</li>
+												<li>
+													<a href="">&middot;&nbsp;阳江电信网上图书馆</a>
+												</li>
+												<li>
+													<a href="">&middot;&nbsp;慧港设备网</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<a href="http://wpa.qq.com/msgrd?v=3&uin=81058337&site=qq&menu=yes" class="clearfix" target="_blank">项目代码</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--课程视频-->
+
+				<!--课程视频结束-->
+
+				<!-- 就业真相 -->
+				<div class="jyzx">
+					<div class="wrap">
+						<h3 class="wrap-title">砺锋学员就业实况</h3>
+						<div class="part-nav">
+							<div class="fl part-nav-title">最新就业
+								<span class="desc">选择比努力更重要！</span></div>
+						</div>
+						<div class="tab-conts" style="border-radius: 15px;box-shadow: -3px 0px 80px -26px #00244d;">
+							<!-- 最新就业 -->
+							<div class="jyxx-list comp-jy-tab" style="background:#F6F6F6">
+								<table style="border-radius: 15px;background: white;">
+									<tr>
+										<th style="width: 10%;">姓名</th>
+										<th style="width: 4%;">姓别</th>
+										<th style="width: 13%;">专业</th>
+										<th style="width: 22%;">公司</th>
+										<th style="width: 5.3%;">薪水</th>
+										<th style="width: 8%;">入职时间</th>
+										<th style="width: 15%;">入职岗位</th>
+									</tr>
+								</table>
+								<div class="j-zxjy-tablebox" style="border-radius:0px 0px 15px;box-shadow: -3px 0px 40px -26px #00244d;">
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 10%;">王*仁
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">测控技术与仪器</td>
+												<td style="width: 22%;">中兴物联科技有限公司</td>
+												<td style="width: 5.3%;">10000</td>
+												<td style="width: 8%;">2017-09-25</td>
+												<td style="width: 15%;">软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">黄*锋
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">测控技术与仪器</td>
+												<td style="width: 22%;">广州倍蓝科技有限公司</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-09-20</td>
+												<td style="width: 15%;">产品经理工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">谢*军
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">嵌入式系统工程</td>
+												<td style="width: 22%;">广州亿播网视科技有限公司</td>
+												<td style="width: 5.3%;">11000</td>
+												<td style="width: 8%;">2017-09-18</td>
+												<td style="width: 15%;">云计算工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">梁*鹏
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">络达科技股份有限公司</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-09-18</td>
+												<td style="width: 15%;">产品经理工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">黄*龙
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">广州因特华星科技有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-09-15</td>
+												<td style="width: 15%;">云计算工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">韩*伟
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">软件工程</td>
+												<td style="width: 22%;">广州晶华显示器材有限公司</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-09-14</td>
+												<td style="width: 15%;">云计算工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">韩*恒
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">测控技术与仪器</td>
+												<td style="width: 22%;">广州市雄帝科技股份有限公司</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-08-28</td>
+												<td style="width: 15%;">产品经理工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">杨*
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">计算机科学与技术</td>
+												<td style="width: 22%;">高伟达科技股份有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-08-28</td>
+												<td style="width: 15%;">JAVA开发工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">田*
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">广州友讯达科技股份有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-08-17</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">张*慎
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">测控技术与仪器</td>
+												<td style="width: 22%;">广州友讯达科技股份有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-08-17</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">甘*伟
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">计算机</td>
+												<td style="width: 22%;">广州友讯达科技股份有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-08-17</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">陈*
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">自动化</td>
+												<td style="width: 22%;">中明科技(北京)有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-08-16</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">麦*杰
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">测控技术与仪器</td>
+												<td style="width: 22%;">广州市硅格半导体有限公司</td>
+												<td style="width: 5.3%;">7800</td>
+												<td style="width: 8%;">2017-08-15</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">邓*才
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">交通运输</td>
+												<td style="width: 22%;">广州市沃特玛电池有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-08-15</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">李*杰
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">广州友讯达科技股份有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-08-15</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">曾*峰
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">应用电子技术</td>
+												<td style="width: 22%;">广州友讯达科技股份有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-08-14</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">彭*
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">应用电子技术</td>
+												<td style="width: 22%;">广州友讯达科技股份有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-08-14</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">周*恩
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">数控技术</td>
+												<td style="width: 22%;">联科通讯科技有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-08-12</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">古*军
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">信息与电子工程学院</td>
+												<td style="width: 22%;">大族激光</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-08-04</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">何*迪
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电气工程及其自动化</td>
+												<td style="width: 22%;">浙江红相科技股份有限公司</td>
+												<td style="width: 5.3%;">7600</td>
+												<td style="width: 8%;">2017-08-03</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">杜*鹏
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">通信工程</td>
+												<td style="width: 22%;">中软国际</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-07-25</td>
+												<td style="width: 15%;">LINUX开发工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">白*贵
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">机械设计制造及其自动化</td>
+												<td style="width: 22%;">广州市钻石快线有限公司</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-07-24</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">赵*勇
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">自动化</td>
+												<td style="width: 22%;">鼎微科技有限公司</td>
+												<td style="width: 5.3%;">9000</td>
+												<td style="width: 8%;">2017-07-20</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">范*宇
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息</td>
+												<td style="width: 22%;">远标培训教育有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-07-10</td>
+												<td style="width: 15%;">嵌入式软件讲师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">陈*群
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电气信息工程</td>
+												<td style="width: 22%;">软通动力</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-07-03</td>
+												<td style="width: 15%;">云计算工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">黄*光
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电气信息工程</td>
+												<td style="width: 22%;">广州市群晟科技有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-06-29</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">柏*
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">机械制造及其自动化</td>
+												<td style="width: 22%;">广州市群晟科技有限公司</td>
+												<td style="width: 5.3%;">9500</td>
+												<td style="width: 8%;">2017-06-28</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">刘*阳
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">机械电子工程</td>
+												<td style="width: 22%;">广州深海精密科技公司</td>
+												<td style="width: 5.3%;">10000</td>
+												<td style="width: 8%;">2017-06-24</td>
+												<td style="width: 15%;">图像算法工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">张*川
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">创元科技</td>
+												<td style="width: 5.3%;">8500</td>
+												<td style="width: 8%;">2017-06-19</td>
+												<td style="width: 15%;">FPGA工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">徐*红
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">物联网工程</td>
+												<td style="width: 22%;">广州鹏锐信息技术股份有限公司</td>
+												<td style="width: 5.3%;">7800</td>
+												<td style="width: 8%;">2017-06-15</td>
+												<td style="width: 15%;">单片机工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">晏*辉
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">通信工程</td>
+												<td style="width: 22%;">软通动力</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-06-05</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">吴*
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电气工程及其自动化</td>
+												<td style="width: 22%;">软通动力</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-06-01</td>
+												<td style="width: 15%;">云计算工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">张*豪
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">自动化</td>
+												<td style="width: 22%;">广州荣耀智能设计有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-05-10</td>
+												<td style="width: 15%;">软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">杨*枫
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电气信息工程</td>
+												<td style="width: 22%;">卓翼科技</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-05-20</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">张*辉
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息科学与技术</td>
+												<td style="width: 22%;">广州奇星智能技术有限公司</td>
+												<td style="width: 5.3%;">7000</td>
+												<td style="width: 8%;">2017-05-23</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">许*鑫
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">自动化</td>
+												<td style="width: 22%;">广州市民展科技开发有限公司</td>
+												<td style="width: 5.3%;">8000</td>
+												<td style="width: 8%;">2017-05-17</td>
+												<td style="width: 15%;">JAVA软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">张*涛
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">计算机应用</td>
+												<td style="width: 22%;">广州澳普实业有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-05-13</td>
+												<td style="width: 15%;">电子工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">陈*俊
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">方案公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-05-13</td>
+												<td style="width: 15%;">软件工程师</td>
+											</tr>
+											<tr>
+												<td style="width: 10%;">詹*星
+													<span></span></td>
+												<td style="width: 4%;">男</td>
+												<td style="width: 13%;">电子信息工程</td>
+												<td style="width: 22%;">广州市无眼界科技有限公司</td>
+												<td style="width: 5.3%;">7500</td>
+												<td style="width: 8%;">2017-05-08</td>
+												<td style="width: 15%;">ARM工程师</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<a href="employment.html" target="_blank">点击查看更多就业信息</a>
+							</div>
+						</div>
+					</div>
+					<div class="wrap">
+						<div class="part-nav">
+							<div class="fl part-nav-title">入职名企
+								<span class="desc">师兄师姐在这里！</span></div>
+						</div>
+						<div class="tab-conts">
+							<!-- 入职名企 -->
+							<div class="rznq jyxx-item">
+								<ul class="clearfix">
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/1.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/2.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/3.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/4.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/20.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/6.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/7.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/8.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/19.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/10.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/11.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/12.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/13.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/14.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/15.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/16.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/17.png" alt="" /></a>
+									</li>
+									<li class="fl">
+										<a href="javascript:;">
+											<img class="lazy" src="index/images/partners/18.png" alt="" /></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="wrap">
+						<div class="part-nav">
+							<div class="fl part-nav-title">基础视频
+								<span class="desc">专业级讲师,课程录播视频！</span></div>
+						</div>
+						<div class="tab-conts">
+							<!-- 就业保障 -->
+							<div class="jybz jyxx-item">
+								<div class="clearfix">
+									<div class="fl">
+										<ul class="clearfix jybz-item">
+											<li class="fl">
+												<img class="lazy" src="index/images/voide/HTML.png" />
+												<p>【HTML5入门】
+													<span style="font-size: 12px;">时长:15:12</span>
+												</p>
+											</li>
+											<li class="fl">
+												<img class="lazy" src="index/images/voide/js.png" />
+												<p>【JavaScript开发】
+													<span style="font-size: 12px;">时长:19:12</span>
+												</p>
+											</li>
+											<li class="fl">
+												<img class="lazy" src="index/images/voide/Struts.png" />
+												<p>【Struts类型转换】
+													<span style="font-size: 12px;">时长:49:29</span>
+												</p>
+											</li>
+											<li class="fl">
+												<img class="lazy" src="index/images/voide/Java.png" />
+												<p>【Java强制类型转换】
+													<span style="font-size: 12px;">时长:39:55</span>
+												</p>
+											</li>
+											<li class="fl">
+												<img class="lazy" src="index/images/voide/tomcat.PNG" />
+												<p>【Tomcat的启动与停止】
+													<span style="font-size: 12px;">时长:19:05</span>
+												</p>
+											</li>
+											<li class="fl">
+												<img class="lazy" src="index/images/voide/hibernate.png" />
+												<p>【Hibernate性能优化】
+													<span style="font-size: 12px;">时长:32:51</span>
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 校企合作 -->
+				<!--<div class="slhz">
+					<div class="wrap">
+						<div class="part-nav">
+							<div class="fl part-nav-title">校企合作
+								<span class="desc">知识和能力同行，培养新时代高科技人才！</span></div>
+						</div>
+						<div class="tab-conts">
+							<div class="partner active">
+								<ul class="clearfix j-hzyx-scroll">
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_01.png" alt="" />
+										<p>广州技术师范学院</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_02.png" alt="" />
+										<p>广州财经大学</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_03.png" alt="" />
+										<p>五邑大学</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_04.png" alt="" />
+										<p>肇庆学院</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_05.png" alt="" />
+										<p>广州航海学院</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_06.png" alt="" />
+										<p>广州仲恺农业学院</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_07.png" alt="" />
+										<p>广东理工大学</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_08.png" alt="" />
+										<p>广州华商学院</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_09.png" alt="" />
+										<p>广州大学</p>
+									</li>
+									<li class="fl">
+										<img class="lazy" data-original="/index/images/partners/slhz_10.png" alt="" />
+										<p>广州工商学院</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>-->
+			</div>
+			<!-- 学员生活 -->
+			<div class="yxsh">
+				<div class="wrap">
+					<h3 class="wrap-title">砺锋学员快乐生活园区</h3>
+					<div class="tab-btns shareJoy xysh-navTab">
+						<a href="javascript:;" class="active">学习环境</a>
+						<a href="javascript:;">砺锋生活</a>
+						<a href="javascript:;">课堂时光</a>
+					</div>
+					<div class="tab-conts xysh-list">
+						<div class="xysh-item">
+							<ul class="clearfix j-xysh-scroll">
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/chaxie.JPG" alt="" />
+									<p>砺锋茶歇室</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/qiantai.JPG" alt="" />
+									<p>广州砺锋前台</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/02.jpg" alt="" />
+									<p>合作单位</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/chaxie.JPG" alt="" />
+									<p>砺锋茶歇室</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/wenhua.jpg" alt="" />
+									<p>砺锋文化墙</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/huiyi.JPG" alt="" />
+									<p>北京砺锋教室</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/179691716089988354.jpg" alt="" />
+									<p>砺锋工作室</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/dongguan.jpg" alt="" />
+									<p>东莞理工工作室</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/qiantai.JPG" alt="" />
+									<p>广州砺锋前台</p>
+								</li>
+
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/wenhua.jpg" alt="" />
+									<p>砺锋文化墙</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/environment/02.jpg" alt="" />
+									<p>合作单位</p>
+								</li>
+							</ul>
+						</div>
+						<div class="xysh-item">
+							<ul class="clearfix" style="width:1210px;">
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/chuangxinjie.jpg" alt="" />
+									<p>参加创新节</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/kaiban.jpg" alt="" />
+									<p>1804期开班</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/xueyuanhuodong.JPG" alt="" />
+									<p>砺锋周末实训营</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/lifenbei.jpg" alt="" />
+									<p>仲恺砺锋杯</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/mos.jpg" alt="" />
+									<p>MOS全球大赛</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/huodong1.jpg" alt="" />
+									<p>砺锋技术进校园</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/shejidasai.jpg" alt="" />
+									<p>砺锋设计大赛</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/activity/saiqianheyin.JPG" alt="" />
+									<p>HTML5开发大赛</p>
+								</li>
+							</ul>
+						</div>
+						<div class="xysh-item">
+							<ul class="clearfix j-xysh-scroll">
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/dongguan.jpg" alt="" />
+									<p>项目辅导</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/huifang.jpg" alt="" />
+									<p>项目讨论</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/ketangwenda.JPG" alt="" />
+									<p>课堂互动</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/huibao.jpg" alt="" />
+									<p>结业汇报</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/shangke2.jpg" alt="" />
+									<p>砺锋课堂</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/ketang3.JPG" alt="" />
+									<p>砺锋课堂</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/ketang03.jpg" alt="" />
+									<p>砺锋课堂</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/xiangmupinshen.JPG" alt="" />
+									<p>项目评审</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/cansha.jpg" alt="" />
+									<p>项目参赛</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/taolun.jpg" alt="" />
+									<p>项目讨论</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/cansan02.jpg" alt="" />
+									<p>项目参赛</p>
+								</li>
+								<li class="fl">
+									<img class="lazy" src="index/images/classroom/jieye.jpg" alt="" />
+									<p>学员结业</p>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!--校区位置-->
+			<div class="xqwz">
+				<div class="wrap">
+					<h3 class="wrap-title">砺锋<span>实训</span>地址</h3>
+					<div class="xqwz-nav nav-slide-tit part-nav">
+						<div class="fl part-nav-title">校区位置</div>
+						<ul class="fr address-navTab navTab">
+							<li class="active">
+								<a href="javascript:;">广州总部</a>
+							</li>
+							<!--<li>
+									<a href="javascript:;">广州中心</a>
+								</li>-->
+
+						</ul>
+					</div>
+				</div>
+				<div class="address-list">
+					<div class="clearfix address" style="border-radius: 15px;box-shadow: -3px 0px 80px -26px #00244d;">
+						<div class="fl map-container" style="border: 0px;">
+							<div id="addressMap" class="addressMap"></div>
+						</div>
+						<div class="fr contact address-con-list">
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>020-855-34346</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>广州砺锋信息科技有限公司</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>广州市天河区天河软件园科韵园区迪宝大厦207-212</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>020-85534346</span></p>
+								</div>
+								<div class="contact-bin">
+									<p>
+										<span style="color: firebrick;">*除砺锋本部外，公司课程将不定期在华商学院、广州财经大学等合作院校进行开课</span>
+									</p>
+									<br />
+									<p>
+										<span>具体请留意页面开班信息，或拨打020-85534346</span>
+									</p>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img src="index/images/code.jpg" tppabs="http://www.seehope.net/index/images/code.jpg" style="width:120px; height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>400-8788-909</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>郑州中心</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>郑州市二七区民主路6号华健商务A座</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>132-2309-6035</span></p>
+								</div>
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img class="lazy" data-original="/index/images/code.jpg" style="width:120px;
+                        height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>400-8788-909</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>北京中心</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>北京昌平区回龙观东大街矩阵小区天龙苑25号楼</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>155-3718-0687</span></p>
+								</div>
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img class="lazy" data-original="/index/images/code.jpg" style="width:120px;
+                        height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>400-8788-909</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>南京中心</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>南京江宁区胜利西路9号京妆产业园3栋</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>137-6186-5791</span></p>
+								</div>
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img class="lazy" data-original="/index/images/code.jpg" style="width:120px;
+                        height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>400-8788-909</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>南宁中心</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>广西南宁市西乡塘区高新区东盟总部路1号南宁-东盟总部基地一期D1栋第六层（北门入口，百度旁边）</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>133-9781-3910</span></p>
+								</div>
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img class="lazy" data-original="/index/images/code.jpg" style="width:120px;
+                        height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>400-8788-909</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>上海中心</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>上海松江区亭圆大厦</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>137-6186-5791</span></p>
+								</div>
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img class="lazy" data-original="/index/images/code.jpg" style="width:120px;
+                        height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="contact-cut contact-item">
+								<div class="contact-bin">
+									<h2>全国统一服务热线：</h2>
+									<h1>400-8788-909</h1>
+									<p>
+										<em class="fa fa-flag"></em>
+										<span>济南中心</span></p>
+									<p>
+										<em class="fa fa-university"></em>
+										<span>济南天桥区紫金山路1号紫金山大厦19F</span></p>
+									<p>
+										<em class="fa fa-tty"></em>
+										<span>133-6106-8122</span></p>
+								</div>
+								<div class="contact-bin">
+									<dl class="clearfix">
+										<dt class="fl">
+                        <img class="lazy" data-original="/index/images/code.jpg" style="width:120px;
+                        height:120px;" />
+                      </dt>
+										<dd class="fr">
+											<strong>
+                          <font>扫一扫</font>
+                          <em class="fa fa-desktop"></em>
+                          <em class="fa fa-tablet"></em>
+                          <em class="fa fa-mobile"></em>
+                        </strong>
+											<span>拿起手机扫描二维码，即可时刻关注我们！&nbsp;
+                          <br />公众号名称：
+                          <u>砺锋</u>&nbsp;
+                          <br />微信号：
+                          <u>xinyingda118</u>&nbsp;</span>
+										</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 公共底部 start -->
+		
+		
+
+		<!--注释结束-->
+
+		<script type="text/javascript" src="js/jquery.min.js" merge="true"></script>
+		<script src="theme/lazyload/jquery.lazyload.min.js"></script>
+		<script src="theme/swiper/swiper-3.4.2.min.js"></script>
+		<script src="index/global.js"></script>
+		<script type="text/javascript">
+			function formatterDateTime() {
+				var date = new Date()
+				var month = date.getMonth() + 1
+				var datetime = date.getFullYear() +
+					"" // "年"
+					+
+					(month >= 10 ? month : "0" + month) +
+					"" // "月"
+					+
+					(date.getDate() < 10 ? "0" + date.getDate() : date
+						.getDate()) +
+					"" +
+					(date.getHours() < 10 ? "0" + date.getHours() : date
+						.getHours()) +
+					"" +
+					(date.getMinutes() < 10 ? "0" + date.getMinutes() : date
+						.getMinutes()) +
+					"" +
+					(date.getSeconds() < 10 ? "0" + date.getSeconds() : date
+						.getSeconds());
+				return datetime;
+			}
+
+
+			//滚动
+			//			var scrollIndex = 0;
+			//			var Timer = null;
+			//
+			//			function scroll_f() {
+			//				
+			//				clearInterval(Timer);
+			//				
+			//				var ul = $("#project-mode-list ul");
+			//				var li = ul.children("li");
+			//				var h = li.height();
+			//				var index = 0;
+			//				ul.css("height", h * li.length * 2);
+			//				ul.html(ul.html() + ul.html());
+			//				function run() {
+			//					if(scrollIndex >= li.length) {
+			//						ul.css({
+			//							top: 0
+			//						});
+			//						scrollIndex = 1;
+			//						ul.animate({
+			//							top: -scrollIndex * h
+			//						}, 200);
+			//					} else {
+			//						scrollIndex++;
+			//
+			//						ul.animate({
+			//							top: -scrollIndex * h
+			//						}, 200);
+			//					}
+			//				}
+			//				Timer = setInterval(run, 1500);
+			//			}
+			//			$(function() {
+			//				alert('ceshi');
+			//				scroll_f();
+			//			})
+			$(function() {
+				$("img.lazy").lazyload({
+					effect: "fadeIn",
+					threshold: 200,
+					skip_invisible: false
+				});
+
+				G.func.backToTop();
+			})
+		</script>
+		<script src="index/coursetime.js?v=201805021023"></script>
+		<script type="text/javascript">
+			var cname = "JAVA";
+			var myDate = new Date();
+			/*获取月份*/
+			var month = myDate.getMonth() + 1;
+			var year = myDate.getYear();
+			/*获取开班时间*/
+			if(myDate.getDate() <= 15) {
+				var starttime = new Date(2018 + "/" + month + "/15 09:00:00");
+			} else {
+				var starttime = new Date(2018 + "/" + (month + 1) + "/15 09:00:00");
+			}
+
+			/*获取当前星期*/
+			var week = new Date().getDay();
+			/*由于实训班开班为每周六,则单独抽出星期作为天数计算,其他时、分、秒保持不变*/
+			switch(week) {
+				case 0:
+					$('#day_show').html(6 + "天");
+					break;
+				case 1:
+					$('#day_show').html(5 + "天");
+					break;
+				case 2:
+					$('#day_show').html(4 + "天");
+					break;
+				case 3:
+					$('#day_show').html(3 + "天");
+					break;
+				case 4:
+					$('#day_show').html(2 + "天");
+					break;
+				case 5:
+					$('#day_show').html(1 + "天");
+					break;
+				case 6:
+					$('#day_show').html(0 + "天");
+					break;
+			}
+			/*采用计数器计时*/
+			setInterval(function() {
+				var nowtime = new Date();
+				var time = starttime - nowtime;
+				var day = parseInt(time / 1000 / 60 / 60 / 24);
+				var hour = parseInt(time / 1000 / 60 / 60 % 24);
+				var minute = parseInt(time / 1000 / 60 % 60);
+				var seconds = parseInt(time / 1000 % 60);
+				/*输出实训班开班时间,天数已经由星期差计算好*/
+				$('#hour_show').html('<s id="h"></s>' + hour + '时');
+				$('#minute_show').html('<s></s>' + minute + '分');
+				$('#second_show').html('<s></s>' + seconds + '秒');
+			}, 1000);
+
+			(function() {
+
+				var index = 0;
+				//3秒轮播一次
+				var timer = setInterval(function() {
+					index = (index == 2) ? 0 : index + 1;
+					//某个div显示，其他的隐藏
+					$(".swiper-slide").hide().eq(index).show();
+				}, 3000);
+
+				//开班信息
+				$.each(courseTimeInfo, function(key, val) {
+
+					var fullhtml = "";
+					var weekhtml = "";
+					fullhtml += G.func.comCdataToHtml(val.fullday);
+					$(".common-course-list").eq(2 * key).html(fullhtml);
+					weekhtml += G.func.comCdataToHtml(val.weekday);
+					$(".common-course-list").eq(2 * key + 1).html(weekhtml);
+
+				});
+				//报名表单
+				$(".signup-form-cname li").click(function() {
+
+					cname = $(this).data("cname");
+					$(this).addClass("active").siblings().removeClass("active");
+				});
+				$(".form-btn button").click(function() {
+					var that = this;
+					$(that).siblings(".tips").text("").removeClass("active");
+					var username = $('input[name=username]').val().trim();
+
+					if(!username) {
+						$(that).siblings(".tips").text("用户名不能为空！").addClass("active");
+						return false;
+					}
+
+					var phone = $('input[name=phone]').val().trim();
+
+					if(!phone) {
+						$(that).siblings(".tips").text("手机号码不能为空！").addClass("active");
+						return false;
+					}
+
+					if(!isPoneAvailable(phone)) {
+						$(that).siblings(".tips").text("请输入正确的手机号码！").addClass("active");
+						return false;
+					}
+
+					var qq = $('input[name=qq]').val().trim();
+
+					$.ajax({
+						type: 'post',
+						url: "/index/sign/index",
+						data: {
+							'username': username,
+							'phone': phone,
+							'qq': qq,
+							'cname': cname,
+							'plateform': '2'
+						},
+						dataType: "json",
+						success: function(data) {
+							if(data.code) {
+								$('input[name=username]').val('');
+								$('input[name=phone]').val('');
+								$('input[name=qq]').val('');
+							}
+							console.log(data.msg);
+							$(that).siblings(".tips").text(data.msg).addClass("active");
+						},
+						error: function(err) {
+							console.log(err);
+						}
+					})
+				});
+				//最新就业
+				G.func.tableScrollUp('.j-zxjy-tablebox');
+				//课程中心
+				G.func.navTabSlide('.course1-navTab', '.course1-list');
+				G.func.navTabSlide('.course2-navTab', '.course2-list');
+				//学员生活
+				G.func.navTabSlide('.xysh-navTab', '.xysh-list');
+
+				G.func.idefSlide('.j-xysh-scroll');
+
+			})();
+			//地图坐标
+			var addressPoints = [
+				[
+					[113.377294, 23.129213, '广州'],
+				], //广州
+				[113.377294, 23.129213, '广州'], //广州
+
+			]; //
+			//加载地图
+			var mapObj = {
+				point: [],
+				pointArr: [],
+				init: function(points) {
+					//清空数据先
+					this.point = points;
+					this.pointArr = [];
+					//整理数据
+					if(!points) return;
+					this.pointArr = this.getPoints();
+
+					// 设置地图
+					var map = this.setMap();
+					//设置marker
+					var markers = this.setMarkers();
+					if(markers) {
+						for(var i in markers) {
+							if(markers.hasOwnProperty(i)) {
+								map.addOverlay(markers[i]);
+								markers[i].setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动
+							}
+						}
+					}
+				},
+				getMap: function() {
+					return new BMap.Map("addressMap")
+				},
+				getMarker: function(point) {
+					return new BMap.Marker(point); // 创建标注
+				},
+				getLabel: function(labelTit) {
+					var label = new BMap.Label('砺锋科技', {
+						offset: new BMap.Size(-60, -40)
+					});
+					label.setStyle({
+						width: "120px",
+						color: '#fff',
+						background: '#ff8355',
+						border: '1px solid "#ff8355"',
+						borderRadius: "5px",
+						textAlign: "center",
+						height: "26px",
+						lineHeight: "26px"
+					});
+					return label;
+				},
+				formatPoint: function(x, y) {
+					return new BMap.Point(x, y);
+				},
+				getPoints: function() {
+					if(Array.isArray(this.point[0])) {
+						//同一个城市有两个以上地点
+						for(var i in this.point) {
+							if(this.point.hasOwnProperty(i)) {
+								var point = this.formatPoint(this.point[i][0], this.point[i][1]);
+								this.pointArr.push(point);
+							}
+						}
+					} else {
+						//一个城市一个地点
+						var point = this.formatPoint(this.point[0], this.point[1]);
+						this.pointArr.push(point);
+					}
+					return this.pointArr;
+				},
+				setMap: function() {
+					var map = this.getMap();
+					//清除覆盖物
+					map.clearOverlays();
+					//设置中心
+					var v = map.getViewport(this.pointArr); //此类代表视野，不可实例化，通过对象字面量形式表示
+					map.centerAndZoom(v.center, v.zoom);
+					map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+					return map;
+				},
+				setMarkers: function() {
+					var markers = [];
+					if(this.pointArr) {
+						for(var i in this.pointArr) {
+							if(this.pointArr.hasOwnProperty(i)) {
+								var marker = this.getMarker(this.pointArr[i]); // 创建标注
+								var labelTit = this.pointArr.length > 1 ? this.point[i][2] : this.point[2];
+								var label = new BMap.Label('砺锋总部', {
+									offset: new BMap.Size(-60, -60)
+								});
+								label.setStyle({
+									width: "120px",
+									color: '#fff',
+									background: '#ff8355',
+									border: '1px solid "#ff8355"',
+									borderRadius: "5px",
+									textAlign: "center",
+									height: "26px",
+									lineHeight: "26px"
+								});
+								marker.setLabel(label);
+								markers.push(marker);
+							}
+						}
+					}
+					return markers;
+				}
+			}
+
+			function loadJScript() {
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				script.src = "https://api.map.baidu.com/api?v=2.0&ak=9ffGMwFVhjN9mG5yzqYj6vreZfttYIp1&callback=mapObj.init(" + JSON.stringify(addressPoints[0]) + ")";
+				document.body.appendChild(script);
+			}
+			window.onload = loadJScript(); //异步加载地图
+			//地图切换
+			G.func.navTabSlide('.address-navTab', '.address-con-list', function(index) {
+				mapObj.init(addressPoints[index]);
+			});
+		</script>
+	</body>
+
+</html>

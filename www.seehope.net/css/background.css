@@ -1,0 +1,66 @@
+	span[type='icon-nav'] {
+		font-size: 10px;
+		position: relative;
+		left: 10px;
+	}
+	
+	.icon {
+		font-size: 14px;
+	}
+	/*.ct_banner_caption h2 {
+				line-height: 75px;
+			}*/
+	
+	.ct_banner_caption>h2,
+	.ct_banner_caption>p,
+	.ct_banner_caption>a.fadeInDown {
+		color: white;
+	}
+	/*.banner_outer_wrap ul li ../img {
+				height: 783px;
+			}*/
+	/*#homepage-feature {
+				margin-top: 156px;
+			}*/
+	
+	.get_started_content_wrap p,
+	.get_icon_des p {
+		text-indent: 2em;
+	}
+	
+	.parallax {
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		color: #fff;
+		/*overflow: hidden;*/
+	}
+	
+	.parallax-overlay {
+		background-color: rgba(0, 0, 0, 0.65);
+	}
+	
+	.film {
+		padding: 115px 0 80px;
+	}
+	/*	.ct_courses_subject_bg,
+	{
+		background-image: url(../img/blogPosts.jpg);
+	}
+	
+	.ct_register_bg {
+		background-image: url(../img/blog.jpg);
+	}
+	
+	.ct_facts_bg {
+		background-image: url(../img/background.jpeg);
+	}*/
+	
+	.ct_courses_subject_bg,
+	.ct_register_bg,
+	.ct_facts_bg,
+	.ct_testimonial_bg,
+	.wallpaper {
+		background-image: url(../img/blog.jpg);
+	}

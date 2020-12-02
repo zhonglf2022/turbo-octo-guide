@@ -1,0 +1,12 @@
+﻿<jscompress public="http://www.jscompress.cn/" command="import-combineset">
+<combinefile path="main.css">
+    <css_fixedrelativeurl value="1" />
+    <auto value="0" />
+    <sourcefile path=".\flaticon.css" />
+    <sourcefile path=".\default.css" />
+    <sourcefile path=".\menu.css" />
+    <sourcefile path=".\skin\skin-1.css" />
+    <sourcefile path=".\style.css" />
+    <sourcefile path=".\responsive.css" />
+</combinefile>
+</jscompress>

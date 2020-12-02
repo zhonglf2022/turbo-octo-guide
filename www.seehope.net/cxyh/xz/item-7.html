@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>3D Folding Panel</title>
+	<style>
+			@font-face {
+				font-family: "Times New Roman";
+			}
+			
+			@font-face {
+				font-family: "宋体";
+			}
+			
+			@font-face {
+				font-family: "Wingdings";
+			}
+			
+			@font-face {
+				font-family: "黑体";
+			}
+			
+			@font-face {
+				font-family: "Calibri";
+			}
+			
+			@font-face {
+				font-family: "微软雅黑";
+			}
+			
+			@font-face {
+				font-family: "仿宋_GB2312";
+			}
+			
+			@font-face {
+				font-family: "华文仿宋";
+			}
+			
+			@font-face {
+				font-family: "Arial Unicode MS";
+			}
+			
+			@font-face {
+				font-family: "Arial";
+			}
+			
+			@font-face {
+				font-family: "仿宋";
+			}
+			
+			p.MsoNormal {
+				mso-style-name: 正文;
+				mso-style-parent: "";
+				margin: 0pt;
+				margin-bottom: .0001pt;
+				mso-pagination: none;
+				text-align: justify;
+				text-justify: inter-ideograph;
+				font-family: 'Times New Roman';
+				mso-fareast-font-family: 宋体;
+				font-size: 10.5000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			h1 {
+				mso-style-name: "标题 1";
+				mso-style-next: 正文;
+				margin-top: 9.0000pt;
+				margin-bottom: 9.0000pt;
+				layout-grid-mode: char;
+				page-break-after: avoid;
+				mso-pagination: lines-together;
+				text-align: center;
+				mso-outline-level: 1;
+				font-family: 'Times New Roman';
+				mso-fareast-font-family: 黑体;
+				font-weight: bold;
+				font-size: 18.0000pt;
+				mso-font-kerning: 22.0000pt;
+			}
+			
+			h3 {
+				mso-style-name: "标题 3";
+				mso-style-noshow: yes;
+				mso-style-next: 正文;
+				margin-top: 13.0000pt;
+				margin-bottom: 13.0000pt;
+				page-break-after: avoid;
+				mso-pagination: lines-together;
+				text-align: justify;
+				text-justify: inter-ideograph;
+				mso-outline-level: 3;
+				line-height: 173%;
+				font-family: 'Times New Roman';
+				mso-fareast-font-family: 宋体;
+				font-weight: bold;
+				font-size: 16.0000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			span.10 {
+				font-family: Wingdings;
+			}
+			
+			span.15 {
+				font-family: Wingdings;
+				font-weight: bold;
+				font-size: 16.0000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			span.16 {
+				font-family: 'Times New Roman';
+				mso-fareast-font-family: 黑体;
+				font-weight: bold;
+				font-size: 18.0000pt;
+				mso-font-kerning: 22.0000pt;
+			}
+			
+			span.17 {
+				font-family: Wingdings;
+				font-size: 9.0000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			span.18 {
+				font-family: Wingdings;
+				font-size: 9.0000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			p.MsoFooter {
+				mso-style-name: 页脚;
+				mso-style-noshow: yes;
+				margin: 0pt;
+				margin-bottom: .0001pt;
+				layout-grid-mode: char;
+				mso-pagination: none;
+				text-align: left;
+				font-family: 'Times New Roman';
+				mso-fareast-font-family: 宋体;
+				font-size: 9.0000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			p.MsoHeader {
+				mso-style-name: 页眉;
+				mso-style-noshow: yes;
+				margin: 0pt;
+				margin-bottom: .0001pt;
+				border-bottom: 1.0000pt solid windowtext;
+				mso-border-bottom-alt: 0.7500pt solid windowtext;
+				padding: 0pt 0pt 1pt 0pt;
+				layout-grid-mode: char;
+				mso-pagination: none;
+				text-align: center;
+				font-family: 'Times New Roman';
+				mso-fareast-font-family: 宋体;
+				font-size: 9.0000pt;
+				mso-font-kerning: 1.0000pt;
+			}
+			
+			p.p {
+				mso-style-name: "普通\(网站\)";
+				mso-style-noshow: yes;
+				margin-top: 5.0000pt;
+				margin-bottom: 5.0000pt;
+				mso-margin-top-alt: auto;
+				mso-margin-bottom-alt: auto;
+				mso-pagination: widow-orphan;
+				text-align: left;
+				font-family: 宋体;
+				font-size: 12.0000pt;
+			}
+			
+			p.22 {
+				mso-style-name: reader-word-layer;
+				mso-margin-top-alt: auto;
+				mso-margin-bottom-alt: auto;
+				mso-pagination: widow-orphan;
+				text-align: left;
+				font-family: 宋体;
+				mso-bidi-font-family: 'Times New Roman';
+				font-size: 12.0000pt;
+			}
+			
+			p.23 {
+				mso-style-name: 正文1;
+				margin: 0pt;
+				margin-bottom: .0001pt;
+				mso-add-space: auto;
+				mso-pagination: none;
+				text-align: left;
+				font-family: Calibri;
+				mso-fareast-font-family: 宋体;
+				color: rgb(0, 0, 0);
+				font-size: 12.0000pt;
+			}
+			
+			span.msoIns {
+				mso-style-type: export-only;
+				mso-style-name: "";
+				text-decoration: underline;
+				text-underline: single;
+				color: blue;
+			}
+			
+			span.msoDel {
+				mso-style-type: export-only;
+				mso-style-name: "";
+				text-decoration: line-through;
+				color: red;
+			}
+			
+			table.MsoNormalTable {
+				mso-style-name: 普通表格;
+				mso-style-parent: "";
+				mso-style-noshow: yes;
+				mso-tstyle-rowband-size: 0;
+				mso-tstyle-colband-size: 0;
+				mso-padding-alt: 0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+				mso-para-margin: 0pt;
+				mso-para-margin-bottom: .0001pt;
+				mso-pagination: widow-orphan;
+				font-family: 'Times New Roman';
+				font-size: 10.0000pt;
+				mso-ansi-language: #0400;
+				mso-fareast-language: #0400;
+				mso-bidi-language: #0400;
+			}
+			
+			@page {
+				mso-page-border-surround-header: no;
+				mso-page-border-surround-footer: no;
+			}
+			
+			@page Section0 {
+				margin-top: 72.0000pt;
+				margin-bottom: 72.0000pt;
+				margin-left: 90.0000pt;
+				margin-right: 56.6500pt;
+				size: 595.3000pt 841.9000pt;
+				layout-grid: 15.6000pt;
+			}
+			
+			div.Section0 {
+				page: Section0;
+			}
+		</style>
+</head>
+<body>
+	<div class="cd-fold-content single-page">
+		<div class="Section0" style="layout-grid:15.6000pt;">
+			<p class=MsoNormal align=center style="margin-top:6.0000pt;margin-bottom:6.0000pt;text-align:center;line-height:114%;"><b><span style="mso-spacerun:'yes';font-family:微软雅黑;mso-bidi-font-family:宋体;line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="微软雅黑" >广东省教育厅产学合作协同育人项目</font></span></b><b><span style="mso-spacerun:'yes';font-family:微软雅黑;mso-bidi-font-family:宋体;line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p>
+			<p class=MsoNormal align=center style="margin-top:6.0000pt;margin-bottom:6.0000pt;text-align:center;line-height:114%;"><b><span style="mso-spacerun:'yes';font-family:微软雅黑;mso-bidi-font-family:宋体;line-height:114%;font-weight:bold;font-size:22.0000pt;mso-font-kerning:0.0000pt;" ><font face="微软雅黑" >校企合作协议</font></span></b><b><span style="mso-spacerun:'yes';font-family:微软雅黑;mso-bidi-font-family:宋体;line-height:114%;font-weight:bold;font-size:22.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >甲方：广州砺锋信息科技有限公司</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >地址：</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >联系人与电话：</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >乙方：</font> </span><i><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-style:italic;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></i><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">&nbsp;<font face="仿宋_GB2312" >大学</font>/学院</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >地址：</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >联系人与电话：</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;text-align:left;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >为响应习近平优先发展教育事业；贯彻落实《国务院办公厅关于深化高等学校创新创业教育改革的实施意见》</font>(国办发〔2015〕36号)和《国务院办公厅关于深化产教融合的若干意见》(国办发〔2017〕95号)精神，完善职业教育和培训体系，深化产教融合、校企合作；加快一流大学和一流学科建设，实现高等教育内涵式发展；健全学生资助制度，使绝大多数城乡新增劳动力接受高中阶段教育、更多接受高等教育；支持和规范社会力量兴办教育；加强师德师风建设，培养高素质教师队伍，倡导全社会尊师重教；办好继续教育，加快建设学习型社会，大力提高国民素质等&#8203;政策；培养创新创业型素质型人才，提高科研成果转化力度， 甲方广州砺锋信息科技有限公司 、乙方 </span><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >大学，在教育厅指导下实施产学合作协同育人，支持乙方</font>&#8220;教学内容与课程体系改革&#8221;，研究和实践&#8220;新工科建设专题&#8221;，搭建高质量高水准的&#8220;实践条件和实践基地建设&#8221;，发展 &#8220;创新创业教育改革&#8221;等方面造就多样化、创新型卓越工程科技人才，支撑产业转型升级，实现高校人才培养与企业发展的合作共赢。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="layout-grid-mode:char;line-height:114%;"><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p>&nbsp;</o:p></span></u></b></p>
+			<p class=23 style="layout-grid-mode:char;line-height:114%;"><b><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&nbsp;</span></b><b><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></p>
+			<p class=23 style="layout-grid-mode:char;line-height:114%;"><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="仿宋_GB2312" >双方介绍：</font></span></u></b><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></u></b></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;">1，广州砺锋信息科技有限公司是一家高新技术企业，由资深IT团队创办于2013年5月,现位于广州天河区科韵路软件园。成立近五年来，主要从事</span><span><a href="http://www.seehope.net" ><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><font face="仿宋_GB2312" >计算机软件研发</font></span></a>
+				</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >、系统集成服务、顾问咨询、人力资源服务、大学生高薪就业与创新创业培育等业务，公司主要核心团队具备十五年以上的信息服务行业的从业经验，对信息服务行业的业务、过程管理、开发、服务、标准等方面，具备深入的研究。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >主要在交通、电力、电信、教育、金融等五大行业领域进行产品研发与项目外包业务，</font> <font face="仿宋_GB2312" >公司自主研发多款公有云、私有云、混合云教育类产品、基于二维码与</font>LBS、人脸识别的智能识别软件、拍图识物、溯源系统、多款微信公众号与小程序、自媒体运营产品、互联网+校园事务通多款应用软件，同时在系统集成（运行、维护）、人力资源服务、企业员工内训、大学生高薪就业技能培训、大学生创新创业项目孵化与技能指导等方面取得非常好的成绩，2016年公司申请为高新技术企业，同时获得省众创空间资质，政府立项5项，拥有近20个软件著作权与专利。2018年，成功在广州股权交易中心挂牌，为上市跨进一步。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >公司旗下三大品牌，其中砺锋科技主要致力于与企业合作，为其提供全方位的</font>IT解决方案，包括项目研发、人力外派、顾问咨询等服务；码云社主要是集中为大学生提供线上与线下高薪就业技能培训，并保证所有大学生高薪就业于一线IT企业；砺锋众创空间主要是致力于为大学生及毕业五年以下的精英团队提供创新创业系列服务，包括提供场地入驻、财税法律顾问咨询、项目孵化与风投对接、创新创业政策补贴与宣传等。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >行业经验：</font> </span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312" >从成立至今，逐步在许多重要的领域，充当起重要的角色，先后参与了广电、电信、金融、电力、交通等五大行业的项目，积累了丰富的行业经验和技术经验。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312" >成功申请政府立项项目五个，专利与著作权共</font>20项，成功获得高新企业、科技小巨人、入园企业等称号。2016年成功申请为广东省众创空间。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >公司宗旨：</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >本着</font>&#8220;取之于高校，铸之于砺锋，用之于企业&#8221;的理念，以&#8220;传播、分享、赋能&#8221;为宗旨，旗下三大品牌&#8220;砺锋科技、砺锋众创空间、码云社&#8221;合力与院校合作培养创新型与高薪技能性人才。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">2，XX大学介绍：</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=MsoNormal style="text-indent:32.0000pt;mso-char-indent-count:2.0000;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >双方期望通过教育厅产学合作协同育人项目的实施，建立合作伙伴关系，</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font face="仿宋_GB2312" >实现高校人才培养与企业发展的合作共赢。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">&nbsp;<font face="仿宋_GB2312" >现双方针对以下项目进行合作，并达成如下协议，从协议签署之日起执行。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><u><span style="mso-spacerun:'yes';font-family:仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&#9675;</span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="仿宋_GB2312" >教学内容与课程体系</font> &nbsp;</span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></u></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><u><span style="mso-spacerun:'yes';font-family:仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&#9675;</span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="仿宋_GB2312" >新工科研究与实践项目</font> &nbsp;</span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></u></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><u><span style="mso-spacerun:'yes';font-family:仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&#9675;</span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="仿宋_GB2312" >实践条件和实践基地项目</font> </span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></u></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><u><span style="mso-spacerun:'yes';font-family:仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&#9675;</span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&nbsp;<font face="仿宋_GB2312" >创新创业教育改革项目</font> </span></u><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></u></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=center style="layout-grid-mode:char;text-align:center;line-height:114%;"><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p>&nbsp;</o:p></span></u></b></p>
+			<p class=23 align=center style="layout-grid-mode:char;text-align:center;line-height:114%;"><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="仿宋_GB2312" >协议</font></span></u></b><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></u></b></p>
+			<p class=23 align=center style="layout-grid-mode:char;text-align:center;line-height:114%;"><b><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;text-decoration:underline;text-underline:single;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><o:p>&nbsp;</o:p></span></u></b></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >一、公司的承</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:宋体;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >诺</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">1.在受本协议约束的前提下，公司同意向大学提供 </span><i><u><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);text-decoration:underline;text-underline:single;font-style:italic;font-size:16.0000pt;mso-font-kerning:0.0000pt;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u></i><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">&nbsp;<font face="仿宋_GB2312" >万</font> <font face="仿宋_GB2312" >的金额（具体按合作项目与申报指南进行合并计算）。公司将依照申报指南的规定，并在大学证明已令公司适当满意地实现了所规定的建设阶段后，支付该笔资金。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">2.公司不承诺负责除本协议规定之外的任何开支、技术援助或品牌宣传。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >二、大学的承</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:宋体;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >诺</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">1.自本协议生效日起，大学将委派一名教职人员专门负责本项目的协调工作。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">2.大学将根据申报指南中的方案执行此项目。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">3.大学将根据公司提出的要求向公司提供项目状态，尤其是年中与年尾的执行报告，包括资金使用情况。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >三、保密</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">1.&#8220;保密信息&#8221;是指一方根据本协议向另一方披露的、标记为保密信息或在相应情况下通常会被视作披露方保密信息的信息。保密信息不包括接收方已知的信息、非接收方错误而公开的信息、接收方独立开发的信息，或其他方通过合法途径提供给接收方的信息。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">2.除了需要知晓该信息且已书面同意对该信息保密的关联公司、员工和代理，接受方不得向其他人披露保密信息。接收方及其关联公司、员工和代理只能出于根据本协议行使权利和履行义务的目的而使用保密信息，同时须采取合理的谨慎态度来保护这些信息。接收方还可在法律要求时披露保密信息，但须先向披露方提供合理的通知。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >四、公开</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >任何一方均不得在未经另一方事先书面同意的情况下就本协议所赋予的关系发表任何公开声明，除非法律有此要求，并且已向另一方提供了合理通知</font></span><b><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-weight:bold;font-size:16.0000pt;mso-font-kerning:0.0000pt;" ><font face="仿宋_GB2312" >。</font></span></b><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >五、生效、期限和终止，其他规定</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">1.期限：本协议的生效日期为公司签名的日期，本协议的有效期为 1 年（&#8220;期限&#8221;）。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">2.终止</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >（</font>1）在下列情况下，任何一方均可在书面通知另一方后立即终止本协议：如果另一方实质性违反了本协议，并在收到首先发现其违约的一方的通知后的 30 天内未对此类违约进行补救。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >（</font>2）在下列情况下，任何一方均可在书面通知另一方后立即终止本协议：如果另一方因不可抗力而无法履行本协议所规定义务的时间超过 30 天。 </span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">3.修订内容。任何修改都必须以书面形式作出，并且明确说明修改了本协议之内容。</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=22 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;text-align:justify;text-justify:inter-ideograph;line-height:114%;background:rgb(255,255,255);"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;font-size:16.0000pt;mso-font-kerning:0.0000pt;">4.管辖法律。本协议受中华人民共和国法律的管辖；</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;background:rgb(255,255,255);mso-shading:rgb(255,255,255);"><font face="仿宋_GB2312" >本协议履行中出现纠纷，双方应尽力协商解决；协商不成，提交当地仲栽委员会仲栽。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;background:rgb(255,255,255);mso-shading:rgb(255,255,255);"><o:p></o:p></span></p>
+			<p class=23 align=justify style="text-indent:32.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Calibri;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+			<p class=23 align=justify style="layout-grid-mode:char;text-align:justify;text-justify:inter-ideograph;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">&nbsp;</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=MsoNormal style="layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;">&nbsp;</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><font face="仿宋_GB2312" >双方已于生效日期由合法授权代表签署本协议。</font></span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<p class=23 style="layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">&nbsp;[以下为签字页]</span><span style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+			<table class=MsoNormalTable border=0 cellspacing=0 style="border-collapse:collapse;width:450.0000pt;margin-left:3.7000pt;mso-table-layout-alt:fixed;border:none;mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;">
+				<tr>
+					<td width=333 valign=top style="width:249.8000pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;border-right:none;border-top:none;border-bottom:none;">
+						<p class=p style="margin-top:0.0000pt;margin-bottom:0.0000pt;line-height:114%;"><b><span style="font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></b></p>
+						<p class=p style="margin-top:0.0000pt;margin-bottom:0.0000pt;line-height:114%;"><b><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" >广州砺锋信息科技公司</span></b><b><i><span style="font-family:华文仿宋;mso-bidi-font-family:'Times New Roman';line-height:114%;font-weight:bold;font-style:italic;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></i></b></p>
+						<p class=23 style="line-height:114%;"><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">姓名: &nbsp;</span><span style="font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+						<p class=p style="margin-top:0.0000pt;margin-bottom:0.0000pt;line-height:114%;"><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:'Times New Roman';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;">联系电话: &nbsp;</span><span style="font-family:华文仿宋;mso-bidi-font-family:'Times New Roman';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><o:p></o:p></span></p>
+						<p class=p style="margin-top:0.0000pt;margin-bottom:0.0000pt;line-height:114%;"><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:'Times New Roman';line-height:114%;font-size:16.0000pt;mso-font-kerning:1.0000pt;">日期: &nbsp;</span><b><span style="font-family:华文仿宋;mso-bidi-font-family:'Times New Roman';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p>
+					</td>
+					<td width=266 valign=top style="width:200.2000pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;border-right:none;border-top:none;border-bottom:none;">
+						<p class=p style="margin-top:0.0000pt;margin-bottom:0.0000pt;line-height:114%;"><b><span style="font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p>&nbsp;</o:p></span></b></p>
+						<p class=p style="margin-top:0.0000pt;margin-bottom:0.0000pt;line-height:114%;"><b><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" >XXX大学</span></b><b><span style="font-family:华文仿宋;mso-bidi-font-family:'Arial Unicode MS';line-height:114%;font-weight:bold;font-size:16.0000pt;mso-font-kerning:1.0000pt;" ><o:p></o:p></span></b></p>
+						<p class=23 style="line-height:114%;"><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">姓名: </span><span style="font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+						<p class=23 style="layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">联系电话：</span><span style="font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+						<p class=23 style="layout-grid-mode:char;line-height:114%;"><span style="mso-spacerun:'yes';font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;">日期: &nbsp;</span><span style="font-family:华文仿宋;mso-bidi-font-family:Arial;line-height:114%;color:rgb(0,0,0);font-size:16.0000pt;mso-font-kerning:0.0000pt;"><o:p></o:p></span></p>
+					</td>
+				</tr>
+				<tr style="height:55.4000pt;">
+					<td width=333 valign=top style="width:249.8000pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;border-right:none;border-top:none;border-bottom:none;">
+						<p class=23 style="line-height:114%;"><span style="font-family:华文仿宋;mso-bidi-font-family:Arial;color:rgb(0,0,0);font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+					</td>
+					<td width=266 valign=top style="width:200.2000pt;padding:0.0000pt 0.0000pt 0.0000pt 0.0000pt ;border-left:none;border-right:none;border-top:none;border-bottom:none;">
+						<p class=23 style="margin-bottom:14.0000pt;line-height:114%;"><span style="font-family:华文仿宋;mso-bidi-font-family:Arial;color:rgb(0,0,0);font-size:12.0000pt;mso-font-kerning:0.0000pt;"><o:p>&nbsp;</o:p></span></p>
+					</td>
+				</tr>
+			</table>
+			<p class=MsoNormal style="line-height:114%;"><span style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;"><o:p>&nbsp;</o:p></span></p>
+		</div>
+	</div>
+</body>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

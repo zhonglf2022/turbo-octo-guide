@@ -1,0 +1,338 @@
+﻿/* overwrite type area START */
+@media screen and (max-width:1920px) {
+    .container {
+        width: 100%;
+        min-width: 1116px;
+    }
+}
+.panel {
+    width: 1116px;
+    margin: auto;
+}
+/* overwrite type area END */
+
+.center.frame{
+    color: #1a1818;
+    letter-spacing: 0.12em;
+}
+.center.frame .title{
+    display: inline-block;
+    font-size: 42px;
+    padding: 40px 80px;
+    background-image: url(../images/title_bg2.png), url(/img/collaboration/title_bg1.png);
+    background-position: right, left;
+}
+
+.banner.container{
+    height: 590px;
+    background-image: url(../images/banner_bg.jpg);
+    background-position: top;
+    overflow: hidden;
+}
+.banner.container .panel{
+    width: 1050px;
+/*     height: 238px; */
+    padding: 68px 147px;
+    margin-top: 360px;
+    font-size: 24px;
+    color: #fff;
+    text-align: justify;
+    background-image: url(../images/banner_bg2.png);
+    background-size: 100%;
+    transition: all 0.5s ease;
+}
+.banner.container .panel:hover{
+    transform: translateX(1%);
+}
+
+@media screen and (max-width:1116px){
+    .banner.container .panel{
+        width: 780px;
+    }
+}
+
+.problems.container .content{
+    width: 1000px;
+    margin: auto;
+    padding-left: 47px;
+    padding-bottom: 30px;
+    height: 370px;
+    align-content: space-around;
+    background-image: url(../images/problems_bg.png);
+    background-position: bottom;
+}
+.problems.container .content >*{
+    width: 100%;
+    justify-content: space-between;
+}
+.problems.container .content .label{
+    padding: 0.75em 1.5em;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 0 rgba(123,109,244,0.5);
+    font-size: 23px;
+    color: #352e2e;
+    position: relative;
+    text-align:right;
+    background-color: #fff;
+}
+.problems.container .content .label::after{
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 32px;
+    left: 82%;
+    top: 100%;
+    background-image: url(../images/problems_triangle.png);
+}
+.problems.container .content .label:nth-child(2)::after{
+    left: 4%;
+}
+
+.cooperation.container{
+    overflow: hidden;
+}   
+.cooperation.container .description{
+    font-size: 20px;
+    padding: 0 2em;
+}
+.cooperation.container .content{
+    position: relative;
+    height: 275px;
+    padding-top: 40px;
+    margin-top: 40px;
+    background-image: url(../images/cooperation_content_bg.png),url(/img/collaboration/advantage1_pic.png);
+    background-position: right, left;
+}
+.cooperation.container .content >*{
+    position: absolute;
+}
+@keyframes bg {
+    50% {
+        opacity: 0.6;
+    }
+}
+.cooperation.container .content .bg{
+    width: 100%;
+    height: inherit;
+    background-image: url(../images/cooperation_bg.png);
+    animation: bg 1s 0s ease-in-out infinite;
+}
+.cooperation.container .content .label{
+    justify-content: center;
+    align-content: center;
+    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: 0;
+    border: dashed 1px #857bf6;
+    border-radius: 100%;
+    background-color: #F1F2F9;
+    cursor: pointer;
+}
+.cooperation.container .content .label.activated{
+    background-color: #857bf6;
+    color: #fff;
+    border-style: solid;
+}
+.cooperation.container dl{
+    width: 1060px;
+    margin-left: 55px;
+    margin-bottom: 90px;
+}
+.cooperation.container dt{
+    margin-top: 60px;
+    background-image: url(../images/cooperation_sectitle_bg.png);
+    background-repeat: repeat-x;
+    text-align: left;
+}
+.cooperation.container dt .sectitle{
+    display: inline-block;
+    height: 60px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #141515;
+    background-color: #F1F2F9;
+}
+.cooperation.container dt .icon{
+    padding-left: 0.5em;
+    background-color: #F1F2F9;
+    vertical-align: text-bottom;
+    transform: translateY(-3px);
+}
+.cooperation.container dd{
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
+}
+.cooperation.container dd .text-wrapper{
+    padding: 30px 35px 30px 60px;
+    min-height: 110px;
+    box-shadow: 0 0 8px 0 rgba(163,164,164,.55);
+}
+.cooperation.container dd .text-wrapper p{
+    width: 960px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111212;
+    text-align: justify;
+}
+.cooperation.container dd .number{
+    margin-right: -126px;
+    width: 126px;
+    height: 126px;
+    background-image: url(../images/cooperation_num_bg.png);
+    transform: translateX(-63px);
+    position: relative;
+    z-index: 1;
+}
+.cooperation.container dl .wrapper:nth-child(2n-1):hover{
+    transform: translateX(1%);
+}
+.cooperation.container dl .wrapper:nth-child(2n):hover{
+    transform: translateX(-1%);
+}
+.cooperation.container .wrapper:nth-child(2n) >*{
+    transform: rotate(180deg) translateX(63px);
+}
+.cooperation.container .wrapper:nth-child(2n) dt .sectitle{
+    transform: rotate(180deg);
+}
+.cooperation.container .wrapper:nth-child(2n) dd .text-wrapper{
+    transform: rotateX(180deg);
+}
+.cooperation.container .wrapper:nth-child(2n) dd .number{
+    transform: rotate(180deg) translateX(63px);
+}
+.cooperation.container .wrapper:nth-child(2n) .text-wrapper p{
+    transform: rotateY(180deg);
+}
+
+.advantages.container{
+    background-color: #f5f8fe;
+}
+.advantages.container .tabNav{
+    width: 900px;
+    margin: auto;
+    justify-content: space-around;
+}
+.advantages.container .tabNav .wrapper{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #fff;
+}
+.advantages.container .tabNav .wrapper >*{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+.advantages.container .tabNav .wrapper .bg{
+    border-radius: inherit;
+    box-shadow: 0 0 0 10px #8175f6 inset;
+    transform: rotate(-180deg);
+    transition: transform 0.4s ease;
+}
+.advantages.container .tabNav .wrapper.activated .bg{
+    transform: rotate(0deg);
+}
+.advantages.container .tabNav .wrapper .pic{
+    background-position: top;
+}
+.advantages.container .tabNav .wrapper .text{
+    margin-top: 145px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.advantages.container .tabNav .wrapper .triangle{
+    margin-top: 191px;
+}
+.advantages.container .tabContent{
+    letter-spacing: 0;
+    background-color: #fff;
+    padding: 30px 0;
+    margin-top: 70px;
+    box-shadow: 0 0 16px 0 rgba(220,231,252,.69);
+}
+.advantages.container .tabContent ul{
+    display: none;
+}
+.advantages.container .tabContent ul.activated{
+    display: block;
+}
+.advantages.container .tabContent ul li{
+    line-height: 26px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 4px 60px;
+    background-image: url(../images/advantages_li_bg.png);
+    background-position: 30px 9px;
+}
+.advantages.container button.submit{
+    background-color: #948afe;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 2em;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+    position: relative;
+    overflow: hidden;
+}
+@-webkit-keyframes ball-scale {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    100% {
+        -webkit-transform: scale(3.3);
+        transform: scale(3.3);
+        opacity: 0
+    }
+}
+@keyframes ball-scale {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    100% {
+        -webkit-transform: scale(3.3);
+        transform: scale(3.3);
+        opacity: 0
+    }
+}
+.advantages.container button.submit::after{
+	content: " ";
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 88px;
+    top: 0;
+	border-radius: 70px;
+	background-color: #fff;
+/* 	transform: scale(3.3); */
+	
+	animation-fill-mode: both;
+	animation: ball-scale 1s 0s ease-in-out infinite;
+}
+
+.problems.container .content{
+    transition: all 1s ease;
+}
+.problems.container .content.deactivated{
+    transform: scale(0);
+}
+.cooperation.container dl .wrapper{
+    transition: all 2s ease;
+}
+.cooperation.container dl .wrapper.deactivated:nth-child(2n-1){
+    transform: translateX(-100%);
+}
+.cooperation.container dl .wrapper.deactivated:nth-child(2n){
+    transform: translateX(100%);
+}

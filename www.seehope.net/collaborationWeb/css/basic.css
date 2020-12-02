@@ -1,0 +1,179 @@
+﻿#zt{
+	position: relative;
+	z-index:0;
+}
+a,address,b,big,blockquote,body,center,cite,code,dd,del,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,u,ul,var
+	{
+	margin: 0;
+	padding: 0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary
+	{
+	display: block;
+}
+
+ul {
+	list-style: outside none none;
+}
+
+a {
+	outline: medium none;
+	text-decoration: none;
+	transition: all 0.25s ease 0s;
+}
+
+a img {
+	border: 0 none;
+}
+
+* {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+button {
+	cursor: pointer;
+}
+/* Nested Frames START */
+body {
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	overflow-x: hidden;
+}
+
+.frame {
+	width: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+	.container {
+		width: 1920px;
+	}
+}
+
+@media screen and (max-width: 1920px) {
+    html{
+        min-width: 1200px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+.container {
+	margin: 0px auto;
+	text-align: center;
+	overflow: inherit;
+}
+
+.container.content>* {
+	margin-bottom: 40px;
+}
+
+.panel {
+	width: 1200px;
+	margin: auto;
+	background-repeat: no-repeat;
+}
+
+.panel.content>* {
+	margin-bottom: 40px;
+}
+
+.gesso {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0 27px;
+}
+/* Nested Frames END */
+/* Basic theme color usages START */
+svg .stroke-alterable {
+	stroke: #FFBA00;
+}
+
+body {
+	color: #3e3e3e;
+	background-color: #F1F2F9;
+}
+
+a {
+	color: #3e3e3e;
+}
+/* theme color transitions */
+/* Basic theme color usages END */
+/* Basic Reusable Components START */
+/* Simple Layout */
+/* no specific html stucture needed */
+.clear {
+	clear: both;
+	display: block;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+
+.flex-box {
+	display: box;
+	/* OLD - Android 4.4- */
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+
+.ellipsis-line {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* Complex Layout */
+/* specific html stucture needed */
+.gesso .sectitle-wrapper {
+	text-align: left;
+	padding-bottom: unset;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ebeaee;
+}
+
+.sectitle-wrapper .sectitle {
+	border-bottom-style: solid;
+	border-bottom-width: 0;
+	border-bottom-color: #FFBA00;
+}
+
+.sectitle {
+	font-weight: bold;
+}
+/* Basic Reusable Components END */
+.text-format{
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.text-format4{
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+/* Fix miniCSS3Carousel over-layer problem */
+.mini-css3-carousel{
+	position: relative;
+	z-index: 0;
+}

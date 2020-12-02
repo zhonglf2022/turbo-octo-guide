@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+img{
+	display: block;
+	border: none;
+}
+
+.clearFloat:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+body{
+	font: normal normal 16px "微软雅黑",Arial;
+}

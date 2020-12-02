@@ -1,0 +1,165 @@
+body,
+dl,
+dd,
+ul,
+ol,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+blockquote,
+form,
+fieldset,
+legend,
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft YaHei';
+  list-style: none;
+  -moz-user-select: text !important; 
+  -webkit-user-select: text !important; 
+  -ms-user-select: text !important; 
+  user-select: text !important; 
+}
+i {
+  font-style: normal;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: #333;
+  vertical-align: top;
+}
+/*图片bug处理*/
+img{
+  display: block;
+  outline: none;
+  ::-moz-border:0px;
+  border: 0px;
+}
+
+.visibility{
+  visibility: hidden;
+}
+/*相对定位*/
+.relative{
+  position: relative;
+}
+/*绝对定位*/
+.absolute{
+  position: absolute;
+}
+/*清除浮动*/
+.clear{
+     clear: both;
+     display: block;
+     float: none;
+     overflow: hidden;
+}
+/*左浮动*/
+.left{
+	float: left;
+}
+/*右浮动*/
+.right{
+	float: right;
+}
+/*页头*/
+.head{
+	height: 38px;
+	width: auto;
+  min-width: 1200px;
+  background: #f5f5f5;
+}
+.head-box{
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+}
+/*12字体*/
+.font12{
+	font-size: 12px;
+}
+
+
+
+/* 顶部小广告 */
+.top_advertisement{
+  display: block;
+  width:100%;
+  height: 200px;
+  min-width: 1200px;
+  background: url("../images/top_advertisement.jpg")/*tpa=http://www.seehope.net/images/top_advertisement.jpg*/ repeat-x center;
+  background-size: auto 100%;
+
+  _display: none;
+}
+
+
+
+/*logo-head*/
+.logo-head{
+  height: 115px;
+  width: 100%;
+  min-width: 1200px;
+  background: #ffffff;
+}
+.logo-box{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../images/logotext_1.png")/*tpa=http://www.seehope.net/images/logotext_1.png*/;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.logohref{
+  width: auto;
+  height: auto;
+  line-height: 115px;
+
+}
+.logohref>img{
+  display: block;
+  margin-top: 36px;
+}
+
+.logo-box>a{
+  line-height: 115px;
+  margin-right: 22px;
+}
+.Place{
+  color: #666666;
+  font-size: 22px;
+}
+.Place-box{
+  width: 186px;
+  height: 34px;
+  border: 1px solid #eeeeee;
+  margin-top: 42px;
+  background: url("../images/place.png")/*tpa=http://www.seehope.net/images/place.png*/;
+  background-repeat: no-repeat;
+  background-position: 10px 5px; 
+  text-indent: 34px;
+  overflow: hidden;
+}
+.Place-box>span{
+  color: #666666;
+  font-size: 14px;
+  line-height: 34px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.Place-box>span:hover{
+  font-weight: bold;
+}
+.Place-box>span:first-child{
+  cursor: default;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="/img/logo_small.jpg" />
+<title>源码时代官网-与时代同频</title>
+<meta name="keywords" content="Java培训,PHP培训,UI设计培训,H5前端培训,大数据培训,Python+人工智能培训,源码时代" />
+<meta name="description" content="源码时代专注Java培训,PHP培训,UI设计培训,H5前端培训,大数据培训,Python+人工智能培训，致力于让每一名学员高薪就业，与时代同频。" />
+<link href="/css/basic.css" rel="stylesheet" type="text/css">
+<link href="/css/index.css" rel="stylesheet" type="text/css">
+<link href="/css/header.css" rel="stylesheet" type="text/css">
+<link href="/css/its-error.css" rel="stylesheet" type="text/css">
+<link href="/css/theme/index.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+</head>
+<script type="text/javascript">
+	window.location.href = "/";
+</script>
+<body>
+	<!-- header -->
+	<div class="header frame">
+		<div class="container">
+			<a href="/"><div class="logo-wrapper" style="background-image:url(/img/banner_logo.png)"></div></a>
+			<div class="topNav">
+				<a href="http://www.itsource.cn" style="color: #fff;">
+					<div class="icon-wrapper color-alterable-svg-wrapper activated">
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg class="back" viewBox="0 0 253 180">
+							<g id="quanguo_1_" enable-background="new    ">
+								<g id="quanguo">
+									<g>
+										<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFB700" d="M54.77,39.607C53.627,38.609,52.136,38,50.5,38
+								c-3.59,0-6.5,2.91-6.5,6.5s2.91,6.5,6.5,6.5c0.977,0,1.899-0.222,2.73-0.607C51.866,49.201,51,47.454,51,45.5
+								C51,42.887,52.546,40.64,54.77,39.607z M17,142c-4.971,0-9,4.029-9,9s4.029,9,9,9s9-4.029,9-9S21.971,142,17,142z M90,179h28v-28
+								H90V179z M217,107v72h20v-72H217z" />
+									</g>
+								</g>
+							</g>
+						</svg>
+						<p class="front" style="background-position: 0% center;"></p>
+						<p class="text">全国校区</p>
+					</div>
+				</a>
+				<a href="http://cd.itsource.cn" style="color: #fff;">
+					<div class="icon-wrapper color-alterable-svg-wrapper">
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg class="back" viewBox="0 0 253 180">
+							<g id="chengdu_1_" enable-background="new    ">
+								<g id="chengdu">
+									<g>
+										<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFB700" d="M74.5,43C60.969,43,50,53.969,50,67.5
+								c0,11.993,8.62,21.967,20,24.08V63h28.581C96.467,51.619,86.493,43,74.5,43z M86,180h26v-32H86V180z M197.716,29.036
+								C197.897,29.66,198,30.317,198,31c0,3.866-3.134,7-7,7c-0.241,0-0.48-0.012-0.716-0.036C191.134,40.873,193.816,43,197,43
+								c3.866,0,7-3.134,7-7C204,32.375,201.246,29.395,197.716,29.036z M156,180h38v-41h-38V180z" />
+									</g>
+								</g>
+							</g>
+						</svg>
+						<p class="front" style="background-position-x: 25%"></p>
+						<p class="text">成都校区</p>
+					</div>
+				</a>
+				<a href="http://cq.itsource.cn" style="color: #fff;">
+					<div class="icon-wrapper color-alterable-svg-wrapper">
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg class="back" viewBox="0 0 253 180">
+							<g id="chongqing_1_" enable-background="new    ">
+								<g id="chongqing">
+									<g>
+										<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFB700" d="M162,130h8v-5h-8V130z M162,120h8v-5h-8V120z M79.923,19.605
+								C79.972,20.064,80,20.528,80,21c0,7.18-5.82,13-13,13c-1.368,0-2.685-0.214-3.923-0.605C63.773,39.918,69.292,45,76,45
+								c7.18,0,13-5.82,13-13C89,26.188,85.185,21.27,79.923,19.605z M179,180h17v-20h-17V180z M216,35v5h8v-5H216z M216,50h8v-5h-8V50z
+								" />
+									</g>
+								</g>
+							</g>
+						</svg>
+						<p class="front" style="background-position-x: 50%"></p>
+						<p class="text">重庆校区</p>
+					</div>
+				</a>
+				<a href="http://wh.itsource.cn" style="color: #fff;">
+					<div class="icon-wrapper color-alterable-svg-wrapper">
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg class="back" viewBox="0 0 253 180">
+							<g id="wuhan_1_" enable-background="new    ">
+								<g id="wuhan">
+									<g>
+										<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFB700" d="M67,134h7v-7h-7V134z M67,99h7v-7h-7V99z M219.278,23.308
+								c0.004,0.103,0.016,0.204,0.016,0.307c0,4.758-3.871,8.615-8.647,8.615c-1.831,0-3.527-0.571-4.925-1.539
+								c0.163,4.615,3.96,8.309,8.632,8.309c4.775,0,8.646-3.857,8.646-8.615C223,27.451,221.525,24.864,219.278,23.308z M54,68h7v-7h-7
+								V68z M67,68h7v-7h-7V68z M135,75.088l53,29.908v-5.088L135,70V75.088z M135,99.088l53,29.908v-5.088L135,94V99.088z M135,123.088
+								l53,29.908v-5.088L135,118V123.088z M54,134h7v-7h-7V134z" />
+									</g>
+								</g>
+							</g>
+						</svg>
+						<p class="front" style="background-position-x: 75%"></p>
+						<p class="text">武汉校区</p>
+					</div>
+				</a>
+				<a href="http://www.itsource.cn/special/520itsz/index.html" target="_black" style="color: #fff;">
+					<div class="icon-wrapper color-alterable-svg-wrapper">
+						<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg class="back" viewBox="0 0 253 180">
+							<g id="shenzhen_1_" enable-background="new    ">
+								<g id="shenzhen">
+									<g>
+										<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFB700" d="M81,131h6v-5h-6V131z M81,119h6v-5h-6V119z M81,107h6v-5h-6V107
+								z M81,95h6v-5h-6V95z M92,157h6v-5h-6V157z M59,129h6v-5h-6V129z M81,157h6v-5h-6V157z M81,144h6v-5h-6V144z M59,142h6v-5h-6V142
+								z M96,83h6v-5h-6V83z M92,95h6v-5h-6V95z M92,144h6v-5h-6V144z M212.098,40.017c0.874-0.272,1.604-0.775,2.182-1.405
+								c-1.679-0.385-3.118-1.606-3.666-3.37c-0.549-1.763-0.056-3.585,1.107-4.854c-0.832-0.191-1.72-0.191-2.594,0.081
+								c-2.637,0.82-4.109,3.622-3.289,6.259S209.461,40.837,212.098,40.017z M92,131h6v-5h-6V131z M92,107h6v-5h-6V107z M92,119h6v-5
+								h-6V119z M215,151c-4.971,0-9,4.029-9,9s4.029,9,9,9s9-4.029,9-9S219.971,151,215,151z" />
+									</g>
+								</g>
+							</g>
+						</svg>
+						<p class="front" style="background-position-x: 100%"></p>
+						<p class="text">深圳校区</p>
+					</div>
+				</a>
+			</div>
+			<div class="contact">
+				<p class="text">
+					<img class="motto" src="/img/header_motto.png" />
+					<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+					<svg class="icon_tel" viewBox="0 0 1046 1024">
+						<path d="M718.052 487.852c1.822 11.959 12.136 20.5 23.853 20.5 1.242 0 2.467-0.081 3.707-0.274 13.2-2.032 22.257-14.377 20.227-27.56-32.072-208.888-219.349-218.704-221.234-218.783-12.973-0.693-24.578 9.848-25.109 23.192-0.532 13.344 9.864 24.593 23.192 25.126 1.499 0.064 149.258 7.865 175.366 177.8zM772.037 257.277c-164.584-164.471-314.775-106.756-321.093-104.21-12.378 4.98-18.388 19.066-13.409 31.444 4.997 12.394 19.050 18.406 31.444 13.409 1.257-0.5 126.662-48.592 268.874 93.542 130.997 130.932 92.542 263.878 90.882 269.374-3.981 12.748 3.095 26.319 15.827 30.315 2.402 0.758 4.851 1.095 7.237 1.095 10.299 0 19.839-6.608 23.079-16.939 2.095-6.704 49.64-165.648-102.84-318.031zM715.423 826.711c-2.321 2.321-9.894 7.719-30.397 7.719-66.45 0-193.788-55.828-316.371-178.38-160.94-160.974-197.542-319.884-170.66-346.75 17.374-17.39 53.507-53.557 87.674-53.557 18.905 0 36.827 10.879 54.765 33.249 51.702 64.419 29.316 86.515-7.784 123.115l-6.898 6.833c-9.3 9.284-14.215 21.533-14.215 35.441-0.017 22.208 10.718 62.452 103.55 155.204 92.848 92.8 133.075 103.534 155.269 103.534h0.017c13.861 0 26.093-4.884 35.392-14.152l6.818-6.882c20.178-20.453 37.617-38.132 59.663-38.132 17.084 0 38.453 10.203 63.499 30.316 21.338 17.164 32.184 34.183 33.136 52.105 1.919 35.022-35.473 72.38-53.458 90.334zM766.031 646.59c-34.328-27.593-65.015-40.985-93.782-40.985-42.275 0-69.801 27.914-94.088 52.541l-7.8 6.624c-7.43 0-38.1-6.431-121.085-89.383-96.845-96.782-89.334-122.213-89.334-122.261l6.672-6.608c38.213-37.697 90.559-89.334 11.539-187.775-27.334-34.055-58.454-51.348-92.478-51.348-54.185 0-98.231 44.063-121.874 67.705-69.913 69.962 32.426 276.869 170.676 415.132 133.027 132.996 271.906 192.546 350.554 192.546 28.365 0 50.107-7.382 64.596-21.871 22.918-22.918 70.624-70.575 67.546-127.162-1.724-31.959-18.938-61.292-51.138-87.159z" p-id="4704" fill="#ffffff"></path>
+					</svg>
+					<span class="tel">400-870-1191</span>
+					<svg class="icon more" viewBox="0 0 4 17">
+						<style type="text/css">
+							.st0 {
+								fill-rule: evenodd;
+								clip-rule: evenodd;
+								fill: #FFB700;
+							}
+							.st1 {
+								fill-rule: evenodd;
+								clip-rule: evenodd;
+								fill: #F5F5F5;
+							}
+						</style>
+						<g id="more">
+							<g>
+								<ellipse class="st0" cx="2" cy="2" rx="2" ry="2" />
+							</g>
+						</g>
+						<g id="copy_of_more">
+							<g>
+								<ellipse class="st0" cx="2" cy="9" rx="2" ry="2" />
+							</g>
+						</g>
+						<g id="copy_of_more_2">
+							<g>
+								<ellipse class="st1" cx="2" cy="15" rx="2" ry="2" />
+							</g>
+						</g>
+					</svg>
+				</p>
+				<ul class="sec-contact" style="display: none;">
+					<li>
+						<a href="/feedbackWeb.htm" target="_black">
+							<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+							<svg class="icon" viewBox="0 0 76 82">
+								<g id="faq_1_" enable-background="new    ">
+									<g id="faq">
+										<g>
+											<path fill="#FFB700" d="M45.926,25.764c-1.629-1.444-3.816-2.167-6.566-2.167c-2.763,0-5.328,0.74-7.696,2.221v4.313
+												c2.043-2.044,4.412-3.066,7.104-3.066c1.705,0,3.056,0.451,4.049,1.354c0.994,0.902,1.491,2.051,1.491,3.446
+												c0,1.312-0.321,2.471-0.962,3.479c-0.642,1.008-1.709,2.09-3.203,3.246c-1.523,1.184-2.58,2.309-3.172,3.372
+												c-0.592,1.064-0.888,2.337-0.888,3.817v1.818h3.679v-1.649c0-1.269,0.246-2.256,0.74-2.961c0.493-0.704,1.459-1.656,2.896-2.854
+												c1.79-1.479,3.066-2.89,3.827-4.229s1.142-2.826,1.142-4.462C48.367,29.102,47.554,27.209,45.926,25.764z M37.901,52.016
+												c-0.733,0-1.364,0.258-1.893,0.771c-0.529,0.516-0.793,1.153-0.793,1.914c0,0.775,0.268,1.417,0.804,1.924
+												c0.535,0.508,1.163,0.762,1.882,0.762c0.747,0,1.388-0.258,1.924-0.771c0.535-0.515,0.804-1.152,0.804-1.914
+												c0-0.747-0.269-1.382-0.804-1.903C39.289,52.276,38.648,52.016,37.901,52.016z"/>
+										</g>
+									</g>
+								</g>
+							</svg>
+							问题反馈
+						</a>
+					</li>
+					<li>
+						<a href="/aboutusWeb.htm" target="_black">
+							<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+							<svg class="icon" viewBox="0 0 76 82">
+								<g id="about_1_" enable-background="new    ">
+									<g id="about">
+										<g>
+											<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFBA00" d="M24,38c-1.657,0-3,1.343-3,3s1.343,3,3,3s3-1.343,3-3
+												S25.657,38,24,38z M52,38c-1.656,0-3,1.343-3,3s1.344,3,3,3s3-1.343,3-3S53.656,38,52,38z M38,38c-1.657,0-3,1.343-3,3
+												s1.343,3,3,3c1.656,0,3-1.343,3-3S39.656,38,38,38z"/>
+										</g>
+									</g>
+								</g>
+							</svg>
+							关于我们
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- header -->
+	<!--nav-->
+	<div class="yn jz container-fluid nav-bg m0" id="menu_wrap" >	
+		<div class="container m0" >
+			<span class="adgg"><a href="/index.htm" target="_blank"><span class="sort">首页</span></a></span>
+			|<a class="nzz" href="/courseWeb.htm" target="_black" id="z1"><span class="sort">课程中心&nbsp;<i class="fa fa-angle-down"></i></span></a>
+			<span class="navxs">
+				|<a href="/openClassWeb.htm" target="_blank"><span class="sort">免费公开课</span></a>
+				|<a href="/videoTutorialWeb.htm" target="_blank"><span class="sort">视频教程</span></a>
+				|<a href="/coachWeb.htm" target="_blank"><span class="sort">师资团队</span></a>
+				|<a href="/studentStoryWeb.htm" target="_blank"><span class="sort">学员作品</span></a>
+				|<a href="/enrollWeb.htm" target="_blank"><span class="sort">报名流程</span></a>
+				|<a href="http://bbs.itsource.cn" target="_blank"><span class="sort">源码社区</span></a>
+			</span>
+		</div>
+		<div class="container-fluid">
+			<div id="n1" class="nav-zi ty" style="display: none;">
+				<ul id="nz1" class="nn list-inline container m0 jz2" style="display: none;">
+					<li><a href="/javaWeb.htm" target="_blank">Java学科</a></li>
+					<li><a href="/phpWeb.htm" target="_blank">PHP学科</a></li>
+					<li><a href="/uiWeb.htm" target="_blank">UI设计学科</a></li>
+					<li><a href="/hWeb.htm" target="_blank">H5前端学科</a></li>
+					<li><a href="http://www.itsource.cn/special/20171229214048406/index.html" target="_blank">Python+人工智能学科</a></li>
+					<li><a href="/bigDataWeb.htm" target="_blank">大数据学科</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--end nav-->
+	<!--center-->
+	<div class="frame" id="zt">
+		<div class="zt-error">
+			<img alt="" src="/img/404.png">
+			<p class="zt-error-b">哎呀，页面君不小心迷路了！</p>
+			<p class="zt-error-s">所访问的页面不存在或者已被管理员删除！  您可以返回<a href="http://www.itsource.cn">源码时代官网首页</a>查找您感兴趣的内容。</p>
+		</div>
+		<script type="text/javascript" src="/js/header.js"></script>
+		<!--footer-->
+		<div class="footer frame">
+			<div class="container">
+				<div class="panel">
+					<div class="left">
+						<ul>
+							<li>关于我们</li>
+							<li><a href="/aboutusWeb.htm" target="_blank">关于我们</a></li>
+							<li><a href="/aboutusWeb.htm" target="_blank">人才招聘</a></li>
+							<li><a href="/aboutusWeb.htm" target="_blank">联系我们</a></li>
+							<li><a href="/systemSettingsWeb.htm?cmd=sitemap" target="_blank">网站地图</a></li>
+						</ul>
+						<ul>
+							<li>关注焦点</li>
+							<li><a href="http://bbs.itsource.cn/thread-1469-1-1.html" target="_blank">来校路线</a></li>
+							<li><a href="http://bbs.itsource.cn/thread-1832-1-1.html" target="_blank">校区环境</a></li>
+							<li><a href="/enrollWeb.htm" target="_blank">报名流程</a></li>
+							<li><a href="/newsWeb.htm?cmd=news&sn=COMPANY_DYNAMIC" target="_blank">公司动态</a></li>
+							<li><a href="http://bbs.itsource.cn" target="_blank">源码社区</a></li>
+						</ul>
+						<ul class="ui-border" id="footer_school"></ul>
+					</div>
+					<div class="right">
+						<ul>
+							<li>微博</li>
+							<li><img src="/img/footer_weibo.png" /></li>
+						</ul>
+						<ul>
+							<li>微信</li>
+							<li><img src="/img/footer_weixin.png" /></li>
+						</ul>
+					</div>
+					<div class="clear">
+						<div class="contact">
+							<p>邮箱：yuandaima@itsource.cn　电话：400-870-1191　法律顾问：北京京师(成都)律师事务所</p>
+							<p class="a_cnzz">
+								®2006-2018成都源代码教育咨询有限公司 版权所有　蜀ICP备14030149号-1　 蜀公网安备510114990541
+								&emsp;<script src="https://s23.cnzz.com/z_stat.php?id=1253596505&web_id=1253596505" language="JavaScript"></script>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer结束-->
+	</div>
+	<!-- right -->
+	<div class="etc flex-box">
+		<ul>
+			<li><a  rel="nofollow" href="https://tb.53kf.com/code/client/10153937/1" target="_black"><img class="icon" src="/img/etc1.png"><img class="text" src="/img/etc1_text.png"></a></li>
+			<li>
+				<a  rel="nofollow" class="qq-consult-btn" id="qq-consult-goon" href="javascript:void(0);">
+					<img class="icon" src="/img/etc2.png"><img class="text" src="/img/etc2_text.png">
+				</a>
+			</li>
+			<li><img class="icon" src="/img/etc3.png"><img class="text" src="/img/etc3_text.png"></li>
+			<li><a href="/enrollWeb.htm" target="_black"><img class="icon" src="/img/etc4.png"><img class="text" src="/img/etc4_text.png"></a></li>
+			<li><img class="icon" src="/img/etc5.png"><div class="text"><div class="QR" style="background-image: url(/img/etc5_text.png)"></div></div></li>
+			<li><a href="http://bbs.itsource.cn" target="_black"><img class="icon" src="/img/etc6.png"><img class="text" src="/img/etc6_text.png"></a></li>
+			<li><img class="icon back2top" src="/img/etc7.png"></li>
+		</ul>
+	</div>
+	<script charset="utf-8" src="http://wpa.b.qq.com/cgi/wpa.php"></script>
+	<script charset="utf-8" src="/js/ad_banner.js"></script>
+</body>
+<footer>
+<script type="text/javascript">
+
+	$(function(){
+		jQuery.ajax({
+			type:"POST",
+			dataType:"text",
+			url:"/newsWeb.htm?cmd=getSchool",
+			success:function(data){
+				$("#footer_school").html(data);
+			}
+		});
+		
+	});
+	// 底部高度
+	var window_height = document.documentElement.clientHeight; 
+	var top_height = $(".header").outerHeight(true)+$(".nav-bg").outerHeight(true);
+	var botoom_height = $(".footer").outerHeight(true);
+	var min_height = (window_height- top_height - botoom_height)+"px";
+	$(".zt-xxx").css('min-height', min_height);
+	
+	// 自动跳转
+	setTimeout(function(){//两秒后跳转  
+       location.href = "http://www.itsource.cn";//PC网页式跳转  
+       //$.mobile.changePage("index.php"); //手机网页式跳转 
+    },5000);
+	
+</script>
+<script type="text/javascript" src="/js/plugin/less-2.5.3.min.js"></script>
+</footer>
+</html>

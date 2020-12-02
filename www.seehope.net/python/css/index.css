@@ -1,0 +1,710 @@
+@charset "utf-8";
+
+/*广告条*/
+#banner{
+	background: url("../images/banner.jpg")/*tpa=http://www.seehope.net/python/images/banner.jpg*/ no-repeat center;
+}
+#banner div{
+	width: 1200px;
+	height: 750px;
+	margin: 0 auto;
+	position: relative;
+}
+#sx,#qz{
+	position: absolute;
+	top: 630px;
+	font-weight: bold;
+	font-size: 23px;
+}
+/*申请试学*/
+#sx{
+	left: 450px;
+	color: #2cb9cb;
+}
+/*抢占座位*/
+#qz{
+	left: 748px;
+	color: #fff;
+}
+
+.content{
+	padding-top: 0.1px;
+	width: 1200px;
+	margin: 0 auto;
+}
+/*标题*/
+.title{
+	height: 122px;
+	border-bottom: 2px solid #cbcbcb;
+	font-size: 34px;
+	color: #2cb9cb;
+	line-height: 122px;
+	text-align: center;
+	margin-top: 23px;
+}
+.title h2{
+	border-bottom: 6px #2cb9cb solid;
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+}
+.title span{
+	/* margin-right: 38px; */
+}
+/*market中的标题*/
+#market h3{
+	font-size: 19px;
+	text-align: center;
+	padding: 47px 0 35px 0;
+}
+/*市场调研*/
+#marketLeft{
+	width: 610px;
+	height: 592px;
+	float: left;
+}
+
+/*左侧内容*/
+#marketLeft ul{
+	margin-left: 35px;
+
+}
+#marketLeft li{
+	float: left;
+	text-align: center;
+	margin: 0 30px 20px 0;
+
+}
+#marketLeft li p{
+	margin-bottom: 8px;
+}
+#market .intro{
+	text-align: center;
+	font-size: 21px;
+}
+
+
+/*market右侧内容*/
+#marketRight{
+	width: 527px;
+	height: 592px;
+	float: right;
+}
+#marketRight img{
+	margin-bottom: 38px;
+}
+
+/*黄色按钮*/
+.yellowBtn{
+	width: 325px;
+	height: 60px;
+	background: url("../images/market/yellow.gif")/*tpa=http://www.seehope.net/python/images/market/yellow.gif*/;
+	clear: both;
+	margin: 0 auto;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 13px;
+	text-align: center;
+}
+.yellowBtn a{
+	color: #2cb9cb;
+}
+
+
+/*situation*/
+#situation p:first-of-type{
+	text-align: center;
+	line-height: 35px;
+	padding-top: 30px;
+	font-size: 20px;
+}
+#situation ul{
+	margin: 20px 0 20px 0;
+}
+#situation li{
+	float: left;
+	font-size: 20px;
+}
+.yellowBtn+p{
+	font-size: 25px;
+	text-align: center;
+	margin: 14px 0 40px 0;
+}
+
+/*什么是Python*/
+#whatPython{
+	height: 600px;
+	background: #1e415e;
+}
+#whatPython li{
+	float: left;
+	margin-right: 120px;
+	font-size: 14px;
+	line-height: 25px;
+}
+#whatPython li>div{
+	width: 188px;
+	height: 298px;
+	padding-top: 230px;
+	box-sizing:border-box;
+}
+#whatPython li>div>p{
+	font-size: 26px;
+	line-height: 26px;
+	color: #2cb9cb;
+	text-align: center;
+
+}
+#whatPython li:nth-of-type(1)>div{
+	background: url("../images/whatPython/w1.jpg")/*tpa=http://www.seehope.net/python/images/whatPython/w1.jpg*/ no-repeat;
+}
+#whatPython li:nth-of-type(1)>div>p{
+	color: #fff10a;
+}
+#whatPython li:nth-of-type(2):hover>div{
+	background: url("../images/whatPython/2.png")/*tpa=http://www.seehope.net/python/images/whatPython/2.png*/ no-repeat center  14px;
+}
+#whatPython li:nth-of-type(2):hover>div>p{
+	color: #fff10a;
+}
+#whatPython li:nth-of-type(3):hover>div{
+	background: url("../images/whatPython/3.png")/*tpa=http://www.seehope.net/python/images/whatPython/3.png*/ no-repeat center  13px;
+}
+#whatPython li:nth-of-type(3):hover>div>p{
+	color: #fff10a;
+}
+
+#whatPython li:nth-of-type(4):hover>div{
+	background: url("../images/whatPython/4.png")/*tpa=http://www.seehope.net/python/images/whatPython/4.png*/ no-repeat 12px  16px;
+}
+#whatPython li:nth-of-type(4):hover>div>p{
+	color: #fff10a;
+}
+
+#whatPython li:nth-of-type(2)>div{
+	background: url("../images/whatPython/w2.jpg")/*tpa=http://www.seehope.net/python/images/whatPython/w2.jpg*/ no-repeat;
+}
+#whatPython li:nth-of-type(3)>div{
+	background: url("../images/whatPython/w3.jpg")/*tpa=http://www.seehope.net/python/images/whatPython/w3.jpg*/ no-repeat;
+}
+#whatPython li:nth-of-type(4)>div{
+	background: url("../images/whatPython/w4.jpg")/*tpa=http://www.seehope.net/python/images/whatPython/w4.jpg*/ no-repeat;
+}
+#whatPython ul{
+	margin: 39px 0 0 7px;
+}
+#whatPython li:last-of-type{
+	margin-right: 0;
+}
+#whatPython li a{
+	color: #fff;
+}
+
+/*为什么学Python*/
+#whyPython{
+	height: 841px;
+	background: url("../images/whyPython/w1.jpg")/*tpa=http://www.seehope.net/python/images/whyPython/w1.jpg*/;
+}
+#whyPythonLeft,#whyPythonRight{
+	width: 558px;
+	height: 521px;
+	margin-top: 70px;
+	background: #f2f2f2;
+	padding-top: 141px;
+	position: relative;
+}
+/*左侧部分*/
+#whyPythonLeft{
+	float: left;
+}
+#whyPythonLeft ul{
+	margin-left: 30px;
+}
+#whyPythonLeft li{
+	float: left;
+	margin: 0 17px 17px 0;
+}
+#whyPythonLeft li img{
+	border: 1px solid #f0f0f0;
+}
+#whyPythonLeft li:last-of-type{
+	width: 153px;
+	height: 71px;
+	background: #ffffff;
+	padding-top: 26px;
+	text-align: center;
+}
+#whyPythonLeft a{
+	color: #44a6b4;
+	text-decoration: underline;
+}
+#whyPythonLeft>img,#whyPythonRight>img{
+	position: absolute;
+	left: -23px;
+	top: 39px;
+}
+/*右侧部分*/
+#whyPythonRight{
+	float: right;
+}
+
+#whyPythonRight li a{
+	color: #44a6b4;
+	font-size: 15px;
+}
+
+#whyPythonRight ul{
+	margin-left: 28px;
+}
+#whyPythonRight li{
+	float: left;
+	border: 1px solid #e8e8e8;
+	width: 155px;
+	height: 73px;
+	padding-top: 25px;
+	background: #fff;
+	margin: 0 17px 16px 0;
+	text-align: center;
+}
+#whyPythonRight li:hover{
+	background: #2cb9cb;
+}
+#whyPythonRight li:hover a{
+	color: #fff;
+}
+#whyPythonRight .pt{
+	padding-top: 18px;
+	line-height: 20px;
+}
+#whyPythonRight li:last-of-type a{
+	text-decoration: underline;
+}
+
+/*学完后能做什么*/
+#doWhat{
+	background: #e5f6f9;
+}
+#doWhat>.content>p{
+	font-size: 19px;
+	margin: 40px 0 54px 0;
+	text-align: center;
+}
+#doWhat ul{
+	background: #e5f6f9;
+}
+#doWhat li{
+	float: left;
+	width: 383px;
+	height: 347px;
+	background: #fff;
+	font-size: 14px;
+	padding: 45px;
+	margin: 0 25px 20px 0;
+}
+#doWhat li p:first-of-type{
+	font-size: 25px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+#doWhat li p:last-of-type{
+	line-height: 25px;
+}
+#doWhat li img{
+	margin: 0 auto;
+}
+#doWhat li div{
+	width: 100px;
+	height: 80px;
+	margin: 0 auto;
+}
+#doWhat li:nth-of-type(2) div{
+	background: url("../images/doWhat/d2.jpg")/*tpa=http://www.seehope.net/python/images/doWhat/d2.jpg*/;
+}
+#doWhat li:nth-of-type(2):hover div{
+	background: url("../images/doWhat/d2_hover.png")/*tpa=http://www.seehope.net/python/images/doWhat/d2_hover.png*/;
+}
+
+#doWhat li:nth-of-type(3) div{
+	background: url("../images/doWhat/d3.jpg")/*tpa=http://www.seehope.net/python/images/doWhat/d3.jpg*/;
+}
+#doWhat li:nth-of-type(3):hover div{
+	background: url("../images/doWhat/d3_hover.png")/*tpa=http://www.seehope.net/python/images/doWhat/d3_hover.png*/;
+}
+
+#doWhat li:nth-of-type(4) div{
+	background: url("../images/doWhat/d4.jpg")/*tpa=http://www.seehope.net/python/images/doWhat/d4.jpg*/;
+}
+#doWhat li:nth-of-type(4):hover div{
+	background: url("../images/doWhat/d4_hover.png")/*tpa=http://www.seehope.net/python/images/doWhat/d4_hover.png*/;
+}
+
+#doWhat li:nth-of-type(5) div{
+	background: url("../images/doWhat/d5.jpg")/*tpa=http://www.seehope.net/python/images/doWhat/d5.jpg*/;
+}
+#doWhat li:nth-of-type(5):hover div{
+	background: url("../images/doWhat/d5_hover.png")/*tpa=http://www.seehope.net/python/images/doWhat/d5_hover.png*/;
+}
+
+#doWhat li:nth-of-type(6) div{
+	background: url("../images/doWhat/d6.jpg")/*tpa=http://www.seehope.net/python/images/doWhat/d6.jpg*/;
+}
+#doWhat li:nth-of-type(6):hover div{
+	background: url("../images/doWhat/d6_hover.png")/*tpa=http://www.seehope.net/python/images/doWhat/d6_hover.png*/;
+}
+#doWhat .clearMargin{
+	margin-right: 0px;
+}
+#doWhat li:first-of-type{
+	background: #2cb9cb;
+	color: #fff;
+}
+#doWhat li:hover{
+	background: #2cb9cb;
+	color: #fff;
+}
+/*适合哪些人学*/
+#forWho{
+	background: #ffffff;
+}
+#forWho ul{
+	margin-top: 51px;
+}
+#forWho li{
+	width: 398px;
+	height: 191px;
+	float: left;
+	padding: 33px 16px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#forWho li:hover{
+	background: #2cb9cb;
+	color: #fff;
+}
+#forWho li p:first-of-type{
+	font-size: 19px;
+	width: 204px;
+	height: 34px;
+	border: 1px solid;
+	line-height: 34px;
+	border-radius: 12px;
+	margin: 0 auto;
+}
+#forWho li p:nth-of-type(2){
+	font-size: 15px;
+	margin: 16px 0;
+}
+#forWho li p:last-of-type{
+	font-size: 12px;
+	line-height: 21px;
+}
+
+/*我们只专注Python开发*/
+#us{
+	height: 753px;
+	position: relative;
+	background: url("../images/us.jpg")/*tpa=http://www.seehope.net/python/images/us.jpg*/ no-repeat center;
+}
+#us a{
+	font-size: 13px;
+	color: #000;
+	position: absolute;
+	left:45.5%;
+	top: 636px;
+	text-decoration: underline;
+}
+
+/*课程大纲*/
+#outline .title{
+	font-size: 30px;
+	color: #000;
+}
+#outline .title span{
+	color: #2cb9cb;
+}
+#outline .content>p:first-of-type{
+	font-size: 18px;
+	text-align: center;
+	margin: 30px 0 10px 0;
+}
+#outline .content>p:last-of-type{
+	font-size: 14px;
+	text-align: center;
+}
+#outline .content div:nth-of-type(2){
+	width: 1198px;
+	height: 350px;
+	background: url("../images/outline/bg.gif")/*tpa=http://www.seehope.net/python/images/outline/bg.gif*/;
+	margin-top: 60px;
+}
+#outline li{
+	float: left;
+	font-size: 17px;
+}
+#outline ul:first-of-type li{
+	line-height: 32px;
+	padding-left: 90px;
+}
+#outline ul:last-of-type li{
+	line-height: 32px;
+	padding-right: 64px;
+	height: 240px;
+}
+#outline ul:last-of-type{
+	margin-top: 90px;
+}
+#outline ul:last-of-type>li:last-of-type{padding-right: 0;}
+
+#outline .content>div:last-of-type{
+	padding-left: 240px;
+	margin-top: 80px;
+}
+#outline .p{
+	float: left;
+	font-size: 16px;
+	line-height: 29px;
+	margin-right: 29px;
+}
+#outline .yellowBtn{
+	float: left;
+	clear: none;
+}
+/*优势*/
+#advantage{
+	height: 887px;
+	background: #1e415e;
+	margin-top: 55px;
+}
+#advantage .content div:last-of-type{
+	width: 1198px;
+	height: 679px;
+	margin-top: 46px;
+	background: url("../images/advantageBg.gif")/*tpa=http://www.seehope.net/python/images/advantageBg.gif*/;
+	position: relative;
+}
+#advantage p{
+	position: absolute;
+	font-size: 17px;
+	line-height: 32px;
+}
+#p1{
+	left: 710px;
+	top: 32px;
+}
+#p2{
+	left: 874px;
+	top: 210px;
+}
+#p3{
+	left: 839px;
+	top: 397px;
+}
+#p4{
+	left: 191px;
+	top: 540px;
+}
+#p5{
+	left: 27px;
+	top: 385px;
+}
+#p6{
+	left: 39px;
+	top: 170px;
+}
+
+
+/*因为精益求精，所以无可替代*/
+#advantage2 .content>p{
+	font-size: 19px;
+	padding: 37px 0 40px 0;
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+}
+table,td{
+	border: 1px solid #d2d2d2;
+}
+td{
+	width: 289px;
+	height: 331px;
+	padding: 30px 28px;
+
+}
+td p{
+	line-height: 22px;
+	font-size: 13px;
+}
+td p:first-of-type{
+	font-size: 17px;
+	text-align: center;
+	margin: 20px 0;
+	-ms-word-break: break-all;
+	word-break: break-all;
+}
+td img{
+	margin: 0 auto;
+}
+table tr:first-of-type td:first-of-type{
+	background: #2cb9cb;
+	color:#fff;
+}
+
+table tr td:hover{
+	background: #2cb9cb;
+	color:#fff;
+}
+table tr td span{width: 84px; height: 73px; display: block;}
+
+/*免费学*/
+#free{
+	height: 640px;
+	background: #000141 url("../images/free/f1.jpg")/*tpa=http://www.seehope.net/python/images/free/f1.jpg*/ no-repeat center;
+	margin-top: 54px;
+}
+#free .content div{
+	position: relative;
+	width: 672px;
+	height: 315px;
+	margin: 0 auto;
+}
+#free p:first-of-type{
+	font-size: 23px;
+	color: #fff;
+	width: 668px;
+	height: 50px;
+	border: 1px dashed #fff;
+	border-radius: 9px;
+	line-height: 50px;
+	text-align: center;
+	margin: 157px auto 0 auto;
+}
+#free p:nth-of-type(2){
+	position: absolute;
+	left: 35px;
+	font-size: 15px;
+	top: 160px;
+	text-align: center;
+	line-height: 24px;
+}
+#free p:nth-of-type(3){
+	position: absolute;
+	left: 247px;
+	font-size: 15px;
+	top: 102px;
+	text-align: center;
+	line-height: 24px;
+}
+#free p:nth-of-type(4){
+	position: absolute;
+	left: 415px;
+	font-size: 15px;
+	top: 110px;
+	text-align: center;
+	line-height: 24px;
+}
+#free p:nth-of-type(5){
+	position: absolute;
+	left: 511px;
+	font-size: 15px;
+	top: 172px;
+	text-align: center;
+	line-height: 24px;
+}
+#free p:nth-of-type(6){
+	position: absolute;
+	left: 287px;
+	font-size: 25px;
+	top: 255px;
+	text-align: center;
+	line-height: 24px;
+}
+#free p:nth-of-type(6) a{
+	color: #000141;
+}
+#free p:last-of-type{
+	/* left: 653px; */
+	top: 347px;
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	width: 668px;
+	text-align: center;
+}
+
+#free p:last-of-type span{
+	color: #fff10a;
+}
+
+/*页脚部分*/
+#footer{
+	background: #e5002f;
+}
+#footer .content{
+	height: 514px;
+	background: url("../images/footer/footerBg.gif")/*tpa=http://www.seehope.net/python/images/footer/footerBg.gif*/;
+	position: relative;
+}
+#footer span{
+	position: absolute;
+	font-size: 21px;
+	text-decoration: line-through;
+	color: #fff;
+	left: 70px;
+	top: 283px;
+}
+#footer p:first-of-type{
+	position: absolute;
+	font-size: 27px;
+	top: 106px;
+	left: 375px;
+}
+#footer h2{
+	font-size: 70px;
+	color: #e5002f;
+	left: 373px;
+	top: 150px;
+	position: absolute;
+}
+#footer p:nth-of-type(2){
+	color: #fff;
+	background: #e5002f;
+	border-radius: 8px;
+	width: 518px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	left: 371px;
+	top: 250px;
+	position: absolute;
+}
+
+#footer p:nth-of-type(3){
+	color: #000;
+	font-size: 27px;
+	position: absolute;
+	left: 580px;
+	top: 312px;
+}
+#footer p:nth-of-type(3) a{
+	color: #fff;
+}
+
+#footer p:nth-of-type(4){
+	color: #fff;
+	font-size: 21px;
+	left: 151px;
+	bottom: 49px;
+	position: absolute;
+}
+#footer p:last-of-type{
+	font-size: 19px;
+	position: absolute;
+	left: 897px;
+	bottom: 47px;
+}
+#footer p:last-of-type a{
+	color: #fff;
+}

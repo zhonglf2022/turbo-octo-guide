@@ -1,0 +1,345 @@
+@charset "gb2312";
+/* CSS Document */
+html{color:#333;background:#fff; min-width:1030px;}
+body{font:12px/1.5 "Microsoft Yahei",Tahoma,Arial,Helvetica,sans-serif;word-break:break-all;word-wrap:break-word;}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,form{margin:0;}ul,ol,input{margin:0;padding:0;}li{list-style: none;margin:0;}
+img{border:none;}table{border-collapse:collapse;border-spacing:0;}
+button,input,textarea{background: none; border:none;font-family:"Microsoft Yahei",Tahoma,Arial,Helvetica,sans-serif;vertical-align:middle;outline: none;}input:focus{outline: none;}
+a{text-decoration:none; color: #333333;}
+a:hover{text-decoration:inline;color: #cc0000;}
+.clearfix { *zoom:1}
+.clearfix:after{content: "";display: block; clear: both;}
+.clearDiv{clear:both;height:0;font-size:0; overflow: hidden;}
+.wrap{width:1000px;margin:0 auto;text-align: left;}
+.fl{float:left;}
+.fr{float:right;}
+
+.phBox{width:100%; height:740px;position:relative;  }
+.phBox .hd{ height:18px; overflow:hidden; position:absolute; bottom:78px; left:50%; margin-left:-500px; width:1000px; z-index:1;}
+.phBox .hd ul{ overflow:hidden; zoom:1; text-align:center;}
+.phBox .hd ul li{ margin:0 10px 5px;  width:14px; height:14px; border:2px solid #fff; border-radius:50%; display:inline-block; *display:inline; zoom:1; vertical-align:middle; cursor:pointer;}
+.phBox .hd ul li.on{ background:#fff; color:#fff; }
+.phBox .bd{ position:relative; height:100%; z-index:0; overflow: hidden;}
+.phBox .bd li{ zoom:1; vertical-align:middle; position:relative; width:100%; height:740px;}
+.phBox .bd .li1{background:url("../images/banner_img1.jpg-v=1.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/banner_img1.jpg?v=1*/ no-repeat center top;}
+.phBox .bd .li2{background:url("../images/banner2_01.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/banner2_01.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/banner2_01.jpg*/ no-repeat center top;}
+.phBox .bd li .dwimg{position:absolute; }
+.phBox .bd li .dwimg1{top:218px; left:26.5%;}
+.phBox .bd li img{ display:block;}
+.bl_div{position:absolute; background:url("../images/bolang_line.png")/*tpa=http://www.ujiuye.com/zt/python/images/bolang_line.png*//*tpa=http://www.ujiuye.com/zt/python/images/bolang_line.png*/ no-repeat center top; width:100%; left:0; bottom:-325px;}
+.bl_div div{height:540px; }
+
+.zg_top {padding-top:30px; position:absolute; top:0; left:50%; margin-left:-500px; }
+.zg_top_let {width: 150px;}
+.zg_top_cen {width: 620px;}
+.zg_top_cen ul {overflow: hidden;height: 32px;margin-bottom: 9px;}
+.zg_top_cen ul li {float: left;width: 102px;height: 32px;}
+.zg_top_cen ul li a {display: inline-block;padding: 0 10px;font: 16px/32px "Microsoft YaHei"; color:#fff;}
+.zg_top_cen ul li a:hover {text-decoration: none;}
+.zg_top_cen ul li.hover a, .zg_top_cen ul li.hover a:hover {display: inline-block;padding: 0 20px 0 0;background: url("../images/zg_jiao01.png")/*tpa=http://www.ujiuye.com/zt/python/images/zg_jiao01.png*//*tpa=http://www.ujiuye.com/zt/python/images/zg_jiao01.png*/ no-repeat right center;color: #fff;}
+.zg_top_cen p {width:860px; height: 39px; font:14px/38px 'Microsoft Yahei'; background:url("../images/top_navbg.png")/*tpa=http://www.ujiuye.com/zt/python/images/top_navbg.png*//*tpa=http://www.ujiuye.com/zt/python/images/top_navbg.png*/ no-repeat center top; padding-top:9px;}
+.zg_top_cen p a{padding:0 5px; color:#fff;}
+.zg_top_ret {width: 145px;background: url("../images/zg_dh.png")/*tpa=http://www.ujiuye.com/zt/python/images/zg_dh.png*//*tpa=http://www.ujiuye.com/zt/python/images/zg_dh.png*/ no-repeat left 3px;padding-left: 28px;font: bold 20px/30px "Microsoft YaHei";color: #fff;}
+
+.tit02 img{display:block; margin:0 auto; }
+.sec2{background:url("../images/sec2bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec2bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec2bg.jpg*/ no-repeat center bottom #022889;}
+.sec2m{padding:130px 0 74px;}
+.sec2m h2{position:relative; z-index:2;}
+.sec2m ul{padding:66px 0 0;}
+.sec2m li{width:310px; height:273px; float:left; margin:0 35px 24px 0; font:16px/30px 'Microsoft Yahei'; color:#fff;}
+.sec2m li p{padding:130px 26px 0;}
+.sec2m li strong{color:#fff369; }
+.sec2m li.li1{background:url("../images/s1_bg01.png")/*tpa=http://www.ujiuye.com/zt/python/images/s1_bg01.png*//*tpa=http://www.ujiuye.com/zt/python/images/s1_bg01.png*/ no-repeat;}
+.sec2m li.li2{background:url("../images/s1_bg02.png")/*tpa=http://www.ujiuye.com/zt/python/images/s1_bg02.png*//*tpa=http://www.ujiuye.com/zt/python/images/s1_bg02.png*/ no-repeat;}
+.sec2m li.li3{background:url("../images/s1_bg03.png")/*tpa=http://www.ujiuye.com/zt/python/images/s1_bg03.png*//*tpa=http://www.ujiuye.com/zt/python/images/s1_bg03.png*/ no-repeat; margin-right:0;}
+.sec2m li.li4{background:url("../images/s1_bg04.png")/*tpa=http://www.ujiuye.com/zt/python/images/s1_bg04.png*//*tpa=http://www.ujiuye.com/zt/python/images/s1_bg04.png*/ no-repeat;}
+.sec2m li.li5{background:url("../images/s1_bg05.png")/*tpa=http://www.ujiuye.com/zt/python/images/s1_bg05.png*//*tpa=http://www.ujiuye.com/zt/python/images/s1_bg05.png*/ no-repeat;}
+.sec2m li.li6{background:url("../images/s1_bg06.png")/*tpa=http://www.ujiuye.com/zt/python/images/s1_bg06.png*//*tpa=http://www.ujiuye.com/zt/python/images/s1_bg06.png*/ no-repeat; margin-right:0;}
+.zg_xzc{ width: 1001px; height: 411px; display: block; margin: -16px auto ;}
+
+
+.sec3{background:url("../images/sec3bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec3bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec3bg.jpg*/ no-repeat center top;}
+.sec3m{padding:80px 0 0; background:url("../images/sec3bg_02.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec3bg_02.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec3bg_02.jpg*/ center top no-repeat; height:864px;}
+.dwul3{margin-top:82px; height:480px; position:relative; }
+.dwul3 li{width:145px; height:145px; position:absolute;}
+.dwul3 li div{background:#cee2fc; border:1px solid #3773ec; font:14px/20px 'Microsoft Yahei'; color:#666; width:160px; padding:10px 12px; position:absolute; left:50%; margin-left:-92px; top:12%; display:none; cursor:pointer; animation:myChange 1s 1 ease; border-radius:3px;}
+.dwul3 .li1{left:0; top:130px; }
+.dwul3 .li2{left:144px; top:135px; }
+.dwul3 .li3{left:214px; top:10px; }
+.dwul3 .li4{left:286px; top:145px; }
+.dwul3 .li5{left:212px; top:270px; }
+.dwul3 .li6{left:428px; top:145px; }
+.dwul3 .li7{left:502px; top:24px; }
+.dwul3 .li8{left:572px; top:160px; }
+.dwul3 .li9{left:642px; top:286px; }
+.dwul3 .li10{right:143px; top:162px; }
+.dwul3 .li11{right:70px; top:38px; }
+.dwul3 .li12{right:0px; top:170px; }
+.sec3m .btn{display:block; margin:0 auto; background:url("../images/botton.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton.png*/ no-repeat; width:271px; height:68px; font:26px/68px 'Microsoft Yahei'; text-align:center; color:#fff;}
+.sec3m a.btn:hover{background:url("../images/botton_on.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton_on.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton_on.png*/ no-repeat; color:#fff369; }
+
+.sec4{background:url("../images/sec4bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec4bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec4bg.jpg*/ no-repeat center 74px; height:749px; }
+.sec4m{background:url("../images/jx882.png")/*tpa=http://www.ujiuye.com/zt/python/images/jx882.png*//*tpa=http://www.ujiuye.com/zt/python/images/jx882.png*/ no-repeat center top; padding:60px 0 0; height:633px; margin-top:-74px; }
+.sec4m ul{padding:25px 0 0 40px;}
+.sec4m ul li{width:277px; height:177px; background:url("../images/s3_mbg.png")/*tpa=http://www.ujiuye.com/zt/python/images/s3_mbg.png*//*tpa=http://www.ujiuye.com/zt/python/images/s3_mbg.png*/ no-repeat; margin:0 46px 30px 0; float:left; font:16px/1 'Microsoft Yahei'; text-align:center; color:#555; cursor:pointer;}
+.sec4m ul li.last{margin-right:0;}
+.sec4m ul li img{display:block; margin:15px auto 8px;}
+.sec4m ul li:hover{color:#022888;}
+.sec4m ul li:hover img{animation:myChange2 1s ease;}
+.sec4m .btn{display:block; margin:0 auto; background:url("../images/botton.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton.png*/ no-repeat; width:271px; height:68px; font:26px/68px 'Microsoft Yahei'; text-align:center; color:#fff;}
+.sec4m a.btn:hover{background:url("../images/botton_on.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton_on.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton_on.png*/ no-repeat; color:#fff369; }
+
+.sec5{background:url("../images/sec5bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec5bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec5bg.jpg*/ no-repeat center top;}
+.sec5m{padding:67px 0 55px; }
+.pic51{padding:38px 0 0; }
+.fdjj{width:332px; padding:90px 0 0 112px; position:relative; font:16px/30px 'Microsoft Yahei'; color:#fff; float:left; }
+.fdjj img{position:absolute; left:26px; top:46px; }
+.pic52{padding:40px 0 0; }
+.zxbl{width:553px; background:url("../images/jx671.png")/*tpa=http://www.ujiuye.com/zt/python/images/jx671.png*//*tpa=http://www.ujiuye.com/zt/python/images/jx671.png*/ no-repeat center top; position:relative; text-align:center; margin-top:20px; margin-right:104px;}
+.zxbl strong{font:bold 40px/1 'Microsoft Yahei'; color:#f7d010; position:absolute; left:192px; top:-24px;}
+.zxbl .jp{font:16px/1 'Microsoft Yahei'; padding:31px 0 23px; color:#cfb5ff;}
+.zxbl .hp{font:16px/30px 'Microsoft Yahei'; padding:31px 0 23px; color:#fff; background:url("../images/tmbg1.png")/*tpa=http://www.ujiuye.com/zt/python/images/tmbg1.png*//*tpa=http://www.ujiuye.com/zt/python/images/tmbg1.png*/ no-repeat center top; width:500px; padding:7px 25px 0; height:74px; margin-top:17px; margin-left:2px; text-align:left;}
+.zxbl .hp b{color:#f7d010; }
+.zxbl span{font:14px/1 'Microsoft Yahei'; color:#ab70f4; display:block; text-align:left; padding-top:12px; }
+
+.sec6{background:url("../images/sec6bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec6bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec6bg.jpg*/ no-repeat center top #09317d;}
+.sec6m{padding:73px 0 75px;}
+.gaox{font:20px/68px 'Microsoft Yahei'; text-align:center; color:#fff; margin-top:26px;}
+.gaox b{color:#ffd65a; font-size:30px; font-weight:bold; }
+.tables{ width:951px; height:381px; margin:0 auto 39px; background: url("../images/table_03.png")/*tpa=http://www.ujiuye.com/zt/python/images/table_03.png*//*tpa=http://www.ujiuye.com/zt/python/images/table_03.png*/ center -12px no-repeat; padding-top:37px;}
+.tables span{ display: inline;background: none; padding:0;}
+.tables .te{ width:840px; margin: 0 auto; padding-top: 10px; overflow: hidden;}
+.tables .te div{ float: left; color: #626262; font-size: 14px; text-align: center;}
+.tables .tt_ta{ width:840px; margin: 0 auto; margin-top:-39px;}
+.tables .tt_ta div{ float: left; text-align: center; color: #454545; font-weight: bold; font-size: 17px; padding-top:20px; height:40px;}
+.fir_1{ width:120px;}
+.fir_2{ width:88px;}
+.fir_3{ width:310px;}
+.fir_4{ width:312px;}
+.tables .fir_5{ width:156px;color: #fff; background:#29caef; border-color:#29caef;}
+.xibao .fir_5{ width:156px; color: #fff; background:#29caef; border-color:#29caef;}
+.tables .tt_ta .fir_5{color:#fff;}
+.noye{ color: #444444;}
+.fir_6{ width:156px;}
+.xibao ul{ width:840px; margin: 0 auto;}
+.picScroll-top{ width:840px; position: relative; margin: 0 auto; margin-top: 65px; *margin-top: -50px;}
+.xibao{ height:343px; margin-top: -50px; *margin-top:50px;}
+.xibao ul li{ width:840px; color: #626262; font-size: 16px; height:50px; text-align: center;}
+.xibao .tempWrap{ width:100%; height:336px!important;}
+.xibao ul li div{ float: left; text-align: center; line-height: 50px; border-bottom:1px dashed #e2e2e2;}
+.tables .te span{ color: #E74147; font-weight: bold;}
+.tables table .pj{ font-weight: normal;}
+.tables table{ margin: 0 auto; color: #626262; font-size: 17px; text-align: center; width:840px; margin-top: -25px; /*height:407px;*/}
+.tables table span{ color: #E74147; font-weight: bold;}
+.shipin p{ text-align: center; font-size: 28px; color: #EBE9EF; margin-bottom: 37px; margin-top: -16px;}
+.sec6m .btn{display:block; margin:0 auto; background:url("../images/botton.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton.png*/ no-repeat; width:271px; height:68px; font:26px/68px 'Microsoft Yahei'; text-align:center; color:#fff;}
+.sec6m a.btn:hover{background:url("../images/botton_on.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton_on.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton_on.png*/ no-repeat; color:#fff369; }
+
+.sec7{background:url("../images/sec7bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec7bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec7bg.jpg*/ no-repeat center top; }
+.sec7m{padding:76px 0 96px;}
+.sec7m h3{font:bold 30px/80px 'Microsoft Yahei'; color:#fff; background:url("../images/pk_bg.png")/*tpa=http://www.ujiuye.com/zt/python/images/pk_bg.png*//*tpa=http://www.ujiuye.com/zt/python/images/pk_bg.png*/ no-repeat center bottom; position:relative; padding:88px 0 0; }
+.sec7m h3 img{position:absolute; left:50%; margin-left:-120px; bottom:1px; animation:myChange2 1s infinite;}
+.sec7m h3 strong{padding:0 360px 0 235px; background:url("../images/zan.png")/*tpa=http://www.ujiuye.com/zt/python/images/zan.png*//*tpa=http://www.ujiuye.com/zt/python/images/zan.png*/ no-repeat 164px center; display:inline-block; *display:inline; zoom:1; height:50px; line-height:50px;}
+.sec7m ul{background:url("../images/s7ulbg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/s7ulbg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/s7ulbg.jpg*/ no-repeat center top; margin-bottom:35px;}
+.sec7m li{font:18px/28px 'Microsoft Yahei'; height:98px; *margin-top:-10px; overflow:hidden;}
+.sec7m li span{display:block; float:left; width:430px; padding-left:42px; height:98px; line-height:98px; color:#fff; margin:0 70px 0 0;}
+.sec7m li span img{vertical-align:middle; margin-right:20px;}
+.sec7m li span:hover{color:#ff0;}
+.sec7m li span:hover img{animation:myChange2 1s ease;}
+.sec7m li p{float:left; width:420px; padding-top:25px; margin:0;}
+.sec7m li p:hover{color:#6c88ef;}
+.sec7m .btn{display:block; margin:0 auto; background:url("../images/botton3.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton3.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton3.png*/ no-repeat; width:341px; height:68px; font:26px/68px 'Microsoft Yahei'; text-align:center; color:#fff;}
+.sec7m a.btn:hover{background:url("../images/botton3_on.png")/*tpa=http://www.ujiuye.com/zt/python/images/botton3_on.png*//*tpa=http://www.ujiuye.com/zt/python/images/botton3_on.png*/ no-repeat; color:#fff369; }
+
+.sec8{background:url("../images/sec8bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec8bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec8bg.jpg*/ no-repeat center top; }
+.sec8m{padding:78px 0 0; height:643px; background:url("../images/s8img.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/s8img.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/s8img.jpg*/ no-repeat center top;}
+.yhui{background:url("../images/sec8bgx.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec8bgx.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec8bgx.jpg*/ no-repeat center top; height:334px; }
+.yhui strong{display:block; padding:28px 0 2px 45px; font:bold 44px/1 'Microsoft Yahei'; color:#ef2965; }
+.yhui p{font:38px/1 'Microsoft Yahei'; padding-left:224px; color:#fff; margin-bottom:106px; }
+.yhui a{display:block; width:264px; height:70px; background:#fff; border-radius:40px; font:28px/70px 'Microsoft Yahei'; color:#ff4444; margin:0 auto; text-align:center;}
+.yhui a:hover{background:#fdf121; }
+
+.sec9{background:url("../images/sec9bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec9bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec9bg.jpg*/ no-repeat center top; }
+.sec9m{padding:82px 0 64px; background:url("../images/sec9bg_02.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec9bg_02.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec9bg_02.jpg*/ no-repeat center top;}
+.qh_ul{padding:58px 0 0; }
+.qh_ul li{height:80px; float:left; margin-right:36px; background:url("../images/pth_qh.png")/*tpa=http://www.ujiuye.com/zt/python/images/pth_qh.png*//*tpa=http://www.ujiuye.com/zt/python/images/pth_qh.png*/ no-repeat left center; width:130px; cursor:pointer;}
+.qh_ul li.on{background:url("../images/pth_qh_on.png")/*tpa=http://www.ujiuye.com/zt/python/images/pth_qh_on.png*//*tpa=http://www.ujiuye.com/zt/python/images/pth_qh_on.png*/ no-repeat left center;}
+.qh_ul .li1{width:130px;}
+.qh_ul .li2{width:160px; background-position:-166px 0;}
+.qh_ul .li2.on{background-position:-166px 0;}
+.qh_ul .li3{ background-position:-362px 0;}
+.qh_ul .li3.on{ background-position:-362px 0;}
+.qh_ul .li4{ background-position:-531px 0;}
+.qh_ul .li4.on{ background-position:-531px 0;}
+.qh_ul .li5{ background-position:-702px 0;}
+.qh_ul .li5.on{ background-position:-702px 0;}
+.qh_ul .li6{ background-position:-871px 0; margin-right:0;}
+.qh_ul .li6.on{ background-position:-871px 0; margin-right:0;}
+.qhbox{ display:none;}
+.yzs_box{min-height:584px; border:2px solid #1a7ff4; background:#d4daff; margin-top:-30px;}
+.yzs_box4{min-height:468px;}
+.yzs_box6{min-height:249px;}
+.s9_box{ width:99%; height:66px; color:#393288; background:#d4daff; z-index:2; position:relative; top:38px; left:2px; white-space:nowrap; overflow:hidden;}
+.s9_box span{display:inline-block; *display:inline; zoom:1; font:16px/1 'Microsoft Yahei'; padding:32px 0 20px; text-align:center; }
+.s9_box .sp1{width:170px; }
+.s9_box .sp2{width:418px; }
+.s9_box .sp3{width:198px; }
+.s9_box .sp4{width:200px; }
+.yzs_box table{margin:62px auto 0; }
+.yzs_box td,.yzs_box th{border:1px solid #d4daff; background:#fff; font:16px/24px 'Microsoft Yahei'; color:#666; text-align:center;padding:15px 0;}
+.yzs_box td{padding:15px; text-align:left;}
+.jspDrag{background:#54a3ff; }
+
+.sec10{background:url("../images/sec10bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec10bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec10bg.jpg*/ no-repeat center top;  overflow:hidden;}
+.sec10m{padding:82px 0 114px; background:url("../images/sec10bg_02.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec10bg_02.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec10bg_02.jpg*/ no-repeat center top;}
+.device{position:relative; margin-top:64px; height:520px;}
+.swiper-slide{width:204px; height:513px !important;  text-align:center; }
+.swiper-slide img{width:204px; height:366px; padding:48px 0 0;}
+.swiper-slide-active{background:url("../images/teacher_bg.png")/*tpa=http://www.ujiuye.com/zt/python/images/teacher_bg.png*//*tpa=http://www.ujiuye.com/zt/python/images/teacher_bg.png*/ no-repeat center top; width:327px; height:514px; cursor:pointer;}
+.swiper-slide-active img{ width:301px; height:auto; padding:18px 0 0;}
+.swiper-slide .title{width:301px; height:146px; margin:0 auto; font:16px/34px 'Microsoft Yahei'; color:#fff; background:url("../images/tmgb.png")/*tpa=http://www.ujiuye.com/zt/python/images/tmgb.png*//*tpa=http://www.ujiuye.com/zt/python/images/tmgb.png*/ no-repeat; display:none;margin-top:18px; border-radius:10px; position:relative; top:-170px; text-align:left;}
+.swiper-slide .title strong{font:bold 20px/1 'Microsoft Yahei'; display:inline-block; *display:inline; zoom:1; color:#01c8fd; padding:16px 3px 0 32px;}
+.swiper-slide .title p{font:16px/26px 'Microsoft Yahei'; margin-bottom:17px; padding:5px 20px; }
+.swiper-slide .title p a{color:#01c8fd; }
+.swiper-slide-active .title{display:block; }
+
+.zg_sec11{background:url("../images/sec11bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec11bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec11bg.jpg*/ no-repeat center top; position:relative; z-index:10;}
+.sec11m{padding:86px 0 82px;}
+.sec11m ul{margin:48px 0 30px; height:74px; border-bottom:1px solid #2293fd; }
+.sec11m li{width:210px; height:82px; font:16px/48px 'Microsoft Yahei'; color:#fff; text-align:center; background:url("../images/jd_qh.png")/*tpa=http://www.ujiuye.com/zt/python/images/jd_qh.png*//*tpa=http://www.ujiuye.com/zt/python/images/jd_qh.png*/ no-repeat; float:left; margin-right:52px; cursor:pointer;}
+.sec11m li.last{margin-right:0;}
+.sec11m li.on{background:url("../images/jd_qhon.png")/*tpa=http://www.ujiuye.com/zt/python/images/jd_qhon.png*//*tpa=http://www.ujiuye.com/zt/python/images/jd_qhon.png*/ no-repeat;}
+.hj_box{background:url("../images/jidi_hjbg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/jidi_hjbg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/jidi_hjbg.jpg*/ no-repeat; width:100%; height:380px; display:none;}
+.hj_box img{display:block; float:left; padding:30px 0 0 20px; }
+.jd_jianj{width:355px; margin-left:56px; padding:55px 0 0; }
+.jd_jianj h6{border-left:4px solid #2293fd; padding-left:15px; font:bold 20px/1 'Microsoft Yahei'; margin-bottom:32px; }
+.jd_jianj strong{font:bold 16px/1 'Microsoft Yahei'; padding-left:20px; margin-bottom:16px; display:block;}
+.jd_jianj p{font:16px/28px 'Microsoft Yahei'; padding-left:20px; margin-bottom:10px;}
+.jd_jianj a{ display:block; width:172px; height:44px; background:url("../images/but_hj.png")/*tpa=http://www.ujiuye.com/zt/python/images/but_hj.png*//*tpa=http://www.ujiuye.com/zt/python/images/but_hj.png*/; border-radius:30px; text-align:center; color:#fff; font:16px/44px 'Microsoft Yahei'; }
+.jd_jianj a:hover{background:#e63e79; }
+
+.sec12{background:url("../images/sec12bg.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec12bg.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec12bg.jpg*/ no-repeat center top; }
+.sec12m{background:url("../images/sec12bg_02.jpg")/*tpa=http://www.ujiuye.com/zt/python/images/sec12bg_02.jpg*//*tpa=http://www.ujiuye.com/zt/python/images/sec12bg_02.jpg*/ no-repeat center top; height:342px; padding-top:342px; }
+.sec12m table{margin-left:44px;}
+.sec12m td{font:16px/70px 'Microsoft Yahei'; text-align:right; color:#fff;}
+.sec12m td input{height:50px; background:#e2efff; border-radius:10px; padding-left:10px; width:240px; display:block; margin-left:5px; font:18px/50px 'Microsoft Yahei'; color:#666;}
+.sec12m td .sub{width:310px; margin:30px auto 0; padding:0; background:url("../images/btn_submit.png")/*tpa=http://www.ujiuye.com/zt/python/images/btn_submit.png*//*tpa=http://www.ujiuye.com/zt/python/images/btn_submit.png*/ no-repeat; height:53px; font:24px/50px 'Microsoft Yahei'; color:#fff; cursor:pointer;}
+.sec12m td .sub:hover{background:#fff25d; border-radius:40px; color:#01b0f6; }
+.sec12m .ltd{text-align:left;}
+
+
+.device .arrow-left {
+  background: url("../images/btn_left.png")/*tpa=http://www.ujiuye.com/zt/python/images/btn_left.png*//*tpa=http://www.ujiuye.com/zt/python/images/btn_left.png*/ no-repeat left top;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  width: 37px;
+  height:71px;
+	z-index:8;
+}
+.device .arrow-right {
+  background: url("../images/btn_right.png")/*tpa=http://www.ujiuye.com/zt/python/images/btn_right.png*//*tpa=http://www.ujiuye.com/zt/python/images/btn_right.png*/ no-repeat left bottom;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  margin-top: -35px;
+  width:36px;
+  height:70px;
+	z-index:8;
+}
+
+.di{width:100%; background:#181b52; padding:70px 0 46px;}
+.di_cen{width:1000px;margin: 0 auto;}
+.phone{width:100%;height:130px;}
+.pho_left{color: #dedfe3;font-size: 48px;float: left;font-weight: bold; font-family:'Arial';}
+.pho_left img{vertical-align:middle;    margin-right: 10px;}
+.pho_right{float: right;}
+.pho_right div{float: left;}
+.pho_right a{display: block;width:168px;height:55px; border:2px solid #d1d1dc; color: #fff;font-size: 24px;text-align: center;line-height:55px;float: left;margin-right: 18px; border-radius:40px;}
+.ewm{height:153px;}
+.ewm div{width:332px;float: left;}
+.ewm div img{float: left;}
+.ewm div span{display: block; color: #fff;margin-top:22px; font:16px/28px 'Microsoft Yahei'; padding-left:10px; float:left;}
+.ewm .xyd{width:314px;}
+.ewm .dyd{width:354px;}
+.footer {width: 100%;padding-top: 20px;text-align: center;color: #a8a8b6;margin-top:20px; font:14px/32px 'Microsoft Yahei'; border-top:1px solid #585a81;}
+.copy a, .copy h1 {color: #fff;font-size: 14px;font-family: "Microsoft YaHei";font-weight: normal;display: inline;}
+.copy a{padding:0 10px;}
+.copy a, .copy h1 {color: #a8a8b6;font-size: 14px;font-family: "Microsoft YaHei";font-weight: normal;display: inline;}
+
+/*×ó²à¸¡´°*/
+.zg_fcleft{position:fixed; left:2px; top:20%; background:url("../images/ujiuy_fcbg.png")/*tpa=http://www.ujiuye.com/zt/python/images/ujiuy_fcbg.png*//*tpa=http://www.ujiuye.com/zt/python/images/ujiuy_fcbg.png*/ no-repeat; width:163px; height:479px; z-index:11; }
+.zg_fcleft .fc_close{display:block; width:12px; height:12px; position:absolute; right:4px; top:32px; }
+.zg_fcleft .fc_close img{display:block; }
+.zg_fcleft ul{padding:106px 0 0;}
+.zg_fcleft li{font:bold 16px/40px 'Microsoft Yahei'; color:#fff; text-align:center; margin-bottom:10px; *margin-bottom:5px; width:150px;}
+.zg_fcleft li b{font-size:18px; color:#fcff00; }
+.zg_fcleft li a{display:block; color:#fff;}
+
+@keyframes myChange {
+    from {
+       transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8); /* IE 9 */
+		-webkit-transform: scale(0.8); /* Safari and Chrome */
+		-o-transform: scale(0.8);
+    } to {
+        transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2); /* IE 9 */
+		-webkit-transform: scale(1.2); /* Safari and Chrome */
+		-o-transform: scale(1.2);
+    }
+}
+@-webkit-keyframes myChange /* Safari Óë Chrome */
+{
+     from {
+       transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8); /* IE 9 */
+		-webkit-transform: scale(0.8); /* Safari and Chrome */
+		-o-transform: scale(0.8);
+    } to {
+        transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2); /* IE 9 */
+		-webkit-transform: scale(1.2); /* Safari and Chrome */
+		-o-transform: scale(1.2);
+    }
+}
+@keyframes myChange2 {
+    from {
+       transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8); /* IE 9 */
+		-webkit-transform: scale(0.8); /* Safari and Chrome */
+		-o-transform: scale(0.8);
+    } to {
+        transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.2); /* IE 9 */
+		-webkit-transform: scale(1.1); /* Safari and Chrome */
+		-o-transform: scale(1.1);
+    }
+}
+@-webkit-keyframes myChange2 /* Safari Óë Chrome */
+{
+     from {
+       transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8); /* IE 9 */
+		-webkit-transform: scale(0.8); /* Safari and Chrome */
+		-o-transform: scale(0.8);
+    } to {
+        transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1); /* IE 9 */
+		-webkit-transform: scale(1.1); /* Safari and Chrome */
+		-o-transform: scale(1.1);
+    }
+}
+
+
+
+

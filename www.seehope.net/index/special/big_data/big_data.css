@@ -1,0 +1,514 @@
+.part2{
+    height:544px;
+    margin-top:30px;}
+.part2 .wrap{
+    height:100%;
+    background:url("java-part2-bg.jpg")/*tpa=http://www.seehope.net/index/special/big_data/java-part2-bg.jpg*/ no-repeat;
+    background-origin: content-box;
+    background-size:100%;}
+.part2 .wrap .part2-con{
+    position:relative;
+    align-items: center;
+    height:440px;
+    overflow: hidden;}
+.part2 .wrap .part2-list{
+   position:absolute;
+    bottom:0;
+    height:220px;}
+.part2 .wrap .part2-list .part2-item{
+    float:left;
+    width:400px;
+    height:100%;
+    position:relative;}
+.part2 .wrap .part2-item  p.part2-item-title{
+    position:absolute;
+    top:53px;
+    left:40px;
+    text-align: center;
+    font-size:16px;
+    width:300px;}
+.part2 .wrap .part2-item  p.part2-item-desc{
+    position:absolute;
+    top: 108px;
+    left: 50px;
+    font-size:16px;
+    line-height:24px;
+    width:306px;}
+.part2 .wrap .part2-item:nth-of-type(2)  p.part2-item-title{
+    top:30px;}
+.part2 .wrap .part2-item:nth-of-type(2) p.part2-item-desc{
+    top: 86px;}
+.part3{
+    height:700px;
+    background-color:#0094EE;
+    overflow: hidden;}
+.part3 .wrap{
+    background: url("part3-right.png")/*tpa=http://www.seehope.net/index/special/big_data/part3-right.png*/ right 60px bottom no-repeat;}
+.part3 .part3-tit{
+    width:705px;
+    height:109px;
+    line-height:144px;
+    text-align:center;
+    background:url("part3-tit-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part3-tit-bg.png*/ no-repeat;
+    font-size:28px;
+    color:#fff;
+    margin-top:64px;}
+.part3 .part3-tit span{
+    font-weight: bold;
+    font-size:36px;}
+.part3 .part3-con p{
+    margin-top:30px;
+    color:#fff;
+    font-size:18px;    }
+.part3 .part3-con p span{
+    display: inline-block;
+    padding:0 30px;
+    height:30px;
+    line-height:30px;
+    background:#E2534B;
+    border-radius: 5px;}
+.part3 .common-btns{
+    text-align:left;}
+.part4{
+    height:1665px;
+    background:url("part4-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part4-bg.png*/ no-repeat;}
+.part4 .part4-item{
+    height:500px;    }
+.part4 .part4-item:nth-of-type(1){
+    background:url("part4-1-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part4-1-bg.png*/ top 80px right no-repeat;}
+.part4 .part4-item:nth-of-type(2){
+    background:url("part4-2-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part4-2-bg.png*/ top 80px left no-repeat;}
+.part4 .part4-item:nth-of-type(3){
+    background:url("part4-3-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part4-3-bg.png*/ top 80px right no-repeat;}
+.part4 .part4-item > div{
+    width:50%;
+    float:left;}
+.part4 .part4-item:nth-child(even) > div{
+    float:right;}
+.part4 .part4-item .item-tit{
+    width:300px;
+    height:65px;
+    line-height:65px;
+    font-size:28px;
+    color:#fff;
+    background:#0094EE;}
+.part4 .part4-item .part4-icons{
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    background:url("part4-icons.png")/*tpa=http://www.seehope.net/index/special/big_data/part4-icons.png*/ no-repeat;
+    background-position: 0px -5px;
+    vertical-align: middle;
+    margin-right:10px;
+    margin-left:20px;}
+.part4 .part4-item .item-tit .part4-icons-2{
+    background-position: -50px -5px;}
+.part4 .part4-item .item-tit .part4-icons-3{
+    background-position: -100px -5px;}
+.part4 .part4-item .item-con p{
+    font-size:18px;
+    line-height:24px;
+    margin:20px 0px;}
+.part4 .part4-item .item-con p span{
+    color:#E2534B;}
+.part4 .part4-item .item-con h3{
+    font-size:30px;
+    color:#E2534B;
+    margin:20px 0;}
+.part4 .part4-item .item-con h3 .part4-icons-h3-1{
+    background-position: -140px -5px;
+    margin-left:0px;}
+.part4 .part4-item .item-con h3 .part4-icons-h3-2{
+    background-position: -200px -5px;
+    margin-left:0px;}
+.part4 .part4-item .item-con h3 .part4-icons-h3-3{
+    background-position: -247px -5px;
+    margin-left:0px;}
+.part4 .btns{
+    margin-top:40px;}
+/*广告位*/
+.part-slipt-banner{
+    height:100px;
+    background:#101729;}
+.part-slipt-banner .wrap{
+    background:url("ad1-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/ad1-bg.png*/ no-repeat;}
+.part-slipt-banner .wrap .btns{
+    text-align: right;
+    margin-top:30px;}
+.part-slipt-banner .wrap .btns a{
+    display: inline-block;
+    color: #853402;
+    height: 42px;
+    line-height: 42px;
+    background: #FFFF00;
+    padding: 0 86px;
+    border-radius: 10px;
+    border: 1px solid #AD9105;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    vertical-align: middle;}
+.part5{
+    height:580px;}
+.part5 .part5-list{
+    width:100%;
+    height:312px;
+    overflow: hidden;}
+.part5 .part5-list .part5-item{
+    color:#fff;
+    position:relative;
+    float:left;
+    width:400px;
+    height:312px;
+    background:url("part5-1-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part5-1-bg.png*/ center no-repeat;}
+.part5 .part5-list .part5-item .part5-item-tit{
+    font-size:20px;
+    position:absolute;
+    top:53px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);}
+.part5 .part5-list .part5-item > p{
+    width:212px;
+    font-size:16px;
+    position:absolute;
+    top:108px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-47%);}
+.part5 .part5-list .part5-item .btn a:nth-of-type(1){
+    font-size:16px;
+    position:absolute;
+    top: 234px;
+    left: 140px;
+    color:#632d01;}
+.part5 .part5-list .part5-item .btn a:nth-of-type(2){
+    font-size:16px;
+    position:absolute;
+    top: 234px;
+    left: 230px;
+    color:#fff;}
+.part5 .part5-list .part5-item .part5-rec{
+    width:50px;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    text-align:center;
+    transform: rotateZ(-45deg);
+    -webkit-transform:rotateZ(-45deg);
+    background:#0094EE;
+    position:absolute;
+    left:94%;
+    top:40%;}
+.part5 .part5-list .part5-item .part5-rec p{
+    transform: rotateZ(45deg);
+    -webkit-transform:rotateZ(45deg);
+    font-size:16px;}
+.part5 .wrap .common-btns{
+    text-align:center;
+    margin-top:30px;}
+.part6{
+    height:612px;
+    background:url("part6-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part6-bg.png*/ no-repeat;}
+.part6 .part6-tit p:nth-of-type(2){
+    COLOR:#000;}
+.part6 .part6-banner{
+    height:160px;  }
+.part6 .part6-banner img{
+    margin-left:60px;}
+.part6 .part6-list{
+   overflow: hidden;
+    height:250px;}
+.part6 .part6-list .part6-item{
+    width:25%;
+    float:left;
+    height:190px;}
+.part6 .part6-list .part6-item > div{
+    margin:60px 50px;}
+.part6 .part6-list .part6-item > div p{
+    font-size:16px;
+    text-align:center;
+    width:194px;
+    line-height:24px;}
+.part6 .part6-list .part6-item > a{
+    width:140px;
+    height:30px;
+    display: inline-block;
+    line-height:30px;
+    font-size:16px;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 5px;
+    background:#F7B92A;
+    text-align: center;
+    margin-left:80px;}
+.part6 .part6-list .part6-item:nth-of-type(2) > a{
+    background:#71BA39;}
+.part6 .part6-list .part6-item:nth-of-type(3) > a{
+    background:#008ECE;}
+.part6 .part6-list .part6-item:nth-of-type(4) > a{
+    background:#2E4B87;}
+.part7{
+    height:910px;
+    background:url("part7-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part7-bg.png*/ no-repeat;}
+.part7 .part7-tit{
+    width:720px;
+    height:165px;
+    background:url("part7-tit-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part7-tit-bg.png*/ no-repeat;
+    margin:0 auto;
+    position:relative;}
+.part7 .part7-tit p:nth-of-type(1){
+    font-size:60px;
+    color: #108f7a;
+    text-align:center;
+    line-height:160px;
+    margin-top:20px;}
+.part7 .part7-tit p:nth-of-type(2){
+    font-size:24px;
+    position:absolute;
+    bottom:0px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);}
+.part7 .part7-tab{
+    height:600px;
+    background:url("part7-tab-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part7-tab-bg.png*/ top center no-repeat;}
+.part7 .part7-tab .part7-tab-con{
+    width:968px;
+    height:575px;
+    margin-top:20px;
+    box-sizing: border-box;
+    padding:11px 0;
+    margin: 0 auto;}
+.part7 .part7-tab .j-zxjy-tablebox table tr td:nth-of-type(5){
+    background:#FF545D;}
+.part8{
+    height:815px;
+    background:url("part8-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part8-bg.png*/ no-repeat;}
+.part8 .part8-con{
+    height:447px;
+    background:url("part8-con-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part8-con-bg.png*/ top  center no-repeat;}
+.part8 .part8-item-list{
+    margin-top:40px;
+    height:100%;
+    position:relative;
+    background:url("part8-item-list-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part8-item-list-bg.png*/ bottom left 96px no-repeat;}
+.part8 .part8-item{
+    position:absolute;
+    width:273px;
+    height:198px;}
+.part8 .part8-item h4{
+    height:80px;
+    font-size:24px;
+    color:#fff;
+    text-align:center;}
+.part8 .part8-item p{
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 20px;}
+.part8 .part8-item:nth-of-type(1){
+    top: 50px;
+    left: 82px;}
+.part8 .part8-item:nth-of-type(2){
+    top: 40px;
+    left:420px;}
+.part8 .part8-item:nth-of-type(2) h4{
+    line-height:80px;}
+.part8 .part8-item:nth-of-type(3){
+    top: 50px;
+    left:760px;}
+.part8 .part8-item:nth-of-type(4){
+    top: 285px;
+    left: 397px;}
+.part8 .part8-item:nth-of-type(5){
+    top: 285px;
+    left: 734px;}
+.part8 .common-btns{
+    margin-top:66px;}
+.part9{
+    height:364px;}
+.part9 .part9-item-list{
+    position:relative;
+    height:106px;
+    overflow: hidden;
+    background:url("part9-item-list-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part9-item-list-bg.png*/ center no-repeat;}
+.part9 .part9-item-list .part9-item{
+    float:left;
+    position:absolute;
+    width:168px;}
+.part9 .part9-item-list .part9-item h4{
+    font-size:30px;
+    color: rgb(255, 255, 0);
+    font-weight: bold;}
+.part9 .part9-item-list .part9-item p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;}
+.part9 .part9-item-list .part9-item:nth-of-type(1){
+    top:20px;
+    left:143px;}
+.part9 .part9-item-list .part9-item:nth-of-type(2){
+    top:20px;
+    left:423px;}
+.part9 .part9-item-list .part9-item:nth-of-type(3){
+    top:20px;
+    left:700px;}
+.part9 .part9-item-list .part9-item:nth-of-type(4){
+    top:20px;
+    left:964px;}
+.part10{
+    height:728px;
+    background:#0094EE;
+    color:#fff;}
+.part10 .part10-tit{
+    padding-top:68px;}
+.part10 .part10-tit > p{
+    color:#fff;}
+.part10 .part10-tit > p span{
+    color:#FEE801;}
+.part10 .part10-teachers-top{
+    height:318px;
+    overflow: hidden;
+    margin-top:25px;}
+.part10 .part10-teachers-top > div{
+    width:50%;
+    position:relative;}
+.part10 .part10-teachers-top .teacher-img img{
+    margin-left:67px;}
+.part10 .part10-teachers-top .teacher-img > div{
+    position:absolute;
+    top: 135px;
+    left: 330px;}
+.part10 .part10-teachers-top .teacher-img > div h4{
+    font-size:40px;}
+.part10 .part10-teachers-top .teacher-img > div p{
+    font-size:16px;}
+.part10 .part10-teachers-top .teacher-desc{
+    position:relative;
+    margin-top:60px;
+    height:219px;
+    background:url("part10-teacher-desc-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part10-teacher-desc-bg.png*/ no-repeat;}
+.part10 .part10-teachers-top .teacher-desc p{
+    width:360px;
+    margin-top:20px;
+    margin-left:57px;
+    font-size:16px;}
+.part10 .part10-teachers-top .teacher-desc p:nth-of-type(1){
+    margin-top:40px;}
+.part10 .part10-teachers-top .teacher-desc a{
+    position:absolute;
+    width:150px;
+    height:50px;
+    line-height:50px;
+    color: #612a00;
+    font-size:16px;
+    text-align:center;
+    background:#FEE801;
+    border-radius: 5px;
+    bottom: 4px;
+    right: 134px;}
+.part10 .part10-item-list{
+    height:214px;
+    overflow: hidden;}
+.part10 .part10-item-list .part10-item{
+    width:240px;
+    height:100%;
+    float:left;
+    text-align:center;}
+.part10 .part10-item-list .part10-item p{
+    text-align: center;
+    font-size:18px;}
+.part10 .part10-item-list .part10-item div{
+    font-size:16px;}
+.part11{
+    height:463px;}
+.part11 .part11--item-list{
+    height:203px;
+    overflow: hidden;
+    width:1180px;
+    margin:0 auto;}
+.part11 .part11--item{
+    float:left;
+    width:392px;
+    height:100%;
+    position:relative;}
+.part11 .part11--item:nth-of-type(1){
+    background:url("part11-item-bg1.png")/*tpa=http://www.seehope.net/index/special/big_data/part11-item-bg1.png*/ no-repeat;}
+.part11 .part11--item:nth-of-type(2){
+    background:url("part11-item-bg2.png")/*tpa=http://www.seehope.net/index/special/big_data/part11-item-bg2.png*/ no-repeat;}
+.part11 .part11--item:nth-of-type(3){
+    background:url("part11-item-bg3.png")/*tpa=http://www.seehope.net/index/special/big_data/part11-item-bg3.png*/ no-repeat;}
+.part11 .part11--item p{
+    width:184px;
+    line-height:40px;
+    position:absolute;
+    left:77px;
+    top:60px;
+    font-size: 24px;
+    color: rgb(84, 60, 4);
+    text-align:center;}
+.part11 .common-btns{
+    margin-top:30px;}
+.part12{
+    height:700px;
+    background:url("part12-bg.png")/*tpa=http://www.seehope.net/index/special/big_data/part12-bg.png*/ no-repeat;
+    background-size:100% 100%;}
+.part12 .part12-tit p:nth-of-type(2){
+    color:#000;}
+.part12 .part12-con{
+    height:400px;
+    position:relative;}
+.part12 .part12-con img{
+    margin: 20px 0;}
+.part12 .part12-icon{
+    width:150px;
+    position:absolute;
+    text-align:center;
+    margin-top:10px;
+    top:20px;}
+.part12 .part12-icon.student{
+    left:40px;}
+.part12 .part12-icon.company{
+    right:40px;}
+.part12 .part12-icon p span{
+    display: inline-block;
+    height:36px;
+    line-height:36px;
+    width:120px;
+    background-color:#F7B92A;
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    border-radius:5px;}
+.part12 .part12-icon.company p span{
+    background:#71BA39;}
+.part12 .part12-con .agreement{
+    position:absolute;
+    top:37px;
+    left:416px;
+    width:373px;
+    height:389px;
+    text-align: center;}
+.part12 .part12-con .agreement img{
+    width:300px;
+    height:300px;}
+.part12 .part12-con .agreement p{
+    font-size:20px;
+    color:#0094EE;
+    text-align:center;}
+.part12 .wrap > a{
+    position:absolute;
+    bottom: 75px;
+    left: 455px;
+    display: inline-block;
+    width:300px;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    background:#0094EE;
+    text-align: center;
+    font-size:20px;
+    border-radius: 5px;}
+
+
+

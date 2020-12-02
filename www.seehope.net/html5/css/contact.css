@@ -1,0 +1,235 @@
+html,body{overflow-x:hidden;}
+body{color:#333;}
+.c-banner{width:1900px;position: relative;left:50%;margin-left: -950px;}
+.c-banner img{width:100%;}
+
+.warp{
+	width: 1200px;
+	min-width: 1066px;
+	position: relative;
+	margin: 0 auto;
+}
+.bg1, .bg2, .bg3{
+	width: 100%; 
+	min-width: 1200px; 
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: top;
+}
+.bg1{
+	background-image: url("../images/contact/bg_02.jpg")/*tpa=http://www.seehope.net/images/contact/bg_02.jpg*/;
+	padding-top: 38px;
+	height: 577px;
+}
+.bg2{
+	background-image: url("../images/contact/bg_03.png")/*tpa=http://www.seehope.net/images/contact/bg_03.png*/;
+	height: 177px;
+}
+.bg3{
+	background-image: url("../images/contact/bg_04.jpg")/*tpa=http://www.seehope.net/images/contact/bg_04.jpg*/;
+	height: 475px;
+	padding-top:71px;
+}
+/*.c-about{font-size: 16px; width: 1066px; min-width: 1066px; margin:0 auto;}*/
+.c-base-h3 h3{/*background:url(../images/contact/contact-t.png) no-repeat;height: 40px;*/ font-size: 32px; color:#000; line-height: 28px; text-align: center; font-weight: normal;color: #fff;margin:0 0 24px;}
+.c-about-con{line-height: 34px;margin-bottom: 20px;}
+.c-about-con p{font-size: 16px; line-height: 28px; color: #fff; padding-bottom: 12px;}
+
+/*.c-about-tt{line-height: 42px;border: 1px dashed #e1e1e1;padding:4px;border-radius:15px;}
+.c-about-tt p{background: #f2f2f2;border-radius:10px;padding:15px 0 15px 25px;}
+.c-about-tt span{color:#0050a8;}*/
+
+.bg2>div{
+	position: relative;
+	top: -15px;
+}
+.bg2 p{
+	color: #fff;
+	font-size: 30px;
+	line-height: 52px;
+	padding-left: 98px;
+}
+.bg2 p span{
+	color: #fbf800;
+}
+.c-about-img{text-align: center;margin:66px 0 64px;text-align: center;}
+.c-about-img img{display: inline-block;}
+
+.bg3 img{
+	margin: 0 auto;
+}
+/* 校区导航 */
+.c-school-nav-box{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	/*margin-top:90px;*/
+	background: #fff;
+	z-index: 10;
+	margin-bottom: 16px;
+}
+.c-school-nav-box-clone{
+	width: 100%;
+	height: 210px;
+	display: none;
+}
+.c-school-nav{
+	width:1066px;
+	margin:0 auto;
+}
+.c-school-nav li{
+	width:210px;
+	border:1px solid #2c78da;
+	background: #fff;
+	font-size: 32px;
+	height: 87px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 50%;
+	padding-top: 123px;
+	margin-right: 72px;
+	background-repeat: no-repeat; 
+}
+.c-school-nav li:nth-child(1){
+	background-image: url("../images/contact/city_icon1.png")/*tpa=http://www.seehope.net/images/contact/city_icon1.png*/;
+	background-color: #fff;
+	border-color: #d44032;
+	background-position: center 52px;
+}
+.c-school-nav li:nth-child(2){
+	background-image: url("../images/contact/city_icon2.png")/*tpa=http://www.seehope.net/images/contact/city_icon2.png*/;
+	background-color: #fff;
+	border-color: #fb6600;
+	background-position: center 7px;
+}
+.c-school-nav li:nth-child(3){
+	background-image: url("../images/contact/city_icon3.png")/*tpa=http://www.seehope.net/images/contact/city_icon3.png*/;
+	background-color: #fff;
+	border-color: #26bd6b;
+	background-position: center 7px;
+}
+.c-school-nav li:nth-child(4){
+	background-image: url("../images/contact/city_icon4.png")/*tpa=http://www.seehope.net/images/contact/city_icon4.png*/;
+	background-color: #fff;
+	border-color: #3db8c1;
+	margin-right: 0px;
+	background-position:center 27px;
+}
+
+.c-school-nav li.active:nth-child(1){
+	background-image: url("../images/contact/city_icon1_1.png")/*tpa=http://www.seehope.net/images/contact/city_icon1_1.png*/;
+	background-color: #d44032;
+}
+.c-school-nav li.active:nth-child(2){
+	background-image: url("../images/contact/city_icon2_1.png")/*tpa=http://www.seehope.net/images/contact/city_icon2_1.png*/;
+	background-color: #fb6600;
+}
+.c-school-nav li.active:nth-child(3){
+	background-image: url("../images/contact/city_icon3_1.png")/*tpa=http://www.seehope.net/images/contact/city_icon3_1.png*/;
+	background-color: #26bd6b;
+}
+.c-school-nav li.active:nth-child(4){
+	background-image: url("../images/contact/city_icon4_1.png")/*tpa=http://www.seehope.net/images/contact/city_icon4_1.png*/;
+	background-color: #3db8c1;
+}
+
+.c-school-nav li.active{
+	/*background: #2c78da;*/
+}
+.c-school-nav li.active a{
+	color:#fff;
+}
+.c-school-nav li a{
+	color:#333;
+}
+.bg4{
+	width: 100%;
+	min-width: 1200px;
+	
+	background: 
+		url("../images/contact/bg_06.jpg")/*tpa=http://www.seehope.net/images/contact/bg_06.jpg*/ center 0 no-repeat ,
+		url("../images/contact/bg_07.jpg")/*tpa=http://www.seehope.net/images/contact/bg_07.jpg*/ center 794px no-repeat,
+		url("../images/contact/bg_08.jpg")/*tpa=http://www.seehope.net/images/contact/bg_08.jpg*/ center 1443px no-repeat;
+}
+/* 各个校区 */
+.c-school-con{
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+
+} 
+.c-school-con>li{
+	display: none;
+}
+.c-school-con>li.active{
+	display: block;
+}
+
+/* 校区 */
+.c-school{__background: #f5f5f5;padding:36px 0 0px ; width: 1200px; min-width: 1200px; margin:0 auto;}
+.c-school h3{background-position: 0 -80px;}
+/*.c-school ul{width:1210px;margin:20px 0 33px;}
+.c-school li{height:160px;width:230px;border: 1px solid #e0e0e0;float: left;margin-right:10px;}
+.c-school li img{height: 120px;width: 100%;}
+.c-school li p{background: #fff;text-align: center;line-height: 40px;font-size: 14px;}*/
+/*.c-school td{border-top: 1px solid #dedede;border-left: 1px solid #dedede;height: 52px;}*/
+.c-school table{height: 252px; font-size: 16px; line-height: 36px;}
+.c-school tr td:nth-of-type(1){color: #f26407; width: 163px;_background: #f9f9f9;text-align: right;padding-right: 20px;}
+.c-school tr td:nth-of-type(2){color: #fff; width: 183px;_background: #fff;width: 985px;}
+.c-school>div>div{
+	width:1200px;
+	overflow: hidden;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.c-school>div>div ul{
+	width:1212px;
+	position:relative;
+	left:0;
+}
+.c-school>div>div ul li{
+	width:296px;
+	height:240px;
+	margin-right:7px;
+	margin-bottom:7px;
+	float:left;
+}
+
+
+/* 乘车路线 */
+.c-road{_padding:68px 0; width: 1065px; __min-width: 1200px; margin:0 auto; }
+.c-road h3{background-position: 0 -160px;}
+.c-road-tab{margin-top: 128px; height: 660px;}
+
+
+.c-road-btn{display: flex; display: -webkit-flex; align-items: center; justify-content: center; flex-direction: column; float: left;font-size: 14px;text-align: center;color:#fff;height: 100%;}
+.c-road-btn li{line-height: 40px;margin-bottom: 21px;cursor:pointer;background-color: #085f65; background-image: url("../images/contact/icon_down.png")/*tpa=http://www.seehope.net/images/contact/icon_down.png*/; background-repeat: no-repeat; background-position: center;  width: 200px; height: 80px; border-radius: 40px; position: relative;}
+.c-road-btn li:last-child{
+	margin-bottom:0;
+}
+.c-road-btn li.active{background-color: #000;}
+
+
+/*.c-road-btn li.active span{border-color:transparent transparent transparent #000;border-width:8px 14px;border-style:solid;position: absolute;right:-28px;top:50%;margin-top:-8px;display: block;}
+*/.c-road-rg{float: right;border: 1px solid #dedede; width: 828px}
+.c-road-rg p{font-size: 12px;  background: #fff; line-height:24px;padding:16px 0 16px 60px;}
+.c-road-list{display: none;}
+.c-road-list img{
+	width: 828px;
+}
+.c-road-list.active{
+	display: block;
+}
+/* 学员宿舍 */
+.c-dor{padding:94px 0 33px;__background: #f5f5f5; width: 1200px; min-width: 1200px; margin:0 auto; text-align: center;}
+.c-dor h3{background-position: 0 -240px;}
+.c-dor-img-box{text-align: center; display: inline-block; overflow: hidden;}
+.c-dor-img{margin:40px 0 20px; position: relative; display: inline-block;} 
+.c-dor-img img{float: left;margin-right: 16px;}
+.c-dor-img img:last-child{margin-right: 0px;}
+.c-dor h4{font-size: 28px;color:#0050a8;font-weight: normal;}
+.c-dor-con{width: 800px; margin: 0 auto; color: #fff; text-align: left; margin-top: 10px;line-height: 26px;font-size: 16px;}
+.c-dor-con span{color:#fff;}
+.c-dor-con dd{padding-right: 30px;width: 442px;}
+.c-dor-con dt,.c-dor-con dd{float: left;}
+.c-dor-con dd img{margin-top: 16px;}

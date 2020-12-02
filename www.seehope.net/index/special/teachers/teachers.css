@@ -1,0 +1,138 @@
+.banner > a{
+    display:block;
+    height:100%;}
+.part1-con-inner ul{
+    box-sizing: border-box;
+    padding-left:40px;
+    overflow: hidden;}
+.part1-con-inner ul li{
+    width:345px;
+    margin-right:40px;
+    float:left;
+    margin-bottom:30px;}
+.part1-con-inner ul li .t-info{
+    width:345px;
+    margin:0 auto;}
+.part1-con-inner ul li .t-info .t-tips{
+    height:100px;
+    color:#cd1129;
+    font-size:18px;
+    box-sizing: border-box;
+    margin:20px 0 10px 0;}
+.part1-con-inner ul li .t-info .t-tips .num-icons{
+    display:inline-block;
+    vertical-align: bottom;
+    width:80px;
+    height:82px;
+    background:url("t-num-icons.jpg.png")/*tpa=http://www.seehope.net/index/special/teachers/t-num-icons.jpg*/ no-repeat;
+    background-position: -5px -10px;    }
+.part1-con-inner ul li .t-info .t-name{
+    font-size:16px;
+    color:#000;}
+.part1-con-inner ul li .t-info .t-desc{
+    width:320px;
+    height:100px;
+    font-size:14px;
+    line-height:20px;
+    color:#333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin-top:10px;}
+.part1-con-inner ul li .t-info  a{
+    display:block;
+    width:200px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    margin:20px auto;
+    border:1px dashed #cd1129;
+    border-radius: 20px;
+    color:#cd1129;
+    font-size:18px;}
+.part1-con-inner ul li .t-info  a:hover{
+    background:#cd1129;
+    color:#fff;}
+.part1-con-inner ul li:nth-of-type(2) .t-info .t-tips .num-icons{
+    background-position: -115px -10px;}
+.part1-con-inner ul li:nth-of-type(3) .t-info .t-tips .num-icons{
+    background-position: -215px -10px;}
+.part1-con-inner ul li:nth-of-type(4) .t-info .t-tips .num-icons{
+    background-position: -313px -10px;}
+.part1-con-inner ul li:nth-of-type(5) .t-info .t-tips .num-icons{
+    background-position: -414px -10px;}
+.part1-con-inner ul li:nth-of-type(6) .t-info .t-tips .num-icons{
+    background-position: -11px -109px;}
+.part1-con-inner ul li:nth-of-type(7) .t-info .t-tips .num-icons{
+    background-position: -115px -109px;}
+.part1-con-inner ul li:nth-of-type(8) .t-info .t-tips .num-icons{
+    background-position: -215px -109px;}
+.part1-con-inner ul li:nth-of-type(9) .t-info .t-tips .num-icons{
+    background-position: -313px -109px;}
+.part1-con-inner ul li:nth-of-type(10) .t-info .t-tips .num-icons{
+    background-position: -414px -109px;}
+.part1-con-inner ul li:nth-of-type(11) .t-info .t-tips .num-icons{
+    background-position: -10px -207px;}
+.part1-con-inner ul li:nth-of-type(12) .t-info .t-tips .num-icons{
+    background-position: -115px -207px;}
+.part1-con-inner ul li:nth-of-type(13) .t-info .t-tips .num-icons{
+    background-position: -215px -207px;}
+.part1-con-inner ul li:nth-of-type(14) .t-info .t-tips .num-icons{
+    background-position: -313px -207px;}
+.part1-con-inner ul li:nth-of-type(15) .t-info .t-tips .num-icons{
+    background-position: -414px -207px;}
+.part1-con-inner ul li:nth-of-type(16) .t-info .t-tips .num-icons{
+    background-position: -18px -309px;}
+.part1-con-inner ul li:nth-of-type(17) .t-info .t-tips .num-icons{
+    background-position: -115px -309px;}
+.part1-con-inner ul li:nth-of-type(18) .t-info .t-tips .num-icons{
+    background-position: -215px -309px;}
+.part1-con-inner ul li:nth-of-type(19) .t-info .t-tips .num-icons{
+    background-position: -313px -309px;}
+.part1-con-inner ul li:nth-of-type(20) .t-info .t-tips .num-icons{
+    background-position: -417px -309px;}
+.part1-con-inner ul li:nth-of-type(21) .t-info .t-tips .num-icons{
+    background-position: -10px -409px;}
+.part2-con-inner ul{
+    width:100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-left:20px;}
+.part2-con-inner ul li{
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;}
+.part2-con-inner ul li a{
+    display:block;
+    width:275px;
+    margin:0 auto;
+    box-shadow: 0 1px 2px #c5c5c5;
+    -webkit-transition: 1s;
+    transition: 1s;}
+.part2-con-inner ul li a:hover{
+    box-shadow: 0 1px 5px #c5c5c5; }
+.part2-con-inner ul li a h5{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    font-size:18px;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+.part2-con-inner ul li a .c-img{
+    width:276px;
+    height:156px;
+    overflow: hidden;}
+.part2-con-inner ul li a .c-img img{
+    -webkit-transition: 1s;
+    transition: 1s;}
+.part2-con-inner ul li a:hover .c-img img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);}
+.part2-con-inner ul li a .c-tips{
+    height:30px;
+    overflow: hidden;
+    padding:0 10px 10px;
+    color:#b4bbbf;}
+

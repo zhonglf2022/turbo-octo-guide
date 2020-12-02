@@ -1,0 +1,552 @@
+.special-part-tit p span{
+    color: #f15c41;
+    font-size:30px;}
+.part1{
+    background:#000840;}
+.part1 .triangle-down{
+    border-top: 30px solid #f2f2f2;}
+.part1 .part1-tit p{
+    color:#fff;}
+.part1 .part1-tit p span{
+    color:#ff0000;
+    font-size: 32px;}
+.navTab li a{
+    color:#fff;}
+.navTab li.active a{
+    border-bottom: 3px solid #ff0000;}
+.part3{
+    background:#4ba2a7;}
+.part3 .special-part-tit p{
+    color:#fff;}
+.part3 .part3-item-list{
+    box-sizing: border-box;
+    overflow: hidden;
+    height:370px;}
+.part3 .part3-item-list .part3-item{
+    overflow: hidden;
+    width:400px;
+    float:left;}
+.part3 .part3-item-list .part3-item .img{
+    width:194px;
+    height:194px;
+    margin:0 auto;}
+.part3 .part3-item-list .part3-item .txt{
+    width:320px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    margin:0 auto;
+    position:relative;
+    padding:30px 0 10px 0;
+    background:rgba(255,255,255,.3);
+    margin-top:30px;}
+.part3 .part3-item-list .part3-item .txt span{
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width:150px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+    color:#4ba2a7;
+    background:#fff;
+    border-radius: 15px;
+    font-size:20px;}
+.part3 .part3-item-list .part3-item .txt p{
+    font-size:18px;
+    color:#fff;
+    text-align: center;
+    line-height:30px;}
+.part5{
+    background:#000;}
+.part5 .special-part-tit p{
+    color:#fff;}
+.part5 .part5-con{
+    width:1119px;
+    height: 614px;
+    margin: 0 auto;
+    box-shadow: 0 4px 4px rgba(14,5,10,0.75);
+    background: rgba(250,250,250,0.19);
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom:30px;}
+.part5 .part5-con .part5-tab{
+    width: 1080px;
+    height: 575px;
+    background: #f6f6f6;
+    box-shadow: 0 4px 4px rgba(14,5,10,0.51);
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 19px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding:20px;}
+.part5 .part5-con .part5-tab > table:nth-of-type(1){
+    border-radius: 24px;}
+.part5 .part5-con .part5-tab .j-zxjy-tablebox{
+    width:1010px;
+    margin:0 auto;}
+.part6{
+    background:#02111d;}
+.part6-item-list{
+    margin:30px 0;
+    overflow: hidden;}
+.part6 .special-part-tit p{
+    color:#fff;}
+.part6 .part6-item{
+    float:left;
+    width:400px;
+    position:relative;
+    background:url("part6-item-bg.png")/*tpa=http://www.seehope.net/index/special/arm/part6-item-bg.png*/ top center no-repeat;}
+.part6 .part6-item .img{
+    width:205px;
+    height:268px;
+    margin:0 auto;
+    position:relative;}
+.part6 .part6-item .img img{
+    position:absolute;
+    top:45px;
+    left:38%;}
+.part6 .part6-item .img .update-img{
+    -webkit-animation: mswing 1.2s ease-out 2s infinite;
+    animation: mswing 1.2s ease-out 2s infinite;}
+@-webkit-keyframes mswing {
+    0% {
+        -webkit-transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
+    }
+    20% {
+        -webkit-transform: rotateZ(72deg);
+        transform: rotateZ(72deg);
+    }
+    40% {
+        -webkit-transform: rotateZ(144deg);
+        transform: rotateZ(144deg);
+    }
+    60% {
+        -webkit-transform: rotateZ(216deg);
+        transform: rotateZ(216deg);
+    }
+    80% {
+        -webkit-transform: rotateZ(288deg);
+        transform: rotateZ(288deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes mswing {
+    0% {
+        -webkit-transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
+    }
+    20% {
+        -webkit-transform: rotateZ(72deg);
+        transform: rotateZ(72deg);
+    }
+    40% {
+        -webkit-transform: rotateZ(144deg);
+        transform: rotateZ(144deg);
+    }
+    60% {
+        -webkit-transform: rotateZ(216deg);
+        transform: rotateZ(216deg);
+    }
+    80% {
+        -webkit-transform: rotateZ(288deg);
+        transform: rotateZ(288deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+    }
+}
+.part6 .part6-item .img .part6-level-img{
+    top:169px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);}
+.part6 .part6-item .txt{
+    height:150px;
+    width:270px;
+    margin:0 auto;
+    border-radius: 10px;
+    border:1px solid #009edb;
+    background:rgba(0,158,219,.3);
+    box-sizing:border-box;
+    padding: 30px 10px;}
+.part6 .part6-item .txt p{
+    color:#fff;
+    font-size:16px;
+    line-height:30px;
+    text-align:center;}
+.part4-con{
+    margin: 30px 0;
+    overflow: hidden;}
+.part4-con .navTab{
+    height:100%;
+    display:block;
+    border:none;
+    overflow: hidden;}
+.part4-con .navTab li{
+    float:none;}
+.part4-con .navTab li.active a{
+    border:none;}
+.part4-con-img{
+    width:860px;
+    height:460px;
+    box-sizing: border-box;
+    padding:30px;
+    margin-left:40px;
+    position:relative;}
+.part4 .pro-item-list .pro-item{
+    display:none;}
+.part4 .pro-item-list .pro-item:nth-of-type(1){
+    display:block;}
+.part7-con{
+    position:relative;
+    width:100%;
+    height:680px;
+    background:url("part7-con-bg.png")/*tpa=http://www.seehope.net/index/special/arm/part7-con-bg.png*/ top center no-repeat;}
+.part7-con .swiper-container{
+    position:absolute;
+    width:700px;
+    height:450px;
+    left:20%;
+    top:10%;
+    border-radius: 31px;}
+.part7-con .swiper-container swiper-slide{
+    box-sizing: border-box;
+    padding:0 20px;}
+.part7-con .swiper-container .swiper-button{
+    position:absolute;
+    width:40px;
+    height:60px;
+    font-size:40px;
+    color:#333;}
+.part7-con .swiper-container .swiper-button-prev{
+    top:190px;
+    left:0px;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    background-image:url(data:image/svg+xml;charset=utf-8,<svg%20xmlns%3D\'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg\'%20viewBox%3D\'0%200%2027%2044\'><path%20d%3D\'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z\'%20fill%3D\'%237FC2F6\'%2F><%2Fsvg>) !important;}
+.part7-con .swiper-container .swiper-button-next{
+    top:190px;
+    right:12px;
+    background-image:url(data:image/svg+xml;charset=utf-8,<svg%20xmlns%3D\'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg\'%20viewBox%3D\'0%200%2027%2044\'><path%20d%3D\'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z\'%20fill%3D\'%234ba2a7\'%2F><%2Fsvg>) !important;}
+.part7 .plateform-list{
+    position:absolute;
+    bottom:120px;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);}
+.part7 .plateform-list ul li{
+    display:none;
+    line-height:30px;
+    text-align:center;
+    font-size:20px; }
+.part7 .plateform-list ul li:nth-of-type(1){
+    display:block;}
+.part7 .plateform-list ul li a{
+    padding:10px 20px;
+    border:1px solid #A3D3F8;
+    color:#4ba2a7;
+    border-radius: 5px;}
+.pro-s-list{
+    height:270px;
+    width:100%;
+    overflow: hidden;
+    margin-bottom:30px;
+    display:none;}
+.pro-s-list:nth-of-type(1){
+    display:block;}
+.pro-s-list .pro-s-item{
+   width:24%;
+    float:left;
+    height:260px;
+    margin:5px;}
+.pro-s-list .pro-s-item a{
+    display:block;
+    height:100%;
+    -webkit-box-shadow: 0 0 10px #e5e2e2;
+    box-shadow: 0 0 10px #e5e2e2;
+    color:#333;}
+.pro-s-list .pro-s-item a:hover{
+    -webkit-box-shadow: 0 5px 20px #e5e2e2,5px 5px 20px #e5e2e2,5px 0px 20px #e5e2e2,0 0 20px #e5e2e2;
+    box-shadow: 0 5px 20px #e5e2e2,5px 5px 20px #e5e2e2,5px 0px 20px #e5e2e2,0 0 20px #e5e2e2;}
+.pro-s-list .pro-s-item img{
+    width:200px;
+    height:200px;
+    display:block;
+    margin:0 auto;}
+.pro-s-list .pro-s-item p{
+    line-height:30px;
+    text-align:center;
+    font-size:20px;
+    margin-top:15px;}
+.pro-s-list .pro-s-item a:hover p{
+    color:#e2534b;}
+.flow-line, .flow-line::before, .flow-line::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:99999;}
+.flow-line {
+    width: 770px;
+    height: 380px;
+    margin: auto;
+    color: #e2534b; }
+.flow-line::before, .flow-line::after {
+    content: '';
+    z-index: -1;
+    margin: -5%;
+    box-shadow: inset 0 0 0 2px;    }
+.flow-line-top::before,.flow-line-top::after{
+    animation: clipMe 8s linear infinite;}
+.flow-line-top::before{
+    animation-delay: -4s;
+}
+.flow-line-bottom::before,.flow-line-bottom::after{
+    animation: clipMe2 8s linear infinite;}
+.flow-line-bottom::before{
+    animation-delay: -4s;
+}
+@keyframes clipMe {
+    0%, 100% {
+        clip: rect(0px, 860.0px, 2px, 0px);
+    }
+    25% {
+        clip: rect(0px, 2px, 460.0px, 0px);
+    }
+    50% {
+        clip: rect(218.0px, 860.0px, 460.0px, 0px);
+    }
+    75% {
+        clip: rect(0px, 860.0px, 460.0px, 860.0px);
+    }
+}
+/******项目导航*******/
+.vertical-project-nav{
+    width:120px;
+    height:466px;
+    background:url("vertical-nav-line.png")/*tpa=http://www.seehope.net/index/special/arm/vertical-nav-line.png*/ top center no-repeat;}
+.vertical-project-nav .pro-navTab li > a{
+    transition:none;
+    -webkit-transition: none;}
+.vertical-project-nav .pro-navTab li{
+    width:100px;
+    height:100px;
+    background:rgba(226,83,75,.5);
+    border-radius: 50%;
+    margin:0 auto;
+    margin-top:36px;}
+.vertical-project-nav .pro-navTab li a{
+    width:80px;
+    height:80px;
+    background:#fff;
+    color:#e2534b;
+    display: inline-block;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-top:10px;
+    padding-top:14px;
+    text-align:center;
+    line-height:26px;}
+.vertical-project-nav .pro-navTab li.active{
+    width:120px;
+    height:120px;}
+.vertical-project-nav .pro-navTab li.active a{
+    width:100px;
+    height:100px;
+    background:#e2534b;
+    color:#fff;
+    padding:21px;}
+/**********/
+.part8{
+    background:rgba(0,24,72,.8);
+    background-size: 100% 100%;}
+.part8 .special-part-tit p{
+    color:#fff;}
+.part8 .part8-list{
+    width:920px;
+    height:480px;
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;}
+.part8 .part8-list .part8-item{
+    width:430px;
+    margin-left:20px;
+    margin-top:20px;
+    float:left;}
+.part8 .part8-ad{
+    width:220px;
+    height:140px;
+    position:absolute;
+    background:rgba(255,255,255,.8);
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    z-index:9999;
+    border-radius: 5px;}
+.part8 .part8-ad h3{
+    text-align: center;
+    line-height:40px;
+    font-size:32px;
+    color:#f15c41;
+    margin-top:30px;}
+.part8 .part8-ad p{
+    text-align: center;
+    line-height:30px;
+    font-size:28px;
+    color:#f15c41;
+    margin-top:10px;}
+.part9 .part9-info-con .part9-item{
+    overflow: hidden;
+    height:420px;
+    display:none;}
+.part9 .part9-info-con .part9-item:nth-of-type(1){
+    display:block;}
+.part9 .part9-item .part9-item-img{
+    width:30%;
+    height:100%;
+    position: relative;
+    background:url("teacher-bg.png")/*tpa=http://www.seehope.net/index/special/arm/teacher-bg.png*/ center center no-repeat;}
+.part9 .part9-item .part9-item-img > img{
+    position:absolute;
+    bottom: 58px;
+    right: 16px;}
+.part9 .part9-item .part9-item-img p{
+    position:absolute;
+    font-size:20px;
+    bottom:52px;
+    right:0px;}
+.part9 .part9-item .part9-item-img span{
+    position:absolute;
+    top:70px;
+    right:50px;
+    color:#fff;
+    background:#f15c41;
+    width:60px;
+    height:60px;
+    line-height:20px;
+    border-radius:50%;
+    font-size:16px;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top:10px;}
+.part9 .part9-item .part9-item-info{
+    width:60%;}
+.part9 .part9-item .part9-item-info .p-name{
+    font-size:28px;
+    margin-top:28px;}
+.part9 .part9-item .part9-item-info .p-post{
+    color:#f15c41;
+    font-size:18px;}
+.part9 .part9-item .part9-item-info .p-desc{
+    line-height:24px;
+    font-size:16px;
+    margin-top:10px;}
+.part9 .part9-item .part9-item-info .p-pro-list > p{
+    color:#f15c41;
+    font-size:18px;
+    margin-top: 20px;
+    margin-bottom: 10px;}
+.part9 .part9-item .part9-item-info .p-pro-list ul{
+    overflow:hidden;}
+.part9 .part9-item .part9-item-info .p-pro-list ul li{
+    float:left;
+    margin-left:10px;
+    margin-bottom:10px;}
+.part9 .part9-item .part9-item-info .p-pro-list ul li a{
+    border:1px solid #f15c41;
+    display:inline-block;
+    background:rgba(241,92,65,.6);
+    color:#fff;
+    line-height:38px;
+    padding:0 20px;
+    border-radius: 10px;
+    font-size:16px;}
+.part9 .part9-item .part9-item-info .p-pro-list ul li a:hover{
+    color:#f15c41;}
+.part9 .part9-img-con{
+    margin-top:20px;
+    margin-bottom:30px;}
+.part9 .part9-img-list{
+    overflow: hidden;}
+.part9 .part9-img-list .part9-img-item{
+    float:left;
+    width:200px;}
+.part9 .part9-img-list .part9-img-item .img{
+    width:104px;
+    height:104px;
+    margin:0 auto;
+    border:5px solid #fff;}
+.part9 .part9-img-list .part9-img-item.active .img{
+    border:5px solid rgba(241,92,65,.6);
+    border-radius: 50%;}
+.part9 .part9-img-list .part9-img-item .img img{
+    width:100%;
+    height:100%;}
+.part9 .part9-img-list .part9-img-item p{
+    font-size:16px;
+    text-align:center;
+    line-hegiht:30px;
+    margin-top:5px;}
+.part9 .part9-img-list .part9-img-item.active p{
+    color:#f15c41;}
+.fixed-nav-ad{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    z-index:999999; }
+.fixed-nav-ad img{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;    }
+.fixed-nav-ad p{
+    position:absolute;
+    top:50%;
+    left:48%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);}
+.fixed-nav-ad p a{
+    display:inline-block;
+    vertical-align: middle;
+    padding:10px 20px;
+    background:#FFF100;
+    margin-right:8px;
+    font-size:16px;}
+.fixed-nav-ad p a:hover{
+    background:#fff;}
+.fixed-nav-ad .close{
+    position:absolute;
+    left:67.3%;
+    top:21%;
+    width:31px;
+    height:31px;
+    background:url("fixed-nav-ad-close.png")/*tpa=http://www.seehope.net/index/special/arm/fixed-nav-ad-close.png*/ center center no-repeat;}
+
+
+
+
+
+
+
+
+
+
+

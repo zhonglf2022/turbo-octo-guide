@@ -1,0 +1,284 @@
+.course{
+    margin-bottom:30px;
+    overflow: hidden;}
+.course .course-ad{
+    width:23.75%;
+    height:360px;
+    position:relative;}
+.course .course-ad > h3{
+    font-size: 24px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-top:30px;}
+.course .course-ad > p{
+    text-align:center;
+    font-size:16px;
+    color:#fff;}
+.course .course-ad > div{
+    margin-top:32px;
+    height: 128px;
+    text-align: center;
+    line-height: 128px; }
+.course .course-ad > div > img{
+    vertical-align: middle; }
+.course .course-ad > a{
+    display: block;
+    width: 186px;
+    height: 36px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 36px;
+    color: #fff;
+    position:absolute;
+    bottom:30px;
+    left:0;
+    right:0;}
+.course .course-nav{
+    width:76.25%;}
+.course .course-nav ul li{
+    float:left;
+    width:283px;
+    height:168px;
+    margin-left:20px;
+    margin-bottom:20px;
+    border:1px solid #f2f2f2;}
+.course .course-nav ul li a{
+    display:block;
+    padding:25px 0;}
+.course .course-nav ul li a .nav-icon{
+    width:88px;
+    height:88px;
+    margin:0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    position:relative;}
+.course .course-nav ul li a .nav-icon img{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;}
+.course .course-nav ul li a p{
+    font-size: 16px;
+    text-align:center;
+    margin-top:10px;}
+.course .course-articles{
+    width:100%;
+    box-sizing: border-box;
+    padding-top:40px;
+    position:relative;
+    border:1px solid #f2f2f2;}
+.course .course-articles > span{
+    position:absolute;
+    top:0;
+    height:40px;
+    line-height: 40px;
+    padding:0 10px;
+    font-size:16px;
+    color:#fff;}
+.course .course-articles ul{
+   overflow: hidden;}
+.course .course-articles ul li{
+    width:359px;
+    float: left;
+    height:30px;
+    line-height: 30px;
+    padding:10px 20px;}
+.course .course-articles ul li a{
+    width:100%;
+    display:block;
+    font-size:16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.course .course-articles ul li a span{
+    margin-right:5px;}
+.course1 .course-ad{
+    background:#3680ff;}
+.course1 .course-nav ul li{
+    border-color:#3680ff;}
+.course1 .course-articles > span{
+    background:#3680ff;}
+.course1 .course-nav ul li a .nav-icon{
+    background:#3680ff;}
+.course1 .course-nav ul li a:hover p{
+    color:#3680ff;}
+.course1 .course-articles ul li a >span{
+    color:#3680ff;}
+.course1 .course-articles ul li a:hover{
+    color:#3680ff;}
+.course2 .course-ad{
+    background:#36b2a1;}
+.course2 .course-nav ul li{
+    border-color:#36b2a1;}
+.course2 .course-articles > span{
+    background:#36b2a1;}
+.course2 .course-nav ul li a .nav-icon{
+    background:#36b2a1;}
+.course2 .course-nav ul li a:hover p{
+    color:#36b2a1;}
+.course2 .course-articles ul li a >span{
+    color:#36b2a1;}
+.course2 .course-articles ul li a:hover{
+    color:#36b2a1;}
+.course3 .course-ad{
+    background:#FF545D;}
+.course3 .course-nav ul li{
+    border-color:#FF545D;}
+.course3 .course-articles > span{
+    background:#FF545D;}
+.course3 .course-nav ul li a .nav-icon{
+    background:#FF545D;}
+.course3 .course-nav ul li a:hover p{
+    color:#FF545D;}
+.course3 .course-articles ul li a >span{
+    color:#FF545D;}
+.course3 .course-articles ul li a:hover{
+    color:#FF545D;}
+.course4 .course-ad{
+    background:#0AADEA;}
+.course4 .course-nav ul li{
+    border-color:#0AADEA;}
+.course4 .course-articles > span{
+    background:#0AADEA;}
+.course4 .course-nav ul li a .nav-icon{
+    background:#0AADEA;}
+.course4 .course-nav ul li a:hover p{
+    color:#0AADEA;}
+.course4 .course-articles ul li a >span{
+    color:#0AADEA;}
+.course4 .course-articles ul li a:hover{
+    color:#0AADEA;}
+.course5 .course-ad{
+    background:#F8806D;}
+.course5 .course-nav ul li{
+    border-color:#F8806D;}
+.course5 .course-articles > span{
+    background:#F8806D;}
+.course5 .course-nav ul li a .nav-icon{
+    background:#F8806D;}
+.course5 .course-nav ul li a:hover p{
+    color:#F8806D;}
+.course5 .course-articles ul li a >span{
+    color:#F8806D;}
+.course5 .course-articles ul li a:hover{
+    color:#F8806D;}
+.course6 .course-ad{
+    background:#4BA2A7;}
+.course6 .course-nav ul li{
+    border-color:#4BA2A7;}
+.course6 .course-articles > span{
+    background:#4BA2A7;}
+.course6 .course-nav ul li a .nav-icon{
+    background:#4BA2A7;}
+.course6 .course-nav ul li a:hover p{
+    color:#4BA2A7;}
+.course6 .course-articles ul li a >span{
+    color:#4BA2A7;}
+.course6 .course-articles ul li a:hover{
+    color:#4BA2A7;}
+.course7 .course-ad{
+    background:#f08300;}
+.course7 .course-nav ul li{
+    border-color:#f08300;}
+.course7 .course-articles > span{
+    background:#f08300;}
+.course7 .course-nav ul li a .nav-icon{
+    background:#f08300;}
+.course7 .course-nav ul li a:hover p{
+    color:#f08300;}
+.course7 .course-articles ul li a >span{
+    color:#f08300;}
+.course7 .course-articles ul li a:hover{
+    color:#f08300;}
+.course8 .course-ad{
+    background:#2BA146;}
+.course8 .course-nav ul li{
+    border-color:#2BA146;}
+.course8 .course-articles > span{
+    background:#2BA146;}
+.course8 .course-nav ul li a .nav-icon{
+    background:#2BA146;}
+.course8 .course-nav ul li a:hover p{
+    color:#2BA146;}
+.course8 .course-articles ul li a >span{
+    color:#2BA146;}
+.course8 .course-articles ul li a:hover{
+    color:#2BA146;}
+.course9 .course-ad{
+    background:#005982;}
+.course9 .course-nav ul li{
+    border-color:#005982;}
+.course9 .course-articles > span{
+    background:#005982;}
+.course9 .course-nav ul li a .nav-icon{
+    background:#005982;}
+.course9 .course-nav ul li a:hover p{
+    color:#005982;}
+.course9 .course-articles ul li a >span{
+    color:#005982;}
+.course9 .course-articles ul li a:hover{
+    color:#005982;}
+.course10 .course-ad{
+    background:#E66B46;}
+.course10 .course-nav ul li{
+    border-color:#E66B46;}
+.course10 .course-articles > span{
+    background:#E66B46;}
+.course10 .course-nav ul li a .nav-icon{
+    background:#E66B46;}
+.course10 .course-nav ul li a:hover p{
+    color:#E66B46;}
+.course10 .course-articles ul li a >span{
+    color:#E66B46;}
+.course10 .course-articles ul li a:hover{
+    color:#E66B46;}
+.course11 .course-ad{
+    background:#f35e9a;}
+.course11 .course-nav ul li{
+    border-color:#f35e9a;}
+.course11 .course-articles > span{
+    background:#f35e9a;}
+.course11 .course-nav ul li a .nav-icon{
+    background:#f35e9a;}
+.course11 .course-nav ul li a:hover p{
+    color:#f35e9a;}
+.course11 .course-articles ul li a >span{
+    color:#f35e9a;}
+.course11 .course-articles ul li a:hover{
+    color:#f35e9a;}
+.course12 .course-ad{
+    background:#E4007F;}
+.course12 .course-nav ul li{
+    border-color:#E4007F;}
+.course12 .course-articles > span{
+    background:#E4007F;}
+.course12 .course-nav ul li a .nav-icon{
+    background:#E4007F;}
+.course12 .course-nav ul li a:hover p{
+    color:#E4007F;}
+.course12 .course-articles ul li a >span{
+    color:#E4007F;}
+.course12 .course-articles ul li a:hover{
+    color:#E4007F;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

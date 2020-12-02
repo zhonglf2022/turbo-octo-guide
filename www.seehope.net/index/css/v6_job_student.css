@@ -1,0 +1,29 @@
+ul{padding-left:0;list-style:none;margin-bottom:0}.job_content{min-height:482px;background-image:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/banner.jpg);width:100%;background-size:cover;color:#fff}.job_content>h2{font-size:36px;font-weight:600;padding-top:120px;margin-top:0}.job_content>h2+p{font-size:20px;margin-top:38px}.job_star{background-color:#fff;-webkit-border-radius:8px;border-radius:8px;height:352px;margin-top: -180px;-webkit-box-shadow:0 15px 35px -10px rgba(0,0,0,.35);box-shadow:0 15px 35px -10px rgba(0,0,0,.35);margin-bottom:60px;position:relative}.job_star:after{content:"";position:absolute;bottom:0;height:8px;background-color:#f85b92;width:100%;border-bottom-left-radius:8px;border-bottom-right-radius:8px}.job_star
+.job_star_left{max-width:389px;height:330px}.job_star .job_star_left>img{max-width:100%;display:block;height:auto}.job_star
+.job_star_right{margin-left:390px;color:#898989;height:330px;background:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/wenzi_bg.png) no-repeat right -245px bottom -3px}@media screen and ( max-width: 991px){.job_star
+.job_star_left{width:320px;height:auto}.job_star
+.job_star_right{margin-left:0;height:auto}}.job_star_right .content_item>h3{font-size:20px;color:#626262;margin-bottom:30px;margin-top:0}.content_warp{padding-top:70px}.content_warp
+.content_item{display:none}.content_item>h3>span{font-size:14px;color:#f75a92;margin-left:20px;font-style:italic}.content_item
+p{line-height:24px;padding-right:85px;font-family:"微软雅黑";height:72px}.control{padding-left:0;list-style:none;margin-top:40px}.control
+li{float:left;width:20%}@media screen and ( max-width: 991px ){.control{margin-top:50px}.control
+li{text-align:center;width:10%}}.control li
+a{display:inline-block;height:60px;width:60px;-webkit-border-radius:50%;border-radius:50%;-webkit-filter:grayscale(1);filter:grayscale(1);-webkit-transition:.2s all;transition:.2s all}.control li
+a.image_active{-webkit-filter:grayscale(0);filter:grayscale(0);-webkit-transform:scale(1.2);transform:scale(1.2);-webkit-box-shadow:0 0 12px rgba(0,0,0,.35);box-shadow:0 0 12px rgba(0,0,0,.35)}.control li:nth-of-type(1) a{background-image:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/star_stu.png);background-position: -7px center}.control li:nth-of-type(2) a{background-image:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/star_stu1.png);background-position: -12px center}.control li:nth-of-type(3) a{background-image:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/starstu2.png);background-position: -8px center}.control li:nth-of-type(4) a{background-image:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/star_stu3.png);background-position: -8px center}.control li:nth-of-type(5) a{background-image:url(http://p10.ucai.cn/static/i3/fullstack/indexv6/studentJob/star_stu5.png);background-position: -8px center}.stu_job_list
+.stu_data{margin-bottom:60px;position:absolute;top:0;width:100%}.stu_job_list .stu_data
+tr{cursor:pointer}.stu_job_list .stu_data
+thead{position:absolute;z-index:2;top:0}.stu_job_list .stu_data tbody>tr>td{text-align:center;padding:14px
+8px;color:#707070}.infor_scroll{position:relative;min-height:625px;overflow:hidden}.tab_th{position:absolute;width:100%;background-color:#fff;z-index:2}.tab_th
+table{margin-bottom:0}.tab_th .tr_title>td:first-child{text-align:center;right:2%}.tr_title>td{padding:10px;text-align:right;color:#ff6949;position:relative;border-top:none !important;border-bottom:solid 2px #ddd;font-weight:600}.tr_title td:nth-of-type(2){right:2%}.tr_title td:nth-of-type(4){left: -3%}.tr_title td:nth-of-type(5){left:7%}.tr_title td:nth-of-type(6){left:10%}.infor_scroll
+.tab_areas{position:relative;top:41px;height:542px;overflow:hidden}.stu_item-shdow{-webkit-box-shadow:0 10px 14px -7px rgba(0,0,0,.15);box-shadow:0 10px 14px -7px rgba(0,0,0,.15)}.stu_item-shdow:hover{-webkit-box-shadow:0 10px 14px -7px rgba(0,0,0,.25);box-shadow:0 10px 14px -7px rgba(0,0,0,.25)}.image_items{padding:0;border:none;cursor:pointer;position:relative;margin-bottom:0;overflow:hidden}.image_items
+.stu_tooltip{position:absolute;left:0;top:240px;height:100%;overflow:hidden;width:100%;z-index:0;background-color:rgba(255,255,255,.85);-webkit-transition:.2s ease-out;transition:.2s ease-out}.image_items:hover
+.stu_tooltip{top:0}.image_items .stu_tooltip
+ul{padding-top:50px}.image_items .stu_tooltip
+li{color:#707070;line-height:24px;padding:0
+15px}.job_stu_pic .row:last-child{margin-bottom:60px}.student_rows{margin-bottom:35px}.image_items
+.cap_title{background-color:#fff;padding:0
+15px;position:relative;z-index:1;-webkit-transition:.3s;transition:.3s}.image_items
+.cap_title{color:#7d7d7d}.image_items .cap_title span:first-child{font-weight:600}.image_items .cap_title
+p{height:50px;line-height:50px;margin-bottom:0}.image_items
+.frigue{min-height:166px}.image_items .frigue>img{max-width:100%;height:auto;display:block}@media screen and ( max-width: 767px){.image_items .frigue>img{width:100% !important}}.partner_item
+li{display:inline-block;width:19.33%;height:96px;line-height:96px;text-align:center;cursor:default}.partner_item li:hover{background-color:#f7f7f7}@media screen and ( max-width: 991px){.partner_item
+li{width:24.33%}}@media screen and ( max-width: 480px){.partner_item{display:none}}.partner_item+div>a{color:#ff6949;text-decoration:underline}.stu_job_list>h2,.job_corp>h2,.job_stu_pic>h2{font-size:26px;color:#626262;margin-bottom:20px}.stu_job_list>h2+p,.job_corp>h2+p,.job_stu_pic>h2+p{font-size:16px;color:#7d7d7d;margin-bottom:30px}.job_corp>h2{margin-top:65px}.job_stu_pic>h2{margin-top:52px}

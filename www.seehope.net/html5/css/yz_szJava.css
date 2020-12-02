@@ -1,0 +1,917 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  font-size: 14px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+  textarearesize: none; }
+
+fieldset, img {
+  border: 0; }
+
+img {
+  vertical-align: top;
+  border: none; }
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+abbr, acronym {
+  border: 0; }
+
+em, i {
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+body {
+  min-width: 1200px; }
+
+.textfloat {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease; }
+
+.textfloat:hover {
+  top: -4px;
+  left: -4px; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.warp {
+  margin: 0 auto;
+  width: 1200px; }
+
+.tit {
+  font-size: 42px;
+  line-height: 42px;
+  color: #333;
+  text-align: center;
+  font-weight: bold; }
+  .tit > span {
+    color: #eb1b31; }
+
+.banner {
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: auto 100%;
+  height: 820px; }
+  .banner .warp {
+    padding-top: 94px;
+    padding-bottom: 290px; }
+    .banner .warp > h2 {
+      width: 764px;
+      height: 50px;
+      background-color: #eb1c32;
+      margin: 0 auto;
+      font-size: 28px;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+      border-radius: 16px/10px;
+      position: relative;
+      margin-bottom: 50px; }
+    .banner .warp > h2:after {
+      position: absolute;
+      content: "";
+      width: 39px;
+      height: 17px;
+      background-image: url("../images/yz_szJava/banner_icon1.png")/*tpa=http://www.seehope.net/images/yz_szJava/banner_icon1.png*/;
+      right: 37px;
+      bottom: -17px; }
+    .banner .warp > h3 {
+      width: 1037px;
+      height: 158px;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+      margin-bottom: 62px; }
+    .banner .warp > div {
+      font-size: 28px;
+      line-height: 34px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 35px; }
+      .banner .warp > div > span {
+        display: inline-block;
+        height: 34px;
+        padding: 0 13px;
+        background-color: #eb1c32;
+        font-weight: bold;
+        text-align: center;
+        line-height: 34px;
+        color: #fff;
+        border-radius: 12px;
+        font-size: 20px;
+        position: relative;
+        top: -2px; }
+      .banner .warp > div > span:nth-child(1) {
+        margin-left: 14px; }
+      .banner .warp > div > span:nth-child(4) {
+        margin-right: 64px; }
+      .banner .warp > div > i {
+        display: inline-block;
+        width: 132px;
+        height: 25px;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 3px; }
+    .banner .warp > p {
+      height: 42px;
+      width: 650px;
+      padding: 0 40px;
+      border: 1px solid #919aa4;
+      border-radius: 21px;
+      color: #fff;
+      font-size: 22px;
+      line-height: 42px;
+      margin: 0 auto; }
+      .banner .warp > p > span {
+        color: #ec1f33;
+        font-size: 24px;
+        font-weight: bold; }
+      .banner .warp > p > i {
+        text-decoration: line-through; }
+
+.c_add1 .warp {
+  padding-top: 20px;
+  padding-bottom: 55px; }
+  .c_add1 .warp > h2 {
+    margin-bottom: 42px; }
+  .c_add1 .warp > p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 42px; }
+  .c_add1 .warp > ul {
+    text-align: center; }
+    .c_add1 .warp > ul li {
+      display: inline-block;
+      margin-right: 50px;
+      background-repeat: no-repeat;
+      background-position: top;
+      padding-top: 142px;
+      width: 165px;
+      font-size: 16px;
+      line-height: 32px;
+      color: #333;
+      text-align: center; }
+    .c_add1 .warp > ul li:nth-child(1):hover {
+      background-image: url("../images/yz_szJava/c_add1_iocn1_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c_add1_iocn1_2.png*/ !important; }
+    .c_add1 .warp > ul li:nth-child(2):hover {
+      background-image: url("../images/yz_szJava/c_add1_iocn2_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c_add1_iocn2_2.png*/ !important; }
+    .c_add1 .warp > ul li:nth-child(3):hover {
+      background-image: url("../images/yz_szJava/c_add1_iocn3_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c_add1_iocn3_2.png*/ !important; }
+    .c_add1 .warp > ul li:nth-child(4):hover {
+      background-image: url("../images/yz_szJava/c_add1_iocn4_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c_add1_iocn4_2.png*/ !important; }
+    .c_add1 .warp > ul li:nth-child(5):hover {
+      background-image: url("../images/yz_szJava/c_add1_iocn5_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c_add1_iocn5_2.png*/ !important; }
+  .c_add1 .warp .btns {
+    text-align: center;
+    margin-top: 36px; }
+    .c_add1 .warp .btns a {
+      display: inline-block;
+      width: 181px;
+      height: 46px;
+      border-radius: 23px;
+      text-align: center;
+      line-height: 46px;
+      font-weight: bold;
+      font-size: 18px; }
+    .c_add1 .warp .btns a:nth-child(1) {
+      color: #333;
+      margin-right: 30px;
+      border: 1px solid #333; }
+    .c_add1 .warp .btns a:nth-child(2) {
+      background-color: #ff0000;
+      color: #fff; }
+
+.c1 .warp {
+  padding-top: 15px;
+  padding-bottom: 32px; }
+  .c1 .warp > h2 {
+    margin-bottom: 46px; }
+  .c1 .warp > ul > li:nth-child(1), .c1 .warp > ul > li:nth-child(2), .c1 .warp > ul > li:nth-child(3), .c1 .warp > ul > li:nth-child(4) {
+    padding-top: 168px;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333;
+    text-align: center;
+    width: 165px;
+    margin-right: 92px; }
+  .c1 .warp > ul > li:nth-child(5) div {
+    width: 146px;
+    margin: 14px 0; }
+    .c1 .warp > ul > li:nth-child(5) div p, .c1 .warp > ul > li:nth-child(5) div a {
+      height: 36px;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold; }
+    .c1 .warp > ul > li:nth-child(5) div p {
+      background-color: #2b3036; }
+    .c1 .warp > ul > li:nth-child(5) div a {
+      display: block;
+      width: 144px;
+      border: 1px solid #eb1b31;
+      border-top: none;
+      color: #eb1b31; }
+  .c1 .warp > ul > li:nth-child(1):hover {
+    background-image: url("../images/yz_szJava/c1_icon1_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c1_icon1_2.png*/ !important; }
+  .c1 .warp > ul > li:nth-child(2):hover {
+    background-image: url("../images/yz_szJava/c1_icon2_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c1_icon2_2.png*/ !important; }
+  .c1 .warp > ul > li:nth-child(3):hover {
+    background-image: url("../images/yz_szJava/c1_icon3_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c1_icon3_2.png*/ !important; }
+  .c1 .warp > ul > li:nth-child(4):hover {
+    background-image: url("../images/yz_szJava/c1_icon4_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c1_icon4_2.png*/ !important; }
+
+.c2 .warp {
+  padding-top: 32px;
+  padding-bottom: 66px; }
+  .c2 .warp > h2 {
+    margin-bottom: 22px; }
+  .c2 .warp > h3 {
+    font-size: 22px;
+    line-height: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 26px; }
+  .c2 .warp > p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 35px; }
+  .c2 .warp > div {
+    height: 58px;
+    font-size: 24px;
+    line-height: 58px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    margin-bottom: 46px; }
+  .c2 .warp > ul {
+    width: 1066px;
+    margin: 0 auto; }
+    .c2 .warp > ul li {
+      width: 152px;
+      height: 152px;
+      background-repeat: no-repeat;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 152px; }
+
+.c3 {
+  background-color: #2b3036; }
+  .c3 .warp {
+    padding-top: 84px;
+    padding-bottom: 50px; }
+    .c3 .warp > h2 {
+      color: #fff;
+      margin-bottom: 24px; }
+    .c3 .warp > p {
+      font-size: 22px;
+      color: #fff;
+      text-align: center;
+      line-height: 22px;
+      margin-bottom: 66px; }
+    .c3 .warp > ul > li {
+      text-align: center;
+      width: 600px;
+      margin-bottom: 45px; }
+      .c3 .warp > ul > li > h3 {
+        width: 311px;
+        height: 38px;
+        background-color: #eb1b31;
+        text-align: center;
+        line-height: 38px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0 auto;
+        margin-bottom: 35px; }
+      .c3 .warp > ul > li > img {
+        display: block;
+        margin: 0 auto; }
+      .c3 .warp > ul > li > p {
+        width: 570px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 28px; }
+      .c3 .warp > ul > li > p:nth-child(4) {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 32px; }
+    .c3 .warp > ul > li:nth-child(2) > p:nth-child(4) {
+      padding-left: 88px; }
+    .c3 .warp > ul > li:nth-child(3) p, .c3 .warp > ul > li:nth-child(4) p {
+      width: 548px;
+      text-align: left; }
+    .c3 .warp > a {
+      display: block;
+      width: 236px;
+      height: 46px;
+      text-align: center;
+      line-height: 46px;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 23px;
+      margin: 0 auto;
+      font-size: 18px;
+      font-weight: bold; }
+
+.c4 .warp {
+  padding-top: 66px;
+  padding-bottom: 70px; }
+  .c4 .warp > h2 {
+    margin-bottom: 42px; }
+  .c4 .warp > p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 36px; }
+  .c4 .warp > div {
+    padding: 12px;
+    border: 1px solid #333;
+    width: 1008px;
+    margin: 0 auto;
+    margin-bottom: 15px; }
+    .c4 .warp > div > p {
+      background-color: #e9eaeb;
+      font-size: 22px;
+      line-height: 40px;
+      color: #333;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px 0; }
+  .c4 .warp > ul:after, .c4 .warp > ul:before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #000;
+    top: 0;
+    left: -5px; }
+  .c4 .warp > ul:before {
+    top: auto;
+    bottom: 0; }
+  .c4 .warp > ul {
+    width: 1170px;
+    border-left: 2px solid #000;
+    margin-left: 28px;
+    position: relative;
+    padding: 42px 0;
+    padding-bottom: 0; }
+    .c4 .warp > ul > li {
+      padding-bottom: 47px; }
+      .c4 .warp > ul > li > h3:after {
+        position: absolute;
+        content: "";
+        width: 218px;
+        height: 90px;
+        background-image: url("../images/yz_szJava/icon_tit1.png")/*tpa=http://www.seehope.net/images/yz_szJava/icon_tit1.png*/;
+        top: -11px;
+        left: -28px; }
+      .c4 .warp > ul > li > h3 {
+        font-size: 32px;
+        line-height: 68px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #333;
+        padding-left: 230px;
+        position: relative;
+        margin-bottom: 50px; }
+      .c4 .warp > ul > li > div > ul {
+        width: calc(520px - 28px);
+        padding-left: 28px; }
+        .c4 .warp > ul > li > div > ul h4 {
+          display: inline-block;
+          padding: 0 15px;
+          background-color: #333;
+          color: #fff;
+          font-size: 16px;
+          line-height: 36px;
+          font-weight: bold;
+          position: relative;
+          margin-bottom: 10px; }
+        .c4 .warp > ul > li > div > ul h4:after {
+          position: absolute;
+          content: "";
+          width: 28px;
+          height: 2px;
+          background-color: #333;
+          top: 50%;
+          margin-top: -1px;
+          left: -28px; }
+        .c4 .warp > ul > li > div > ul p {
+          font-size: 16px;
+          line-height: 26px;
+          color: #333;
+          padding-left: 15px;
+          margin-bottom: 18px; }
+          .c4 .warp > ul > li > div > ul p b {
+            color: #000; }
+      .c4 .warp > ul > li > div > div {
+        width: 632px; }
+        .c4 .warp > ul > li > div > div img {
+          display: block;
+          margin: 0 auto; }
+        .c4 .warp > ul > li > div > div > div {
+          background-color: #333;
+          padding: 36px 0;
+          margin-bottom: 36px;
+          position: relative; }
+          .c4 .warp > ul > li > div > div > div > ul li.active {
+            display: block; }
+          .c4 .warp > ul > li > div > div > div > ul li {
+            display: none;
+            text-align: center; }
+            .c4 .warp > ul > li > div > div > div > ul li p {
+              font-size: 18px;
+              line-height: 18px;
+              color: #fff;
+              margin-bottom: 22px; }
+          .c4 .warp > ul > li > div > div > div > a {
+            position: absolute;
+            width: 23px;
+            height: 30px;
+            top: 50%;
+            margin-top: -15px; }
+          .c4 .warp > ul > li > div > div > div > a:nth-child(2) {
+            left: 32px; }
+          .c4 .warp > ul > li > div > div > div > a:nth-child(3) {
+            right: 32px; }
+        .c4 .warp > ul > li > div > div > ul li h4 {
+          display: inline-block;
+          padding: 0 15px;
+          background-color: #333;
+          color: #fff;
+          font-size: 16px;
+          line-height: 36px;
+          font-weight: bold;
+          position: relative;
+          margin-bottom: 10px; }
+        .c4 .warp > ul > li > div > div > ul li p {
+          font-size: 16px;
+          line-height: 26px;
+          color: #333;
+          padding-left: 15px;
+          margin-bottom: 18px; }
+          .c4 .warp > ul > li > div > div > ul li p b {
+            color: #000; }
+        .c4 .warp > ul > li > div > div > ul li:nth-child(1) {
+          width: 338px; }
+        .c4 .warp > ul > li > div > div > ul li:nth-child(2) {
+          width: 261px; }
+      .c4 .warp > ul > li .btns {
+        text-align: center;
+        margin-top: 20px; }
+        .c4 .warp > ul > li .btns a {
+          display: inline-block;
+          width: 242px;
+          height: 46px;
+          text-align: center;
+          line-height: 46px;
+          border-radius: 23px;
+          font-weight: bold;
+          font-size: 18px; }
+        .c4 .warp > ul > li .btns a:nth-child(1) {
+          border: 1px solid #000;
+          color: #000;
+          margin-right: 28px; }
+        .c4 .warp > ul > li .btns a:nth-child(2) {
+          background-color: #ff3333;
+          color: #fff; }
+    .c4 .warp > ul > li:nth-child(2) > h3:after {
+      background-image: url("../images/yz_szJava/icon_tit2.png")/*tpa=http://www.seehope.net/images/yz_szJava/icon_tit2.png*/; }
+    .c4 .warp > ul > li:nth-child(3) > h3:after {
+      background-image: url("../images/yz_szJava/icon_tit3.png")/*tpa=http://www.seehope.net/images/yz_szJava/icon_tit3.png*/; }
+    .c4 .warp > ul > li:nth-child(4) > h3:after {
+      background-image: url("../images/yz_szJava/icon_tit4.png")/*tpa=http://www.seehope.net/images/yz_szJava/icon_tit4.png*/; }
+    .c4 .warp > ul > li:nth-child(5) > h3:after {
+      background-image: url("../images/yz_szJava/icon_tit5.png")/*tpa=http://www.seehope.net/images/yz_szJava/icon_tit5.png*/; }
+    .c4 .warp > ul > li:nth-child(6) > h3:before {
+      position: absolute;
+      content: "";
+      width: 168px;
+      height: 168px;
+      background-image: url("../images/yz_szJava/c4_icon1.png")/*tpa=http://www.seehope.net/images/yz_szJava/c4_icon1.png*/;
+      right: 18px;
+      top: -50px; }
+    .c4 .warp > ul > li:nth-child(6) > h3:after {
+      background-image: url("../images/yz_szJava/icon_tit6.png")/*tpa=http://www.seehope.net/images/yz_szJava/icon_tit6.png*/; }
+    .c4 .warp > ul > li:nth-child(6) > div > ul {
+      width: 100%; }
+      .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(1) {
+        width: 506px;
+        margin-right: 75px; }
+      .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(2) {
+        width: 506px; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(2) h4:after {
+          display: none; }
+      .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) {
+        width: 100%; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) h4 {
+          display: inline-block; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) p:nth-child(1) {
+          width: 274px; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) p:nth-child(2) {
+          width: 241px; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) p:nth-child(3) {
+          width: 168px; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) p:nth-child(4) {
+          width: 182px; }
+        .c4 .warp > ul > li:nth-child(6) > div > ul > li:nth-child(3) p:nth-child(5) {
+          width: 193px; }
+
+.c5 .warp {
+  padding-top: 56px;
+  padding-bottom: 40px; }
+  .c5 .warp > h2 {
+    color: #fff;
+    margin-bottom: 24px; }
+  .c5 .warp > p {
+    font-size: 20px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 38px; }
+  .c5 .warp > div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 880px 412px;
+    height: 412px;
+    position: relative; }
+    .c5 .warp > div p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #fff;
+      position: absolute; }
+      .c5 .warp > div p span {
+        display: block;
+        margin-bottom: 53px; }
+    .c5 .warp > div p:nth-child(1) {
+      width: 145px;
+      height: 280px;
+      left: 5px;
+      top: 97px;
+      text-align: right; }
+      .c5 .warp > div p:nth-child(1) span {
+        margin-bottom: 55px; }
+    .c5 .warp > div p:nth-child(2) {
+      width: 122px;
+      height: 304px;
+      left: 291px;
+      top: 20px;
+      text-align: right; }
+      .c5 .warp > div p:nth-child(2) span {
+        margin-bottom: 34px; }
+    .c5 .warp > div p:nth-child(3) {
+      width: 104px;
+      height: 304px;
+      left: 782px;
+      top: 29px; }
+      .c5 .warp > div p:nth-child(3) span {
+        margin-bottom: 63px; }
+      .c5 .warp > div p:nth-child(3) span:nth-child(2) {
+        margin-bottom: 50px; }
+      .c5 .warp > div p:nth-child(3) span:nth-child(3) {
+        margin-bottom: 30px; }
+    .c5 .warp > div p:nth-child(4) {
+      width: 157px;
+      height: 357px;
+      left: 1043px;
+      top: 18px; }
+      .c5 .warp > div p:nth-child(4) span {
+        margin-bottom: 55px; }
+
+.c6 .warp {
+  padding-top: 75px;
+  padding-bottom: 88px; }
+  .c6 .warp > h2 {
+    margin-bottom: 40px; }
+  .c6 .warp > p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 45px; }
+  .c6 .warp > ul:nth-child(3) {
+    width: 1089px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0 auto; }
+    .c6 .warp > ul:nth-child(3) > li.active {
+      display: block; }
+    .c6 .warp > ul:nth-child(3) > li {
+      display: none; }
+      .c6 .warp > ul:nth-child(3) > li > img {
+        margin-left: 36px;
+        margin-top: 22px; }
+      .c6 .warp > ul:nth-child(3) > li > div:after {
+        content: "";
+        position: absolute;
+        width: 218px;
+        height: 173px;
+        background: url("../images/yz_szJava/c6_bg1.png")/*tpa=http://www.seehope.net/images/yz_szJava/c6_bg1.png*/;
+        top: -42px;
+        left: -23px; }
+      .c6 .warp > ul:nth-child(3) > li > div {
+        width: calc(576px - 30px);
+        background-color: #FFF;
+        margin-right: 24px;
+        position: relative;
+        margin-top: 30px;
+        padding: 0 10px 22px 20px; }
+        .c6 .warp > ul:nth-child(3) > li > div > h3 {
+          color: #ff3333;
+          font-size: 26px;
+          line-height: 26px;
+          font-weight: bold;
+          margin-bottom: 22px; }
+          .c6 .warp > ul:nth-child(3) > li > div > h3 > span {
+            font-size: 20px;
+            font-weight: normal; }
+        .c6 .warp > ul:nth-child(3) > li > div > p {
+          font-size: 14px;
+          line-height: 24px; }
+          .c6 .warp > ul:nth-child(3) > li > div > p b {
+            font-size: 16px;
+            line-height: 30px; }
+        .c6 .warp > ul:nth-child(3) > li > div > a {
+          display: block;
+          width: 214px;
+          height: 50px;
+          background-color: #ff3333;
+          text-align: center;
+          line-height: 50px;
+          color: #fff;
+          font-weight: bold;
+          font-size: 18px;
+          margin: 0 auto;
+          border-radius: 25px;
+          margin-top: 20px; }
+  .c6 .warp > ul:nth-child(4) {
+    text-align: center;
+    margin-top: 48px; }
+    .c6 .warp > ul:nth-child(4) > li.active > div {
+      border: 1px solid #ccc;
+      width: 132px;
+      height: 132px;
+      left: -6px;
+      top: -6px; }
+      .c6 .warp > ul:nth-child(4) > li.active > div > span {
+        background: none; }
+    .c6 .warp > ul:nth-child(4) > li {
+      width: 120px;
+      height: 120px;
+      display: inline-block;
+      position: relative;
+      margin-right: 16px; }
+      .c6 .warp > ul:nth-child(4) > li > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%; }
+        .c6 .warp > ul:nth-child(4) > li > div > span {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background-color: rgba(0, 0, 0, 0.4);
+          cursor: pointer; }
+
+.c7 .warp {
+  padding-bottom: 72px; }
+  .c7 .warp > div {
+    font-size: 26px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 110px;
+    background-repeat: no-repeat;
+    background-position: 28px center;
+    background-color: #333;
+    margin-bottom: 36px; }
+  .c7 .warp > h2 {
+    margin-bottom: 50px; }
+  .c7 .warp > ul > li {
+    width: 287px;
+    height: calc(329px - 32px);
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding-top: 32px; }
+    .c7 .warp > ul > li > span {
+      display: block;
+      width: 84px;
+      height: 73px;
+      margin: 0 auto;
+      margin-bottom: 24px; }
+    .c7 .warp > ul > li > h3 {
+      font-size: 18px;
+      line-height: 18px;
+      color: #ff3333;
+      text-align: center;
+      margin-bottom: 16px; }
+    .c7 .warp > ul > li > p {
+      font-size: 14px;
+      line-height: 22px;
+      color: #333;
+      width: 234px;
+      margin: 0 auto; }
+  .c7 .warp > ul > li:hover {
+    background-color: #333333; }
+    .c7 .warp > ul > li:hover p {
+      color: #ccc; }
+  .c7 .warp > ul > li:nth-child(1):hover span {
+    background-image: url("../images/yz_szJava/c8_icon1_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon1_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(2):hover span {
+    background-image: url("../images/yz_szJava/c8_icon2_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon2_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(3):hover span {
+    background-image: url("../images/yz_szJava/c8_icon3_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon3_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(4):hover span {
+    background-image: url("../images/yz_szJava/c8_icon4_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon4_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(5):hover span {
+    background-image: url("../images/yz_szJava/c8_icon5_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon5_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(6):hover span {
+    background-image: url("../images/yz_szJava/c8_icon6_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon6_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(7):hover span {
+    background-image: url("../images/yz_szJava/c8_icon7_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon7_2.png*/ !important; }
+  .c7 .warp > ul > li:nth-child(8):hover span {
+    background-image: url("../images/yz_szJava/c8_icon8_2.png")/*tpa=http://www.seehope.net/images/yz_szJava/c8_icon8_2.png*/ !important; }
+
+.c8 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff; }
+  .c8 .warp {
+    padding-top: 76px;
+    padding-bottom: 64px; }
+    .c8 .warp > h2 {
+      margin-bottom: 20px;
+      font-size: 50px;
+      padding-left: 296px; }
+    .c8 .warp > h4 {
+      font-size: 22px;
+      padding-left: 310px;
+      background-repeat: no-repeat;
+      background-position: 296px 6px;
+      margin-bottom: 17px; }
+      .c8 .warp > h4 span {
+        text-decoration: line-through; }
+    .c8 .warp > p {
+      font-size: 20px;
+      padding-left: 208px; }
+      .c8 .warp > p span {
+        font-size: 100px;
+        line-height: 100px;
+        font-weight: bold; }
+      .c8 .warp > p a {
+        display: inline-block;
+        width: 210px;
+        height: 60px;
+        background-color: #ff3333;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 18px;
+        margin-left: 20px;
+        font-size: 32px;
+        font-weight: bold;
+        position: relative;
+        top: -14px;
+        color: #fff; }
+
+.c9 .warp {
+  padding-top: 75px;
+  padding-bottom: 60px; }
+  .c9 .warp > h2 {
+    margin-bottom: 30px; }
+  .c9 .warp > div {
+    height: 260px;
+    position: relative;
+    overflow: hidden; }
+    .c9 .warp > div > a {
+      position: absolute;
+      color: #fff;
+      text-align: center; }
+
+.c10 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff; }
+  .c10 .warp {
+    padding-top: 80px;
+    padding-bottom: 64px; }
+    .c10 .warp > h2 {
+      margin-bottom: 28px;
+      height: 81px;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .c10 .warp > p {
+      color: #999;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 60px; }
+    .c10 .warp > div {
+      width: 600px;
+      padding: 0 40px;
+      margin-left: 475px;
+      border-radius: 45px;
+      padding-top: 48px;
+      padding-bottom: 38px;
+      background-color: rgba(97, 22, 22, 0.4); }
+      .c10 .warp > div > p {
+        font-size: 18px;
+        line-height: 26px;
+        color: #fff;
+        padding-left: 32px;
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-bottom: 24px; }
+      .c10 .warp > div > h3 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .c10 .warp > div > div > p {
+        width: 379px;
+        font-size: 18px;
+        line-height: 34px; }
+        .c10 .warp > div > div > p i {
+          display: inline-block;
+          width: 93px;
+          height: 17px;
+          margin-right: 20px;
+          position: relative;
+          top: 2px; }
+        .c10 .warp > div > div > p span {
+          font-size: 22px;
+          font-weight: bold;
+          line-height: 22px; }
+      .c10 .warp > div > div > a {
+        width: 209px;
+        height: 60px;
+        background-color: #ff3333;
+        color: #fff;
+        text-align: center;
+        line-height: 60px;
+        font-weight: bold;
+        font-size: 32px;
+        border-radius: 18px;
+        margin-top: 3px;
+        margin-left: 5px; }
+
+/*# sourceMappingURL=yz_szJava.css.map */

@@ -1,0 +1,698 @@
+.news-list>.fl {
+	border-radius: 15px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+	border: none;
+}
+
+.news-list .lazy {
+	border-radius: 5px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+	border: none;
+}
+
+.xmsz-item .fl {
+	border-radius: 10px;
+}
+
+.xmsz-item .fl img {
+	width: 410px;
+}
+
+.jyxx-item li a img {
+	width: 130px;
+	height: 50px;
+	border-radius: 8px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+}
+
+.jybz-item img,
+.j-xysh-scroll img,
+.clearfix img {
+	border-radius: 15px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+}
+
+.jybz-item p,
+.j-xysh-scroll p {
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+}
+
+.top-nav .clearfix {
+	margin-left: 15%;
+	;
+}
+
+.djs {
+	box-shadow: 4px 8px 6px 0 rgba(46, 61, 73, .4);
+	background: #373b45;
+	border-radius: 7px;
+	border-bottom-right-radius: 7px;
+	z-index: 99999;
+	position: absolute;
+	top: 140px;
+	left: 2%;
+	height: 6.2%;
+	max-width: 20%;
+	opacity: 1;
+}
+
+.time-item {
+	margin: 12px auto;
+}
+
+.time-item strong {
+	background: #3688FF;
+	color: #fff;
+	height: 49px;
+	line-height: 49px;
+	font-size: 20px;
+	font-family: Arial;
+	padding: 0 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#day_show {
+	float: left;
+	line-height: 49px;
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+	margin: 0 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-title .unit {
+	background: none;
+	line-height: 49px;
+	font-size: 24px;
+	padding: 0 10px;
+	float: left;
+}
+
+.djs_title {
+	background: #3688ff;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 20px;
+}
+
+.content {
+	margin: 0 auto;
+	color: white;
+	width: 95%;
+}
+
+.content .content_time {
+	font-family: "微软雅黑";
+	font-size: 17px;
+	color: white;
+	margin: 15px 0px;
+	padding-bottom: 8px;
+	text-align: center;
+	border-bottom: 1px white dotted;
+}
+
+.content .content_details {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	width: 95%;
+	margin: 0 auto;
+	line-height: 25px;
+}
+
+.content_details li {
+	text-indent: 2em;
+}
+
+.bgcFF545D {
+	background: linear-gradient(to top right, #FF545D, #cc0033);
+}
+
+.bgcFF545D:hover {
+	border: 3px solid #FF545D;
+	background: linear-gradient(to top left, #cc0033, #FF545D);
+	box-shadow: -3px 0px 80px -26px #FF545D;
+}
+
+.bgcE43566 {
+	background: linear-gradient(to top right, #ff6666, #E43566);
+	/* Standard syntax */
+}
+
+.bgcE43566:hover {
+	border: 3px #ff6666 solid;
+	background: -webkit-linear-gradient(bottom left, #ff3366, #ff6666);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #ff3366, #ff6666);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #ff3366, #ff6666);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom left, #ff3366, #ff6666);
+	/* Standard syntax */
+	box-shadow: -3px 0px 80px -26px #005982;
+}
+
+.bgcf08300 {
+	background: -webkit-linear-gradient(to top right, #f08300, #EEB422);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to top right, #f08300, #EEB422);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to top right, #f08300, #EEB422);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #f08300, #EEB422);
+	/* Standard syntax */
+}
+
+.bgcf08300:hover {
+	border: 3px solid #EEB422;
+	background: -webkit-linear-gradient(bottom left, #ff9900, #EEB422);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #ff9900, #EEB422);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #ff9900, #EEB422);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom left, #ff9900, #EEB422);
+	/* Standard syntax */
+	box-shadow: -3px 0px 80px -26px #005982;
+}
+
+.bgc005982 {
+	background: -webkit-linear-gradient(to bottom right, #4F94CD, #005982);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to bottom right, #4F94CD, #005982);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to bottom right, #4F94CD, #005982);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #4F94CD, #005982);
+	/* Standard syntax */
+}
+
+.bgc005982:hover {
+	border: 3px solid #4F94CD;
+	background: -webkit-linear-gradient(bottom left, #005982, #4F94CD);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #005982, #4F94CD);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #005982, #4F94CD);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom left, #005982, #4F94CD);
+	/* Standard syntax */
+	box-shadow: -3px 0px 80px -26px #005982;
+}
+
+.common-course-list span:hover {
+	color: #FF545D;
+}
+
+.introduction {
+	height: 520px;
+	width: 1200px;
+	border-radius: 12px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .2);
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.video ._VideoBlock {
+	width: 640px;
+}
+
+._VideoBlock {
+	text-align: center;
+	border-radius: 5px;
+	background-color: #2d2f3b;
+	margin-top: 20px;
+	position: relative;
+}
+
+._VideoBlock .decorators {
+	position: absolute;
+	left: 20px;
+	top: 0;
+}
+
+._VideoBlock .decorators div {
+	width: 9px;
+	height: 9px;
+	border-radius: 9px;
+	margin: 12px 4px 8px 4px;
+	display: inline-block;
+}
+
+._VideoBlock .label {
+	font-size: 12px;
+	color: #ababab;
+	line-height: 30px;
+}
+
+._VideoBlock .preview {
+	width: 640px;
+	margin: auto;
+	height: 400px;
+	position: relative;
+}
+
+._VideoBlock .preview>* {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	cursor: pointer;
+}
+
+._VideoBlock .preview .play {
+	justify-content: center;
+	background-color: rgba(45, 47, 59, 0.7);
+	transition: all 1s ease;
+}
+
+._VideoBlock .preview .play:hover {
+	background-color: rgba(45, 47, 59, 0);
+}
+
+._VideoBlock .caption {
+	font-size: 20px;
+	color: #fff;
+	line-height: 60px;
+}
+
+.headline {
+	position: relative;
+	top: -115px;
+	height: 480px;
+	width: 500px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.sectitle-wrapper {
+	text-align: left;
+	padding-bottom: unset;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ebeaee;
+	height: 64px;
+	line-height: 80px;
+	font-family: "Microsoft Yahei";
+}
+
+.sectitle {
+	font-size: 23px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	border-bottom: 4px solid #3688FF;
+}
+
+.headline li {
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	list-style: none;
+	margin: 10px;
+}
+
+.marker {
+	background: url(index/images/headlineType-hot.png) no-repeat;
+	width: 60px;
+	height: 25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.headline a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.headline a:hover {
+	color: #3688ff;
+}
+
+.course-list img {
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px #eee;
+}
+
+.xmsz .tab-conts>div>ul>a:hover,
+.xmsz .tab-conts>div>.project-mode-shops>a:hover {
+	color: white;
+	background: #3688ff;
+}
+
+/*后期CSS不在使用内部样式*/
+
+
+.news-list>.fl {
+	border-radius: 15px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+	border: none;
+}
+
+.news-list .lazy {
+	border-radius: 5px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+	border: none;
+}
+
+.xmsz-item .fl {
+	border-radius: 10px;
+}
+
+.xmsz-item .fl img {
+	width: 410px;
+}
+
+.jyxx-item li a img {
+	width: 130px;
+	height: 50px;
+	border-radius: 8px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+}
+
+.jybz-item img,
+.j-xysh-scroll img,
+.clearfix img {
+	border-radius: 15px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+}
+
+.jybz-item p,
+.j-xysh-scroll p {
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .3);
+}
+
+.top-nav .clearfix {
+	margin-left: 15%;
+	;
+}
+
+.djs {
+	box-shadow: 4px 8px 6px 0 rgba(46, 61, 73, .4);
+	background: #373b45;
+	border-radius: 7px;
+	border-bottom-right-radius: 7px;
+	z-index: 99999;
+	position: absolute;
+	top: 140px;
+	left: 2%;
+	height: 6.2%;
+	max-width: 20%;
+	opacity: 1;
+}
+
+.time-item {
+	margin: 12px auto;
+}
+
+.time-item strong {
+	background: #3688FF;
+	color: #fff;
+	height: 49px;
+	line-height: 49px;
+	font-size: 20px;
+	font-family: Arial;
+	padding: 0 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#day_show {
+	float: left;
+	line-height: 49px;
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+	margin: 0 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-title .unit {
+	background: none;
+	line-height: 49px;
+	font-size: 24px;
+	padding: 0 10px;
+	float: left;
+}
+
+.djs_title {
+	background: #3688ff;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 20px;
+}
+
+.content {
+	margin: 0 auto;
+	color: white;
+	width: 95%;
+}
+
+.content .content_time {
+	font-family: "微软雅黑";
+	font-size: 17px;
+	color: white;
+	margin: 15px 0px;
+	padding-bottom: 8px;
+	text-align: center;
+	border-bottom: 1px white dotted;
+}
+
+.content .content_details {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	width: 95%;
+	margin: 0 auto;
+	line-height: 25px;
+}
+
+.content_details li {
+	text-indent: 2em;
+}
+
+.bgcFF545D {
+	background: linear-gradient(to top right, #FF545D, #cc0033);
+}
+
+.bgcFF545D:hover {
+	border: 3px solid #FF545D;
+	background: linear-gradient(to top left, #cc0033, #FF545D);
+	box-shadow: -3px 0px 80px -26px #FF545D;
+}
+
+.bgcE43566 {
+	background: linear-gradient(to top right, #ff6666, #E43566);
+	/* Standard syntax */
+}
+
+.bgcE43566:hover {
+	border: 3px #ff6666 solid;
+	background: -webkit-linear-gradient(bottom left, #ff3366, #ff6666);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #ff3366, #ff6666);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #ff3366, #ff6666);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom left, #ff3366, #ff6666);
+	/* Standard syntax */
+	box-shadow: -3px 0px 80px -26px #005982;
+}
+
+.bgcf08300 {
+	background: -webkit-linear-gradient(to top right, #f08300, #EEB422);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to top right, #f08300, #EEB422);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to top right, #f08300, #EEB422);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #f08300, #EEB422);
+	/* Standard syntax */
+}
+
+.bgcf08300:hover {
+	border: 3px solid #EEB422;
+	background: -webkit-linear-gradient(bottom left, #ff9900, #EEB422);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #ff9900, #EEB422);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #ff9900, #EEB422);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom left, #ff9900, #EEB422);
+	/* Standard syntax */
+	box-shadow: -3px 0px 80px -26px #005982;
+}
+
+.bgc005982 {
+	background: -webkit-linear-gradient(to bottom right, #4F94CD, #005982);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to bottom right, #4F94CD, #005982);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to bottom right, #4F94CD, #005982);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #4F94CD, #005982);
+	/* Standard syntax */
+}
+
+.bgc005982:hover {
+	border: 3px solid #4F94CD;
+	background: -webkit-linear-gradient(bottom left, #005982, #4F94CD);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #005982, #4F94CD);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #005982, #4F94CD);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom left, #005982, #4F94CD);
+	/* Standard syntax */
+	box-shadow: -3px 0px 80px -26px #005982;
+}
+
+.common-course-list span:hover {
+	color: #FF545D;
+}
+
+.introduction {
+	height: 520px;
+	width: 1200px;
+	border-radius: 12px;
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .2);
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.video ._VideoBlock {
+	width: 640px;
+}
+
+._VideoBlock {
+	text-align: center;
+	border-radius: 5px;
+	background-color: #2d2f3b;
+	margin-top: 20px;
+	position: relative;
+}
+
+._VideoBlock .decorators {
+	position: absolute;
+	left: 20px;
+	top: 0;
+}
+
+._VideoBlock .decorators div {
+	width: 9px;
+	height: 9px;
+	border-radius: 9px;
+	margin: 12px 4px 8px 4px;
+	display: inline-block;
+}
+
+._VideoBlock .label {
+	font-size: 12px;
+	color: #ababab;
+	line-height: 30px;
+}
+
+._VideoBlock .preview {
+	width: 640px;
+	margin: auto;
+	height: 400px;
+	position: relative;
+}
+
+._VideoBlock .preview>* {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	cursor: pointer;
+}
+
+._VideoBlock .preview .play {
+	justify-content: center;
+	background-color: rgba(45, 47, 59, 0.7);
+	transition: all 1s ease;
+}
+
+._VideoBlock .preview .play:hover {
+	background-color: rgba(45, 47, 59, 0);
+}
+
+._VideoBlock .caption {
+	font-size: 20px;
+	color: #fff;
+	line-height: 60px;
+}
+
+.headline {
+	position: relative;
+	top: -115px;
+	height: 480px;
+	width: 500px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.sectitle-wrapper {
+	text-align: left;
+	padding-bottom: unset;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ebeaee;
+	height: 64px;
+	line-height: 80px;
+	font-family: "Microsoft Yahei";
+}
+
+.sectitle {
+	font-size: 23px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	border-bottom: 4px solid #3688FF;
+}
+
+.headline li {
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	list-style: none;
+	margin: 10px;
+}
+
+.marker {
+	background: url(index/images/headlineType-hot.png) no-repeat;
+	width: 60px;
+	height: 25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.headline a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.headline a:hover {
+	color: #3688ff;
+}
+
+.course-list img {
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px #eee;
+}
+
+.xmsz .tab-conts>div>ul>a:hover,
+.xmsz .tab-conts>div>.project-mode-shops>a:hover {
+	color: white;
+	background: #3688ff;
+}
